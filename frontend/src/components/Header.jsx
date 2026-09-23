@@ -4,6 +4,7 @@ import { useSite } from '../context/SiteContext';
 import { useLang } from '../i18n';
 import { trackEvent } from '../api/tracking';
 import LanguageSwitch from './LanguageSwitch';
+import { Icon } from './Icons';
 
 const NAV = [
   ['/', 'nav.home'],
@@ -77,8 +78,12 @@ export default function Header() {
 
           <div className="header-actions">
             <div className="header-icons">
-              <button onClick={() => navigate('/services')} aria-label="Search" title="Search">⌕</button>
-              <Link to="/contact" aria-label={t('nav.contact')} title={t('nav.contact')}>☎</Link>
+              <button onClick={() => navigate('/services')} aria-label="Search" title="Search">
+                <Icon name="search" size={19} />
+              </button>
+              <Link to="/contact" aria-label={t('nav.contact')} title={t('nav.contact')}>
+                <Icon name="phone" size={19} />
+              </Link>
             </div>
 
             <LanguageSwitch />
@@ -87,7 +92,7 @@ export default function Header() {
               to="/book-appointment" className="btn btn-gold btn-sm"
               onClick={() => trackEvent('book_appointment_click', { label: 'header' })}
             >
-              🗓 {t('nav.book')}
+              <Icon name="calendar" size={16} /> {t('nav.book')}
             </Link>
 
             <button className="burger" onClick={() => setDrawer(true)} aria-label={t('nav.menu')}>☰</button>

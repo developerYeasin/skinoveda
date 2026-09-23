@@ -102,21 +102,28 @@
 .hero-bleed .photo-art,
 .hero-bleed img {
   width: 100%; height: 100%; object-fit: cover;
-  /* pull the photo toward the brand purple, as in the reference */
-  filter: saturate(.82) contrast(1.04) brightness(.95);
+  /* the photo is already colour-graded to the brand palette, so only a
+     small lift is needed here */
+  filter: saturate(1.12) contrast(1.06) brightness(1.04);
 }
-/* purple duotone wash over the photo */
+/*
+ * Purple spotlight: the subject stays lit in the centre while everything
+ * around it falls away into the brand purple — the lighting the reference uses.
+ */
 .hero-bleed::before {
   content: ''; position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(135deg, rgba(90,24,108,.5), rgba(150,71,174,.28) 55%, rgba(58,15,71,.45));
-  mix-blend-mode: multiply;
+  background:
+    radial-gradient(ellipse 52% 62% at 46% 46%,
+      transparent 0%, rgba(74,18,89,.10) 46%, rgba(74,18,89,.55) 74%, rgba(42,8,52,.86) 100%),
+    linear-gradient(200deg, rgba(111,35,133,.42) 0%, transparent 38%),
+    linear-gradient(0deg, rgba(42,8,52,.7) 0%, transparent 38%);
 }
 /* fade the plate into the purple so there is no hard seam */
 .hero-bleed::after {
   content: ''; position: absolute; inset: 0; z-index: 2;
   background:
-    linear-gradient(90deg, #43104F 0%, rgba(67,16,79,.92) 12%, rgba(67,16,79,.45) 30%, rgba(67,16,79,.08) 52%, transparent 70%),
-    linear-gradient(0deg, rgba(42,8,52,.75) 0%, transparent 42%);
+    linear-gradient(90deg, #43104F 0%, rgba(67,16,79,.94) 9%, rgba(67,16,79,.5) 20%, rgba(67,16,79,.12) 34%, transparent 48%),
+    linear-gradient(0deg, rgba(42,8,52,.6) 0%, transparent 34%);
 }
 
 /* soft light wash over the whole hero */
@@ -156,25 +163,29 @@
 .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 26px; }
 
 /* the script quote pinned to the far right edge, as in the reference */
+/* plain script text on the image, exactly as in the reference — no card */
 .hero-quote {
-  position: absolute; z-index: 4; top: 50%; right: max(28px, 3vw); transform: translateY(-60%);
-  width: 220px; padding: 22px 20px; border-radius: var(--r-lg); text-align: center;
-  background: rgba(38,8,47,.42); border: 1px solid rgba(224,188,114,.32);
-  backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%);
-  box-shadow: 0 18px 48px rgba(20,4,26,.4);
+  position: absolute; z-index: 4; top: 46%; right: max(34px, 3.5vw); transform: translateY(-50%);
+  width: 210px; text-align: center;
 }
 .hero-quote .q {
-  font-family: var(--font-display); font-style: italic; font-size: 1.45rem;
-  line-height: 1.22; color: var(--gold-300); margin: 0;
+  font-family: var(--font-display); font-style: italic; font-size: 1.62rem;
+  line-height: 1.24; color: var(--gold-300); margin: 0;
+  text-shadow: 0 2px 18px rgba(26,4,33,.75), 0 1px 3px rgba(26,4,33,.6);
 }
-.hero-quote .heart { color: var(--purple-300); font-size: .95rem; margin-top: 8px; display: block; }
+.hero-quote .heart {
+  color: var(--purple-200); font-size: 1rem; margin-top: 10px; display: block;
+  text-shadow: 0 2px 12px rgba(26,4,33,.7);
+}
 
 .speciality-tags { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 28px; max-width: 580px; }
 .speciality-tags span {
+  display: inline-flex; align-items: center; gap: 7px;
   padding: 7px 15px; border-radius: var(--r-pill); font-size: .78rem; letter-spacing: .02em;
   background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22);
   color: rgba(255,255,255,.92); backdrop-filter: blur(8px);
 }
+.speciality-tags svg { color: var(--gold-400); flex-shrink: 0; }
 
 /* ---------------- quick access strip (glass cards over hero) ---------------- */
 .quick-strip { position: relative; z-index: 6; margin-top: -86px; }
@@ -189,9 +200,13 @@
 }
 .quick-card:hover { transform: translateY(-7px); border-color: var(--gold-500); box-shadow: 0 26px 60px rgba(26,4,33,.5); }
 .quick-card .ico {
-  width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center;
-  font-size: 1.32rem; margin-bottom: 13px;
-  background: rgba(224,188,114,.12); border: 1px solid rgba(224,188,114,.35);
+  width: 50px; height: 50px; border-radius: 50%; display: grid; place-items: center;
+  margin-bottom: 13px; color: var(--gold-400);
+  background: rgba(224,188,114,.1); border: 1px solid rgba(224,188,114,.38);
+  transition: color .3s, background .3s, border-color .3s;
+}
+.quick-card:hover .ico {
+  color: var(--gold-300); background: rgba(224,188,114,.2); border-color: var(--gold-400);
 }
 .quick-card strong { display: block; font-size: .95rem; font-weight: 500; letter-spacing: .01em; }
 .quick-card small { color: rgba(255,255,255,.62); font-size: .76rem; }
@@ -213,9 +228,9 @@
 .expert-meta { list-style: none; padding: 0; margin: 16px 0 22px; display: grid; gap: 10px; }
 .expert-meta li { display: flex; gap: 10px; align-items: center; font-size: .9rem; color: var(--muted); }
 .expert-meta .dot {
-  width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
-  display: grid; place-items: center; font-size: .7rem;
-  background: #fff; border: 1px solid var(--purple-200); color: var(--purple-600);
+  width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0;
+  display: grid; place-items: center;
+  background: #fff; border: 1px solid var(--purple-200); color: var(--gold-600);
 }
 .expert-quote {
   position: relative; padding: 26px 0 0 26px;
@@ -235,7 +250,11 @@
   transition: transform .3s ease, box-shadow .3s ease; display: flex; flex-direction: column;
 }
 .sig-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-.sig-card .pic { aspect-ratio: 4/3; }
+.sig-card .pic { aspect-ratio: 4/3; position: relative; overflow: hidden; }
+.sig-card .pic::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, transparent 50%, rgba(58,15,71,.34) 100%);
+}
 .sig-card .txt { padding: 14px; flex: 1; display: flex; flex-direction: column; }
 .sig-card h4 { font-family: var(--font-display); font-size: 1.02rem; margin: 0 0 3px; }
 .sig-card small { color: var(--muted); font-size: .76rem; flex: 1; }
@@ -263,6 +282,7 @@
 .collection-banner .dots { color: var(--gold-300); letter-spacing: .12em; font-size: .88rem; margin-bottom: 20px; }
 .collection-trust { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 22px; font-size: .76rem; color: rgba(255,255,255,.75); }
 .collection-trust span { display: flex; align-items: center; gap: 7px; }
+.collection-trust svg { color: var(--gold-300); flex-shrink: 0; }
 
 .proof-card {
   background: linear-gradient(150deg, #FBF5FD, #F1E4F7); border: 1px solid rgba(122,45,142,.13);
@@ -280,7 +300,14 @@
 /* ---------------- section basics ---------------- */
 .why-card { text-align: center; padding: 34px 24px; border-radius: var(--r-lg); background: #fff; border: 1px solid var(--line); transition: all .3s; }
 .why-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: var(--purple-200); }
-.why-card .ico { font-size: 2rem; margin-bottom: 14px; }
+.why-card .ico {
+  width: 62px; height: 62px; margin: 0 auto 16px; border-radius: 50%;
+  display: grid; place-items: center; color: var(--purple-600);
+  background: linear-gradient(150deg, rgba(243,230,248,.9), rgba(229,204,238,.7));
+  border: 1px solid rgba(224,188,114,.35);
+  transition: color .3s, border-color .3s, transform .3s;
+}
+.why-card:hover .ico { color: var(--gold-600); border-color: var(--gold-400); transform: translateY(-2px); }
 .why-card h3 { font-size: 1.15rem; }
 .why-card p { color: var(--muted); font-size: .92rem; margin: 0; }
 
@@ -290,10 +317,16 @@
   transition: transform .35s ease, box-shadow .35s ease; display: flex; flex-direction: column;
 }
 .service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
-.service-card .thumb { height: 200px; position: relative; }
+.service-card .thumb { height: 200px; position: relative; overflow: hidden; }
+/* purple scrim over every card photo, so the grid reads as one set */
+.service-card .thumb::after {
+  content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(180deg, rgba(42,8,52,.12) 0%, transparent 45%, rgba(58,15,71,.42) 100%);
+}
 .service-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
 .service-card .body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
 .service-card h3 { font-size: 1.25rem; margin-bottom: 8px; }
+.service-card h3 svg { color: var(--gold-600); flex-shrink: 0; }
 .service-card p { color: var(--muted); font-size: .9rem; flex: 1; }
 .service-card .go { display: inline-flex; align-items: center; gap: 8px; color: var(--purple-700); font-size: .86rem; font-weight: 500; margin-top: 12px; transition: gap .25s; }
 .service-card:hover .go { gap: 14px; }
@@ -339,8 +372,9 @@
 .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 30px 0; }
 .trust-item { display: flex; align-items: center; gap: 14px; }
 .trust-item .ico {
-  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; flex-shrink: 0;
-  background: rgba(224,188,114,.14); border: 1px solid rgba(224,188,114,.32); font-size: 1.1rem;
+  width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; flex-shrink: 0;
+  background: rgba(224,188,114,.12); border: 1px solid rgba(224,188,114,.34);
+  color: var(--gold-400);
 }
 .trust-item strong { display: block; font-size: .92rem; font-weight: 500; }
 .trust-item small { color: rgba(255,255,255,.62); font-size: .76rem; }

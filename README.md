@@ -226,3 +226,27 @@ Before going live:
 - Helmet security headers, CORS allow-list, parameterised SQL everywhere
 - Uploads restricted to images, 5 MB max; stock import accepts only `images.pexels.com`
 - `pexels_api_key` is never exposed through the public settings endpoint
+
+---
+
+## Photo grading
+
+The stock photography is colour-graded into the brand's purple-and-gold look so it
+matches the design reference instead of looking like generic stock:
+
+```bash
+python tools/grade_photos.py              # grade every photo
+python tools/grade_photos.py hero-alt     # grade one
+python tools/grade_photos.py --strength=.5
+```
+
+- Untouched originals are kept in `backend/uploads/stock/_raw/`, so grading is repeatable
+  and reversible — re-run the script any time, or copy a file back from `_raw/`.
+- Photos where a face is the subject are **skin-safe**: the surroundings take the purple
+  while skin stays warm and natural. Close-ups take a lighter grade still.
+- The hero adds a CSS purple spotlight (`.hero-bleed::before`) so the subject stays lit
+  while the edges fall into brand purple.
+
+Replacing a photo: drop the new file into `backend/uploads/stock/`, delete its copy from
+`_raw/`, then re-run the script. Or upload through **Admin → Media Library** to skip grading
+entirely.

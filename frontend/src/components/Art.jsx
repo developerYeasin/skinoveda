@@ -1,29 +1,84 @@
 /**
  * Decorative art layer.
  *
- * The reference design is photography-led. Until the real clinic photos are
- * uploaded through the admin panel, every image slot falls back to a styled
- * purple/gold art panel so the composition still reads correctly.
+ * The reference design is photography-led with soft purple blossoms drifting
+ * over the edges. Until the real clinic photos are uploaded through the admin
+ * panel, every image slot falls back to a styled purple/gold art panel so the
+ * composition still reads correctly.
  */
+import { useId } from 'react';
 import { assetUrl } from '../api/client';
 
-/** Purple blossom motif used in the corners of the hero and banners. */
-export function Blossom({ style, size = 180, opacity = 0.5 }) {
+/**
+ * Soft purple blossom.
+ *
+ * Built from layered petals with radial shading and a blurred edge so it reads
+ * as a photographed flower catching the light, rather than flat clip art.
+ */
+export function Blossom({ style, className = '', size = 180, opacity = 0.5, hue = 0 }) {
+  const id = useId().replace(/:/g, '');
+  const petals = [0, 51, 103, 154, 206, 257, 309];
+
   return (
-    <svg viewBox="0 0 200 200" width={size} height={size} style={{ position: 'absolute', opacity, pointerEvents: 'none', ...style }} aria-hidden>
+    <svg
+      viewBox="0 0 200 200"
+      width={size}
+      height={size}
+      className={className}
+      style={{ position: 'absolute', opacity, pointerEvents: 'none', filter: `hue-rotate(${hue}deg)`, ...style }}
+      aria-hidden
+    >
       <defs>
-        <radialGradient id="pet" cx="50%" cy="20%">
-          <stop offset="0%" stopColor="#E9C8F5" />
-          <stop offset="60%" stopColor="#B478CE" />
-          <stop offset="100%" stopColor="#7B3A96" />
+        {/* petal shading: bright at the tip, deep purple at the base */}
+        <radialGradient id={`p${id}`} cx="50%" cy="14%" r="86%">
+          <stop offset="0%" stopColor="#F3DDFA" />
+          <stop offset="34%" stopColor="#D3A6E6" />
+          <stop offset="70%" stopColor="#9B55BC" />
+          <stop offset="100%" stopColor="#5E1E77" />
         </radialGradient>
+        {/* the back row sits in shadow */}
+        <radialGradient id={`b${id}`} cx="50%" cy="18%" r="84%">
+          <stop offset="0%" stopColor="#C89BD8" />
+          <stop offset="55%" stopColor="#7E3A9C" />
+          <stop offset="100%" stopColor="#400F55" />
+        </radialGradient>
+        <radialGradient id={`c${id}`} cx="42%" cy="34%" r="70%">
+          <stop offset="0%" stopColor="#F7E7BE" />
+          <stop offset="55%" stopColor="#D9AE62" />
+          <stop offset="100%" stopColor="#9A6F2C" />
+        </radialGradient>
+        <filter id={`s${id}`} x="-25%" y="-25%" width="150%" height="150%">
+          <feGaussianBlur stdDeviation="1.4" />
+        </filter>
       </defs>
-      <g fill="url(#pet)">
-        {[0, 72, 144, 216, 288].map((r) => (
-          <ellipse key={r} cx="100" cy="58" rx="26" ry="44" transform={`rotate(${r} 100 100)`} />
+
+      <g filter={`url(#s${id})`}>
+        {/* back row, rotated off the front row so petals interleave */}
+        <g opacity="0.85">
+          {petals.map((r) => (
+            <path
+              key={`b${r}`}
+              d="M100 96 C 84 76, 80 50, 90 30 C 95 20, 105 20, 110 30 C 120 50, 116 76, 100 96 Z"
+              fill={`url(#b${id})`}
+              transform={`rotate(${r + 26} 100 100)`}
+            />
+          ))}
+        </g>
+
+        {/* front row */}
+        {petals.map((r) => (
+          <path
+            key={`f${r}`}
+            d="M100 100 C 82 78, 77 48, 88 24 C 94 12, 106 12, 112 24 C 123 48, 118 78, 100 100 Z"
+            fill={`url(#p${id})`}
+            transform={`rotate(${r} 100 100)`}
+          />
         ))}
+
+        {/* centre */}
+        <circle cx="100" cy="100" r="15" fill={`url(#c${id})`} />
+        <circle cx="96" cy="95" r="4.5" fill="#FBEFD2" opacity=".7" />
       </g>
-      <circle cx="100" cy="100" r="13" fill="#EFD9A3" />
     </svg>
   );
 }
@@ -51,7 +106,15 @@ export function Photo({ src, alt = '', icon = '🪷', className = '', style, ton
   };
 
   if (src) {
-    return <img src={assetUrl(src)} alt={alt} className={className} style={{ width: '100%', height: '100%', objectFit: 'cover', ...style }} loading="lazy" />;
+    return (
+      <img
+        src={assetUrl(src)}
+        alt={alt}
+        className={className}
+        style={{ width: '100%', height: '100%', objectFit: 'cover', ...style }}
+        loading="lazy"
+      />
+    );
   }
 
   return (

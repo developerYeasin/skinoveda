@@ -4,6 +4,7 @@ import { teamApi } from '../api/endpoints';
 import { useLang } from '../i18n';
 import { PageBanner, Skeleton, EmptyState } from '../components/ui';
 import { Photo, Blossom } from '../components/Art';
+import { Icon } from '../components/Icons';
 
 export default function Team() {
   const { t, pickField } = useLang();
@@ -40,9 +41,15 @@ export default function Team() {
                     {pickField(m, 'designation')}
                   </p>
                   <ul className="expert-meta" style={{ margin: '12px 0' }}>
-                    {m.qualifications && <li><span className="dot">🎓</span>{m.qualifications}</li>}
-                    {m.experience && <li><span className="dot">⏱</span>{m.experience}</li>}
-                    {m.specialization && <li><span className="dot">✦</span>{m.specialization}</li>}
+                    {m.qualifications && (
+                      <li><span className="dot"><Icon name="cap" size={13} /></span>{m.qualifications}</li>
+                    )}
+                    {m.experience && (
+                      <li><span className="dot"><Icon name="clock" size={13} /></span>{m.experience}</li>
+                    )}
+                    {m.specialization && (
+                      <li><span className="dot"><Icon name="star" size={13} /></span>{m.specialization}</li>
+                    )}
                   </ul>
                   {m.bio && <p className="muted" style={{ fontSize: '.88rem' }}>{pickField(m, 'bio')}</p>}
                   {m.quote && (

@@ -6,30 +6,42 @@ import { serviceApi, testimonialApi, teamApi, galleryApi } from '../api/endpoint
 import { trackEvent } from '../api/tracking';
 import { Photo, Blossom, Lotus } from '../components/Art';
 import { SectionHead, Testimonial } from '../components/ui';
+import { Icon } from '../components/Icons';
 
 /* The six quick-access cards that sit over the hero, as in the reference. */
 const QUICK = [
-  ['🧴', 'quick.aesthetic', 'quick.aestheticSub', '/services/category/aesthetic-and-laser'],
-  ['🪷', 'quick.ayurveda', 'quick.ayurvedaSub', '/services/category/ayurveda'],
-  ['🍃', 'quick.naturopathy', 'quick.naturopathySub', '/services/category/naturopathy-and-natural-therapy'],
-  ['🩺', 'quick.consultation', 'quick.consultationSub', '/book-appointment'],
-  ['🔬', 'quick.skinAnalysis', 'quick.skinAnalysisSub', '/contact'],
-  ['🎁', 'quick.packages', 'quick.packagesSub', '/services'],
+  ['laser', 'quick.aesthetic', 'quick.aestheticSub', '/services/category/aesthetic-and-laser'],
+  ['lotus', 'quick.ayurveda', 'quick.ayurvedaSub', '/services/category/ayurveda'],
+  ['leaf', 'quick.naturopathy', 'quick.naturopathySub', '/services/category/naturopathy-and-natural-therapy'],
+  ['stethoscope', 'quick.consultation', 'quick.consultationSub', '/book-appointment'],
+  ['skinScan', 'quick.skinAnalysis', 'quick.skinAnalysisSub', '/contact'],
+  ['gift', 'quick.packages', 'quick.packagesSub', '/services'],
 ];
 
+/* maps a speciality slug to an icon in the line-art set */
+const CATEGORY_ICONS = {
+  'aesthetic-and-laser': 'laser',
+  ayurveda: 'lotus',
+  'naturopathy-and-natural-therapy': 'leaf',
+  therapy: 'balance',
+  'health-and-wellness': 'stethoscope',
+  'skin-health-and-dermatology': 'sparkle',
+  'womens-and-intimate-wellness': 'heart',
+};
+
 const WHY = [
-  ['🌿', 'why.natural', 'why.naturalText'],
-  ['✨', 'why.advanced', 'why.advancedText'],
-  ['🪷', 'why.ayurvedic', 'why.ayurvedicText'],
-  ['💜', 'why.personal', 'why.personalText'],
-  ['🩺', 'why.holistic', 'why.holisticText'],
+  ['sprout', 'why.natural', 'why.naturalText'],
+  ['sparkle', 'why.advanced', 'why.advancedText'],
+  ['lotus', 'why.ayurvedic', 'why.ayurvedicText'],
+  ['heart', 'why.personal', 'why.personalText'],
+  ['balance', 'why.holistic', 'why.holisticText'],
 ];
 
 const TRUST = [
-  ['🛡', 'trust.authentic', 'trust.authenticSub'],
-  ['💳', 'trust.secure', 'trust.secureSub'],
-  ['⚡', 'trust.fast', 'trust.fastSub'],
-  ['🎧', 'trust.support', 'trust.supportSub'],
+  ['shield', 'trust.authentic', 'trust.authenticSub'],
+  ['card', 'trust.secure', 'trust.secureSub'],
+  ['clock', 'trust.fast', 'trust.fastSub'],
+  ['support', 'trust.support', 'trust.supportSub'],
 ];
 
 const AESTHETIC_LIST = {
@@ -154,13 +166,16 @@ export default function Home() {
                 to="/book-appointment" className="btn btn-outline-light"
                 onClick={() => trackEvent('book_appointment_click', { label: 'hero' })}
               >
-                🗓 {t('hero.ctaSecondary')}
+                <Icon name="calendar" size={17} /> {t('hero.ctaSecondary')}
               </Link>
             </div>
 
             <div className="speciality-tags">
               {categories.slice(0, 7).map((c) => (
-                <span key={c.id}>{c.icon} {pickField(c, 'name')}</span>
+                <span key={c.id}>
+                  <Icon name={CATEGORY_ICONS[c.slug] || 'sparkle'} size={14} />
+                  {pickField(c, 'name')}
+                </span>
               ))}
             </div>
           </div>
@@ -179,7 +194,7 @@ export default function Home() {
           <div className="quick-grid">
             {QUICK.map(([icon, key, subKey, to]) => (
               <Link key={key} to={to} className="quick-card glass-sheen">
-                <div className="ico">{icon}</div>
+                <div className="ico"><Icon name={icon} size={26} /></div>
                 <strong>{t(key)}</strong>
                 <small>{t(subKey)}</small>
                 <span className="arrow">→</span>
@@ -211,9 +226,15 @@ export default function Home() {
                     {pickField(doctor, 'designation')}
                   </p>
                   <ul className="expert-meta">
-                    {doctor.qualifications && <li><span className="dot">🎓</span>{doctor.qualifications}</li>}
-                    {doctor.experience && <li><span className="dot">⏱</span>{doctor.experience} {t('expert.experience')}</li>}
-                    {doctor.specialization && <li><span className="dot">✦</span>{doctor.specialization}</li>}
+                    {doctor.qualifications && (
+                      <li><span className="dot"><Icon name="cap" size={13} /></span>{doctor.qualifications}</li>
+                    )}
+                    {doctor.experience && (
+                      <li><span className="dot"><Icon name="clock" size={13} /></span>{doctor.experience} {t('expert.experience')}</li>
+                    )}
+                    {doctor.specialization && (
+                      <li><span className="dot"><Icon name="star" size={13} /></span>{doctor.specialization}</li>
+                    )}
                   </ul>
                   <Link to="/our-team" className="btn btn-purple btn-sm">{t('expert.viewProfile')} →</Link>
                 </div>
@@ -272,9 +293,9 @@ export default function Home() {
                 {t('collection.cta')} →
               </Link>
               <div className="collection-trust">
-                <span>🛡 {t('collection.authentic')}</span>
-                <span>🧪 {t('collection.tested')}</span>
-                <span>✓ {t('collection.quality')}</span>
+                <span><Icon name="shield" size={15} /> {t('collection.authentic')}</span>
+                <span><Icon name="sparkle" size={15} /> {t('collection.tested')}</span>
+                <span><Icon name="star" size={15} /> {t('collection.quality')}</span>
               </div>
             </div>
 
@@ -338,7 +359,7 @@ export default function Home() {
           <div className="grid grid-5">
             {WHY.map(([icon, titleKey, textKey]) => (
               <div className="why-card is-glass" key={titleKey}>
-                <div className="ico">{icon}</div>
+                <div className="ico"><Icon name={icon} size={30} /></div>
                 <h3>{t(titleKey)}</h3>
                 <p>{t(textKey)}</p>
               </div>
@@ -361,7 +382,10 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="body">
-                  <h3>{c.icon} {pickField(c, 'name')}</h3>
+                  <h3 className="flex items-center gap-8">
+                    <Icon name={CATEGORY_ICONS[c.slug] || 'sparkle'} size={20} />
+                    {pickField(c, 'name')}
+                  </h3>
                   <p>{pickField(c, 'description') || pickField(c, 'tagline')}</p>
                   <span className="go">{t('services.explore')} →</span>
                 </div>
@@ -415,7 +439,9 @@ export default function Home() {
               {featured.slice(0, 8).map((s) => (
                 <Link key={s.id} to={`/services/${s.slug}`} className="glass glass-hover glass-sheen"
                       style={{ padding: 26, textAlign: 'center', display: 'block' }}>
-                  <div style={{ fontSize: '2rem', marginBottom: 10 }}>{s.category_icon}</div>
+                  <div style={{ marginBottom: 10, color: 'var(--purple-600)' }}>
+                    <Icon name={CATEGORY_ICONS[s.category_slug] || 'sparkle'} size={30} />
+                  </div>
                   <h3 style={{ fontSize: '1.05rem' }}>{pickField(s, 'name')}</h3>
                   <p className="muted" style={{ fontSize: '.82rem', margin: 0 }}>{pickField(s, 'category_name')}</p>
                 </Link>
@@ -487,7 +513,7 @@ export default function Home() {
           <div className="trust-grid">
             {TRUST.map(([icon, titleKey, subKey]) => (
               <div className="trust-item" key={titleKey}>
-                <div className="ico">{icon}</div>
+                <div className="ico"><Icon name={icon} size={22} /></div>
                 <div>
                   <strong>{t(titleKey)}</strong>
                   <small>{t(subKey)}</small>
