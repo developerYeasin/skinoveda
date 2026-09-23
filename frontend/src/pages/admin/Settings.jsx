@@ -34,6 +34,15 @@ const GROUPS = {
       ['linkedin', 'LinkedIn URL'],
     ],
   },
+  media: {
+    label: 'Media',
+    fields: [
+      ['hero_image', 'Hero image path', 'text', 'e.g. /uploads/stock/hero-alt.jpg — or upload one in the Media Library'],
+      ['about_image', 'About page image path'],
+      ['collection_image', 'Collection banner image path'],
+      ['pexels_api_key', 'Pexels API key', 'text', 'Free from pexels.com/api — enables stock search in the Media Library'],
+    ],
+  },
   seo: {
     label: 'SEO',
     fields: [

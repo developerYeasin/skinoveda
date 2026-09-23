@@ -29,6 +29,7 @@ const AdminServices = lazy(() => import('./pages/admin/Services'));
 const AdminCategories = lazy(() => import('./pages/admin/Categories'));
 const AdminTeam = lazy(() => import('./pages/admin/Team'));
 const AdminGallery = lazy(() => import('./pages/admin/Gallery'));
+const AdminMedia = lazy(() => import('./pages/admin/Media'));
 const AdminBlogs = lazy(() => import('./pages/admin/Blogs'));
 const AdminTestimonials = lazy(() => import('./pages/admin/Testimonials'));
 const AdminMessages = lazy(() => import('./pages/admin/Messages'));
@@ -91,6 +92,7 @@ export default function App() {
             <Route path="categories" element={<AdminCategories />} />
             <Route path="team" element={<AdminTeam />} />
             <Route path="gallery" element={<AdminGallery />} />
+            <Route path="media" element={<AdminMedia />} />
             <Route path="blogs" element={<AdminBlogs />} />
             <Route path="testimonials" element={<AdminTestimonials />} />
             <Route path="messages" element={<AdminMessages />} />

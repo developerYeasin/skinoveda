@@ -18,9 +18,11 @@ router.get('/catalog', asyncHandler(async (req, res) => {
   const categories = await query('SELECT * FROM categories WHERE is_active = 1 ORDER BY sort_order ASC');
   const groups = await query('SELECT * FROM service_groups WHERE is_active = 1 ORDER BY sort_order ASC');
   const services = await query(
-    `SELECT id, category_id, group_id, name, name_bn, slug, short_description, short_description_bn,
-            image, duration, price, is_featured
-     FROM services WHERE is_active = 1 ORDER BY sort_order ASC`
+    `SELECT s.id, s.category_id, s.group_id, s.name, s.name_bn, s.slug,
+            s.short_description, s.short_description_bn, s.image, s.duration, s.price, s.is_featured,
+            c.image AS category_image, c.icon AS category_icon
+     FROM services s JOIN categories c ON c.id = s.category_id
+     WHERE s.is_active = 1 ORDER BY s.sort_order ASC`
   );
 
   const catalog = categories.map((c) => ({
@@ -38,7 +40,7 @@ router.get('/featured', asyncHandler(async (req, res) => {
   const limit = Math.min(Number(req.query.limit) || 12, 50);
   const rows = await query(
     `SELECT s.*, c.name AS category_name, c.name_bn AS category_name_bn, c.slug AS category_slug,
-            c.icon AS category_icon, c.color AS category_color
+            c.icon AS category_icon, c.color AS category_color, c.image AS category_image
      FROM services s JOIN categories c ON c.id = s.category_id
      WHERE s.is_featured = 1 AND s.is_active = 1
      ORDER BY s.sort_order ASC LIMIT ${limit}`
@@ -68,7 +70,7 @@ router.get('/', asyncHandler(async (req, res) => {
 
   const rows = await query(
     `SELECT s.*, c.name AS category_name, c.name_bn AS category_name_bn, c.slug AS category_slug,
-            c.icon AS category_icon, c.color AS category_color,
+            c.icon AS category_icon, c.color AS category_color, c.image AS category_image,
             g.name AS group_name, g.name_bn AS group_name_bn
      FROM services s
      JOIN categories c ON c.id = s.category_id
@@ -87,7 +89,7 @@ router.get('/:slug', asyncHandler(async (req, res) => {
   const byId = /^\d+$/.test(req.params.slug);
   const row = await one(
     `SELECT s.*, c.name AS category_name, c.name_bn AS category_name_bn, c.slug AS category_slug,
-            c.icon AS category_icon, c.color AS category_color,
+            c.icon AS category_icon, c.color AS category_color, c.image AS category_image,
             g.name AS group_name, g.name_bn AS group_name_bn
      FROM services s
      JOIN categories c ON c.id = s.category_id
@@ -100,8 +102,10 @@ router.get('/:slug', asyncHandler(async (req, res) => {
   await query('UPDATE services SET views = views + 1 WHERE id = ?', [row.id]);
 
   const related = await query(
-    `SELECT id, name, name_bn, slug, short_description, short_description_bn, image FROM services
-     WHERE category_id = ? AND id <> ? AND is_active = 1 ORDER BY RAND() LIMIT 6`,
+    `SELECT s.id, s.name, s.name_bn, s.slug, s.short_description, s.short_description_bn,
+            s.image, c.image AS category_image
+     FROM services s JOIN categories c ON c.id = s.category_id
+     WHERE s.category_id = ? AND s.id <> ? AND s.is_active = 1 ORDER BY RAND() LIMIT 6`,
     [row.category_id, row.id]
   );
   res.json({ ...row, related });

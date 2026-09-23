@@ -39,7 +39,7 @@ export function ServiceCard({ service }) {
   return (
     <Link to={`/services/${service.slug}`} className="service-card is-glass">
       <div className="thumb">
-        <Photo src={service.image} icon={service.category_icon || '✦'} alt={pickField(service, 'name')} tone="purple" />
+        <Photo src={service.image || service.category_image} icon={service.category_icon || '✦'} alt={pickField(service, 'name')} tone="purple" />
       </div>
       <div className="body">
         {service.category_name && <span className="badge badge-gold mb-8">{pickField(service, 'category_name')}</span>}

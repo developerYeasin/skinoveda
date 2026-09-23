@@ -8,10 +8,16 @@ const router = express.Router();
 
 const toObject = (rows) => rows.reduce((acc, r) => ({ ...acc, [r.setting_key]: r.setting_value }), {});
 
-/** Public: everything the storefront needs, including tracking ids. */
+/** Settings that must never leave the server, even though their group is public. */
+const PRIVATE_KEYS = ['pexels_api_key'];
+
+/** Public: everything the storefront needs, including tracking ids and media paths. */
 router.get('/public', asyncHandler(async (req, res) => {
   const rows = await query(
-    "SELECT setting_key, setting_value FROM settings WHERE setting_group IN ('general','contact','social','tracking','seo')"
+    `SELECT setting_key, setting_value FROM settings
+     WHERE setting_group IN ('general','contact','social','tracking','seo','media')
+       AND setting_key NOT IN (${PRIVATE_KEYS.map(() => '?').join(',')})`,
+    PRIVATE_KEYS
   );
   res.json(toObject(rows));
 }));

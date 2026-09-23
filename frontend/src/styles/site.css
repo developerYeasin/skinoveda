@@ -100,10 +100,20 @@
   clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
 }
 .hero-bleed .photo-art,
-.hero-bleed img { width: 100%; height: 100%; object-fit: cover; }
+.hero-bleed img {
+  width: 100%; height: 100%; object-fit: cover;
+  /* pull the photo toward the brand purple, as in the reference */
+  filter: saturate(.82) contrast(1.04) brightness(.95);
+}
+/* purple duotone wash over the photo */
+.hero-bleed::before {
+  content: ''; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(135deg, rgba(90,24,108,.5), rgba(150,71,174,.28) 55%, rgba(58,15,71,.45));
+  mix-blend-mode: multiply;
+}
 /* fade the plate into the purple so there is no hard seam */
 .hero-bleed::after {
-  content: ''; position: absolute; inset: 0;
+  content: ''; position: absolute; inset: 0; z-index: 2;
   background:
     linear-gradient(90deg, #43104F 0%, rgba(67,16,79,.92) 12%, rgba(67,16,79,.45) 30%, rgba(67,16,79,.08) 52%, transparent 70%),
     linear-gradient(0deg, rgba(42,8,52,.75) 0%, transparent 42%);
@@ -444,6 +454,9 @@
   .burger { display: block; }
 }
 @media (max-width: 700px) {
+  /* the blossom motifs are decorative — keep them small and out of the way on phones */
+  .hero svg[viewBox='0 0 200 200'] { transform: scale(.55); opacity: .35 !important; }
+  .ambient-blossom { transform: scale(.6); opacity: .12 !important; }
   .quick-strip { margin-top: -30px; }
   .quick-grid { grid-template-columns: repeat(2, 1fr); }
   .proof-row { grid-template-columns: 1fr; }

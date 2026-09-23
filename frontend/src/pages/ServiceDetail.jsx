@@ -92,7 +92,7 @@ export default function ServiceDetail() {
 
             <div>
               <div className="split-visual" style={{ aspectRatio: '1/1' }}>
-                <Photo src={service.image} icon={service.category_icon} alt={name} tone="purple" />
+                <Photo src={service.image || service.category_image} icon={service.category_icon} alt={name} tone="purple" />
               </div>
 
               <div className="glass glass-sheen mt-24" style={{ padding: 26 }}>

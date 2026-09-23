@@ -77,7 +77,7 @@ const CLINIC_SPACES = [
 ];
 
 /* ---------- reusable highlight band ---------- */
-function Highlight({ id, dark, reverse, eyebrow, title, text, list, cta, to, icon }) {
+function Highlight({ id, dark, reverse, eyebrow, title, text, list, cta, to, icon, image }) {
   return (
     <section id={id} className={`section ${dark ? 'section--dark' : ''}`} style={{ position: 'relative' }}>
       {!dark && <Blossom className="ambient-blossom" style={{ top: 20, right: -70 }} size={220} opacity={0.18} />}
@@ -93,7 +93,7 @@ function Highlight({ id, dark, reverse, eyebrow, title, text, list, cta, to, ico
             <Link to={to} className={dark ? 'btn btn-gold' : 'btn btn-purple'}>{cta} →</Link>
           </div>
           <div className="split-visual">
-            <Photo icon={icon} alt={title} tone={dark ? 'dark' : 'purple'} />
+            <Photo src={image} icon={icon} alt={title} tone={dark ? 'dark' : 'purple'} />
           </div>
         </div>
       </div>
@@ -108,15 +108,18 @@ export default function Home() {
   const [testimonials, setTestimonials] = useState([]);
   const [doctor, setDoctor] = useState(null);
   const [clinic, setClinic] = useState([]);
+  const [beforeAfter, setBeforeAfter] = useState([]);
 
   useEffect(() => {
     serviceApi.featured(8).then(setFeatured).catch(() => {});
     testimonialApi.list({ limit: 3 }).then((r) => setTestimonials(r.data || [])).catch(() => {});
     teamApi.list({ limit: 1 }).then((r) => setDoctor((r.data || [])[0] || null)).catch(() => {});
     galleryApi.list({ album: 'clinic', limit: 5 }).then((r) => setClinic(r.data || [])).catch(() => {});
+    galleryApi.list({ album: 'before_after', limit: 4 }).then((r) => setBeforeAfter(r.data || [])).catch(() => {});
   }, []);
 
   const L = (obj) => obj[lang] || obj.en;
+  const catImage = (slug) => categories.find((c) => c.slug === slug)?.image;
 
   return (
     <div className="site-canvas">
@@ -234,7 +237,7 @@ export default function Home() {
                 {featured.slice(0, 4).map((s) => (
                   <Link key={s.id} to={`/services/${s.slug}`} className="sig-card glass glass-hover">
                     <div className="pic">
-                      <Photo src={s.image} icon={s.category_icon || '✦'} alt={pickField(s, 'name')} tone="soft" />
+                      <Photo src={s.image || s.category_image} icon={s.category_icon || '✦'} alt={pickField(s, 'name')} tone="soft" />
                     </div>
                     <div className="txt">
                       <h4>{pickField(s, 'name')}</h4>
@@ -283,10 +286,21 @@ export default function Home() {
                 {t('ba.cta')} →
               </Link>
               <div className="ba-grid">
-                {[t('ba.before'), t('ba.after'), t('ba.before'), t('ba.after')].map((label, i) => (
-                  <div className="ba-cell" key={i}>
-                    <Photo icon="🙂" tone={i % 2 ? 'purple' : 'soft'} alt={label} />
-                    <span className="tag">{label}</span>
+                {(beforeAfter.length
+                  ? beforeAfter.map((g, i) => ({
+                      key: g.id,
+                      image: g.image,
+                      label: i % 2 ? t('ba.after') : t('ba.before'),
+                    }))
+                  : [0, 1, 2, 3].map((i) => ({
+                      key: i,
+                      image: null,
+                      label: i % 2 ? t('ba.after') : t('ba.before'),
+                    }))
+                ).map((cell, i) => (
+                  <div className="ba-cell" key={cell.key}>
+                    <Photo src={cell.image} icon="🙂" tone={i % 2 ? 'purple' : 'soft'} alt={cell.label} />
+                    <span className="tag">{cell.label}</span>
                   </div>
                 ))}
               </div>
@@ -365,31 +379,31 @@ export default function Home() {
         id="aesthetic" icon="✨"
         eyebrow={t('highlight.aestheticEyebrow')} title={t('highlight.aestheticTitle')}
         text={t('highlight.aestheticText')} list={L(AESTHETIC_LIST)}
-        cta={t('highlight.aestheticCta')} to="/services/category/aesthetic-and-laser"
+        cta={t('highlight.aestheticCta')} to="/services/category/aesthetic-and-laser" image={catImage('aesthetic-and-laser')}
       />
       <Highlight
         id="ayurveda" dark reverse icon="🌿"
         eyebrow={t('highlight.ayurvedaEyebrow')} title={t('highlight.ayurvedaTitle')}
         text={t('highlight.ayurvedaText')} list={L(AYURVEDA_LIST)}
-        cta={t('highlight.ayurvedaCta')} to="/services/category/ayurveda"
+        cta={t('highlight.ayurvedaCta')} to="/services/category/ayurveda" image={catImage('ayurveda')}
       />
       <Highlight
         id="naturopathy" icon="🍃"
         eyebrow={t('highlight.naturoEyebrow')} title={t('highlight.naturoTitle')}
         text={t('highlight.naturoText')} list={L(NATUROPATHY_LIST)}
-        cta={t('highlight.naturoCta')} to="/services/category/naturopathy-and-natural-therapy"
+        cta={t('highlight.naturoCta')} to="/services/category/naturopathy-and-natural-therapy" image={catImage('naturopathy-and-natural-therapy')}
       />
       <Highlight
         id="womens" dark reverse icon="💜"
         eyebrow={t('highlight.womenEyebrow')} title={t('highlight.womenTitle')}
         text={t('highlight.womenText')} list={L(WOMEN_LIST)}
-        cta={t('highlight.womenCta')} to="/services/category/womens-and-intimate-wellness"
+        cta={t('highlight.womenCta')} to="/services/category/womens-and-intimate-wellness" image={catImage('womens-and-intimate-wellness')}
       />
       <Highlight
         id="health" icon="🩺"
         eyebrow={t('highlight.healthEyebrow')} title={t('highlight.healthTitle')}
         text={t('highlight.healthText')} list={L(HEALTH_LIST)}
-        cta={t('highlight.healthCta')} to="/services/category/health-and-wellness"
+        cta={t('highlight.healthCta')} to="/services/category/health-and-wellness" image={catImage('health-and-wellness')}
       />
 
       {/* ============ FEATURED TREATMENTS ============ */}
