@@ -1,0 +1,677 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "Skinoveda Skinoveda Aesthetic Care" [ref=f4e415] [cursor=pointer]:
+        - /url: /
+        - img "Skinoveda" [ref=f4e6]
+        - generic [ref=f4e7]:
+          - strong [ref=f4e8]: Skinoveda
+          - generic [ref=f4e9]: Aesthetic Care
+      - navigation [ref=f4e10]:
+        - link "Home" [ref=f4e416] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=f4e417] [cursor=pointer]:
+          - /url: /about
+        - link "Services ▾" [ref=f4e418] [cursor=pointer]:
+          - /url: /services
+          - text: Services
+          - generic [ref=f4e15]: ▾
+        - link "Our Team" [ref=f4e419] [cursor=pointer]:
+          - /url: /our-team
+        - link "Gallery" [ref=f4e420] [cursor=pointer]:
+          - /url: /gallery
+        - link "Blog" [ref=f4e421] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f4e422] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f4e20]:
+        - generic [ref=f4e21]:
+          - button "Search" [ref=f4e22] [cursor=pointer]: ⌕
+          - link "Contact" [ref=f4e423] [cursor=pointer]:
+            - /url: /contact
+            - text: ☎
+        - group "Language" [ref=f4e24]:
+          - button "BN" [ref=f4e25] [cursor=pointer]
+          - button "EN" [active] [pressed] [ref=f4e26] [cursor=pointer]
+        - link "🗓 Book Appointment" [ref=f4e424] [cursor=pointer]:
+          - /url: /book-appointment
+  - generic [ref=f4e28]:
+    - generic [ref=f4e29]:
+      - strong [ref=f4e31]: Skinoveda
+      - button "Close" [ref=f4e32]: ×
+    - group "Language" [ref=f4e34]:
+      - button "BN" [ref=f4e35] [cursor=pointer]
+      - button "EN" [pressed] [ref=f4e36] [cursor=pointer]
+    - link "Home" [ref=f4e425] [cursor=pointer]:
+      - /url: /
+    - link "About Us" [ref=f4e426] [cursor=pointer]:
+      - /url: /about
+    - link "Services" [ref=f4e427] [cursor=pointer]:
+      - /url: /services
+    - link "Our Team" [ref=f4e428] [cursor=pointer]:
+      - /url: /our-team
+    - link "Gallery" [ref=f4e429] [cursor=pointer]:
+      - /url: /gallery
+    - link "Blog" [ref=f4e430] [cursor=pointer]:
+      - /url: /blog
+    - link "Contact" [ref=f4e431] [cursor=pointer]:
+      - /url: /contact
+    - generic [ref=f4e44]:
+      - paragraph [ref=f4e45]: Our Specialities
+      - link "✨ Aesthetic & Laser" [ref=f4e432] [cursor=pointer]:
+        - /url: /services/category/aesthetic-and-laser
+      - link "🌿 Ayurveda" [ref=f4e433] [cursor=pointer]:
+        - /url: /services/category/ayurveda
+      - link "🍃 Naturopathy & Natural Therapy" [ref=f4e434] [cursor=pointer]:
+        - /url: /services/category/naturopathy-and-natural-therapy
+      - link "🪷 Therapy" [ref=f4e435] [cursor=pointer]:
+        - /url: /services/category/therapy
+      - link "🩺 Health & Wellness" [ref=f4e436] [cursor=pointer]:
+        - /url: /services/category/health-and-wellness
+      - link "🌸 Skin Health & Dermatology" [ref=f4e437] [cursor=pointer]:
+        - /url: /services/category/skin-health-and-dermatology
+      - link "💜 Women's & Intimate Wellness" [ref=f4e438] [cursor=pointer]:
+        - /url: /services/category/womens-and-intimate-wellness
+    - link "Book Appointment →" [ref=f4e439] [cursor=pointer]:
+      - /url: /book-appointment
+  - main [ref=f4e47]:
+    - generic [ref=f4e48]:
+      - generic [ref=f4e50]:
+        - generic [ref=f4e51]:
+          - generic [ref=f4e52]: Natural Beauty · Modern Science · Holistic Wellness
+          - generic [ref=f4e53]:
+            - heading "Skinoveda" [level=1] [ref=f4e440]
+            - generic [ref=f4e60]: —Aesthetic Care—
+          - paragraph [ref=f4e61]: Where Beauty Meets Wellness
+          - paragraph [ref=f4e62]: Advanced aesthetic treatments, Ayurveda, Panchakarma, naturopathy and holistic wellness care — all under one roof.
+          - generic [ref=f4e63]:
+            - link "Explore Our Services →" [ref=f4e441] [cursor=pointer]:
+              - /url: /services
+            - link "🗓 Book Consultation" [ref=f4e442] [cursor=pointer]:
+              - /url: /book-appointment
+          - generic [ref=f4e443]:
+            - generic [ref=f4e444]: ✨ Aesthetic & Laser
+            - generic [ref=f4e445]: 🌿 Ayurveda
+            - generic [ref=f4e446]: 🍃 Naturopathy & Natural Therapy
+            - generic [ref=f4e447]: 🪷 Therapy
+            - generic [ref=f4e448]: 🩺 Health & Wellness
+            - generic [ref=f4e449]: 🌸 Skin Health & Dermatology
+            - generic [ref=f4e450]: 💜 Women's & Intimate Wellness
+        - img "Skinoveda" [ref=f4e451]:
+          - generic [ref=f4e69]: 🌸
+        - generic [ref=f4e71]:
+          - paragraph [ref=f4e72]: “Healthy Skin, Happy You”
+          - generic [ref=f4e73]: ♡
+      - generic [ref=f4e76]:
+        - link "🧴 Aesthetic & Laser Glow & Rejuvenate →" [ref=f4e452] [cursor=pointer]:
+          - /url: /services/category/aesthetic-and-laser
+          - generic [ref=f4e78]: 🧴
+          - strong [ref=f4e79]: Aesthetic & Laser
+          - text: Glow & Rejuvenate
+          - generic [ref=f4e80]: →
+        - link "🪷 Ayurveda & Panchakarma Natural Healing →" [ref=f4e453] [cursor=pointer]:
+          - /url: /services/category/ayurveda
+          - generic [ref=f4e82]: 🪷
+          - strong [ref=f4e83]: Ayurveda & Panchakarma
+          - text: Natural Healing
+          - generic [ref=f4e84]: →
+        - link "🍃 Naturopathy Heal & Detox →" [ref=f4e454] [cursor=pointer]:
+          - /url: /services/category/naturopathy-and-natural-therapy
+          - generic [ref=f4e86]: 🍃
+          - strong [ref=f4e87]: Naturopathy
+          - text: Heal & Detox
+          - generic [ref=f4e88]: →
+        - link "🩺 Consultation Expert Advice →" [ref=f4e455] [cursor=pointer]:
+          - /url: /book-appointment
+          - generic [ref=f4e90]: 🩺
+          - strong [ref=f4e91]: Consultation
+          - text: Expert Advice
+          - generic [ref=f4e92]: →
+        - link "🔬 Skin Analysis Know Your Skin →" [ref=f4e456] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=f4e94]: 🔬
+          - strong [ref=f4e95]: Skin Analysis
+          - text: Know Your Skin
+          - generic [ref=f4e96]: →
+        - link "🎁 Premium Packages Value & Care →" [ref=f4e457] [cursor=pointer]:
+          - /url: /services
+          - generic [ref=f4e98]: 🎁
+          - strong [ref=f4e99]: Premium Packages
+          - text: Value & Care
+          - generic [ref=f4e100]: →
+      - generic [ref=f4e102]:
+        - generic [ref=f4e103]:
+          - generic [ref=f4e458]:
+            - img "Dr. Laila Mitu" [ref=f4e460]:
+              - generic [ref=f4e462]: 👩‍⚕️
+            - generic [ref=f4e463]:
+              - generic [ref=f4e464]: Meet Our Expert
+              - heading "Dr. Laila Mitu" [level=3] [ref=f4e465]
+              - paragraph [ref=f4e466]: Aesthetic Dermatologist & Wellness Specialist
+              - list [ref=f4e467]:
+                - listitem [ref=f4e468]:
+                  - generic [ref=f4e469]: 🎓
+                  - text: MBBS, MD (Dermatology)
+                - listitem [ref=f4e470]:
+                  - generic [ref=f4e471]: ⏱
+                  - text: 10+ Years of Experience
+                - listitem [ref=f4e472]:
+                  - generic [ref=f4e473]: ✦
+                  - text: Skin, Laser & Anti-Aging
+              - link "View Profile →" [ref=f4e474] [cursor=pointer]:
+                - /url: /our-team
+          - generic [ref=f4e104]:
+            - generic [ref=f4e105]:
+              - generic [ref=f4e111]:
+                - heading "Signature Treatments" [level=2] [ref=f4e475]
+                - paragraph [ref=f4e113]: Personalized care for your unique beauty
+              - link "View All" [ref=f4e476] [cursor=pointer]:
+                - /url: /services
+            - generic [ref=f4e477]:
+              - link "Laser Hair Removal Laser Hair Removal Aesthetic & Laser Learn More →" [ref=f4e478] [cursor=pointer]:
+                - /url: /services/laser-hair-removal-01
+                - img "Laser Hair Removal" [ref=f4e480]:
+                  - generic [ref=f4e482]: ✨
+                - generic [ref=f4e483]:
+                  - heading "Laser Hair Removal" [level=4] [ref=f4e484]
+                  - generic [ref=f4e485]: Aesthetic & Laser
+                  - generic [ref=f4e486]: Learn More →
+              - link "Melasma Care Melasma Care Aesthetic & Laser Learn More →" [ref=f4e487] [cursor=pointer]:
+                - /url: /services/melasma-care-01
+                - img "Melasma Care" [ref=f4e489]:
+                  - generic [ref=f4e491]: ✨
+                - generic [ref=f4e492]:
+                  - heading "Melasma Care" [level=4] [ref=f4e493]
+                  - generic [ref=f4e494]: Aesthetic & Laser
+                  - generic [ref=f4e495]: Learn More →
+              - link "Acne Acne Skin Health & Dermatology Learn More →" [ref=f4e496] [cursor=pointer]:
+                - /url: /services/acne-06
+                - img "Acne" [ref=f4e498]:
+                  - generic [ref=f4e500]: 🌸
+                - generic [ref=f4e501]:
+                  - heading "Acne" [level=4] [ref=f4e502]
+                  - generic [ref=f4e503]: Skin Health & Dermatology
+                  - generic [ref=f4e504]: Learn More →
+              - link "Abhyanga Abhyanga Ayurveda Learn More →" [ref=f4e505] [cursor=pointer]:
+                - /url: /services/abhyanga-02
+                - img "Abhyanga" [ref=f4e507]:
+                  - generic [ref=f4e509]: 🌿
+                - generic [ref=f4e510]:
+                  - heading "Abhyanga" [level=4] [ref=f4e511]
+                  - generic [ref=f4e512]: Ayurveda
+                  - generic [ref=f4e513]: Learn More →
+        - generic [ref=f4e514]: “Healthy skin is not just about beauty, it is about confidence.”
+      - generic [ref=f4e117]:
+        - generic [ref=f4e118]:
+          - heading "Premium Wellness Collection" [level=2] [ref=f4e520]
+          - paragraph [ref=f4e120]: Pure · Natural · Effective
+          - link "Explore Now →" [ref=f4e521] [cursor=pointer]:
+            - /url: /services
+          - generic [ref=f4e122]:
+            - generic [ref=f4e123]: 🛡 100% Authentic
+            - generic [ref=f4e124]: 🧪 Dermatologist Tested
+            - generic [ref=f4e125]: ✓ Quality Assured
+        - generic [ref=f4e126]:
+          - heading "Before & After" [level=3] [ref=f4e522]
+          - paragraph [ref=f4e128]: Real Results. Real People.
+          - link "View Gallery →" [ref=f4e523] [cursor=pointer]:
+            - /url: /gallery
+          - generic [ref=f4e130]:
+            - generic [ref=f4e131]:
+              - img "Before" [ref=f4e524]:
+                - generic [ref=f4e134]: 🙂
+              - generic [ref=f4e135]: Before
+            - generic [ref=f4e136]:
+              - img "After" [ref=f4e525]:
+                - generic [ref=f4e139]: 🙂
+              - generic [ref=f4e140]: After
+            - generic [ref=f4e141]:
+              - img "Before" [ref=f4e526]:
+                - generic [ref=f4e144]: 🙂
+              - generic [ref=f4e145]: Before
+            - generic [ref=f4e146]:
+              - img "After" [ref=f4e527]:
+                - generic [ref=f4e149]: 🙂
+              - generic [ref=f4e150]: After
+        - generic [ref=f4e151]:
+          - heading "What Our Clients Say" [level=3] [ref=f4e528]
+          - generic [ref=f4e529]: ★★★★★
+          - paragraph [ref=f4e530]: “Skinoveda changed my skin completely! The treatments are amazing and the staff is so professional and kind.”
+          - generic [ref=f4e531]:
+            - img [ref=f4e533]:
+              - generic [ref=f4e535]: 🙂
+            - generic [ref=f4e536]:
+              - strong [ref=f4e537]: Tasnim Rahman
+              - generic [ref=f4e538]: Laser Skin Rejuvenation
+      - generic [ref=f4e155]:
+        - generic [ref=f4e156]:
+          - generic [ref=f4e157]: Why Skinoveda
+          - heading "More Than A Treatment — A Complete Wellness Experience" [level=2] [ref=f4e539]
+          - paragraph [ref=f4e159]: Every plan starts with a one-to-one consultation, so your care is built around your skin, your body and your lifestyle.
+        - generic [ref=f4e160]:
+          - generic [ref=f4e161]:
+            - generic [ref=f4e162]: 🌿
+            - heading "Natural Approach" [level=3] [ref=f4e540]
+            - paragraph [ref=f4e164]: Science-inspired care with nature-based wellness.
+          - generic [ref=f4e165]:
+            - generic [ref=f4e166]: ✨
+            - heading "Advanced Aesthetic Care" [level=3] [ref=f4e541]
+            - paragraph [ref=f4e168]: Modern technology for skin, hair and body aesthetics.
+          - generic [ref=f4e169]:
+            - generic [ref=f4e170]: 🪷
+            - heading "Ayurvedic Wisdom" [level=3] [ref=f4e542]
+            - paragraph [ref=f4e172]: Traditional Ayurveda and Panchakarma wellness.
+          - generic [ref=f4e173]:
+            - generic [ref=f4e174]: 💜
+            - heading "Personalized Care" [level=3] [ref=f4e543]
+            - paragraph [ref=f4e176]: Individual consultation and personalized care plans.
+          - generic [ref=f4e177]:
+            - generic [ref=f4e178]: 🩺
+            - heading "Holistic Wellness" [level=3] [ref=f4e544]
+            - paragraph [ref=f4e180]: Supporting skin, body, mind and lifestyle wellness.
+      - generic [ref=f4e182]:
+        - generic [ref=f4e183]:
+          - generic [ref=f4e184]: Our Signature Services
+          - heading "Comprehensive Care Under One Roof" [level=2] [ref=f4e545]
+          - paragraph [ref=f4e186]: Seven specialised divisions covering skin, body, mind and long-term wellness.
+        - generic [ref=f4e546]:
+          - link "Aesthetic & Laser 32 treatments ✨ Aesthetic & Laser Laser, skin rejuvenation, pigmentation care, hair removal, anti-aging and body contouring — delivered with advanced aesthetic technology and personalized care plans. Explore →" [ref=f4e547] [cursor=pointer]:
+            - /url: /services/category/aesthetic-and-laser
+            - generic [ref=f4e548]:
+              - img "Aesthetic & Laser" [ref=f4e549]:
+                - generic [ref=f4e551]: ✨
+              - generic [ref=f4e552]: 32 treatments
+            - generic [ref=f4e553]:
+              - heading "✨ Aesthetic & Laser" [level=3] [ref=f4e554]
+              - paragraph [ref=f4e555]: Laser, skin rejuvenation, pigmentation care, hair removal, anti-aging and body contouring — delivered with advanced aesthetic technology and personalized care plans.
+              - generic [ref=f4e556]: Explore →
+          - link "Ayurveda 32 treatments 🌿 Ayurveda Ayurvedic consultation, Prakriti assessment, Panchakarma, Abhyanga, Shirodhara, detox and rejuvenation programs rooted in ancient healing wisdom. Explore →" [ref=f4e557] [cursor=pointer]:
+            - /url: /services/category/ayurveda
+            - generic [ref=f4e558]:
+              - img "Ayurveda" [ref=f4e559]:
+                - generic [ref=f4e561]: 🌿
+              - generic [ref=f4e562]: 32 treatments
+            - generic [ref=f4e563]:
+              - heading "🌿 Ayurveda" [level=3] [ref=f4e564]
+              - paragraph [ref=f4e565]: Ayurvedic consultation, Prakriti assessment, Panchakarma, Abhyanga, Shirodhara, detox and rejuvenation programs rooted in ancient healing wisdom.
+              - generic [ref=f4e566]: Explore →
+          - link "Naturopathy & Natural Therapy 28 treatments 🍃 Naturopathy & Natural Therapy Natural therapies, hydrotherapy, sitz bath, mud and steam therapy, lifestyle correction, nutrition guidance and complete detox wellness programs. Explore →" [ref=f4e567] [cursor=pointer]:
+            - /url: /services/category/naturopathy-and-natural-therapy
+            - generic [ref=f4e568]:
+              - img "Naturopathy & Natural Therapy" [ref=f4e569]:
+                - generic [ref=f4e571]: 🍃
+              - generic [ref=f4e572]: 28 treatments
+            - generic [ref=f4e573]:
+              - heading "🍃 Naturopathy & Natural Therapy" [level=3] [ref=f4e574]
+              - paragraph [ref=f4e575]: Natural therapies, hydrotherapy, sitz bath, mud and steam therapy, lifestyle correction, nutrition guidance and complete detox wellness programs.
+              - generic [ref=f4e576]: Explore →
+          - link "Therapy 15 treatments 🪷 Therapy Hijama, wet and dry cupping, acupuncture, acupressure, reflexology, therapeutic massage and mind-body relaxation therapies. Explore →" [ref=f4e577] [cursor=pointer]:
+            - /url: /services/category/therapy
+            - generic [ref=f4e578]:
+              - img "Therapy" [ref=f4e579]:
+                - generic [ref=f4e581]: 🪷
+              - generic [ref=f4e582]: 15 treatments
+            - generic [ref=f4e583]:
+              - heading "🪷 Therapy" [level=3] [ref=f4e584]
+              - paragraph [ref=f4e585]: Hijama, wet and dry cupping, acupuncture, acupressure, reflexology, therapeutic massage and mind-body relaxation therapies.
+              - generic [ref=f4e586]: Explore →
+          - link "Health & Wellness 29 treatments 🩺 Health & Wellness Lifestyle management, metabolic wellness, internal wellness, musculoskeletal support and personalized health programs for long-term wellbeing. Explore →" [ref=f4e587] [cursor=pointer]:
+            - /url: /services/category/health-and-wellness
+            - generic [ref=f4e588]:
+              - img "Health & Wellness" [ref=f4e589]:
+                - generic [ref=f4e591]: 🩺
+              - generic [ref=f4e592]: 29 treatments
+            - generic [ref=f4e593]:
+              - heading "🩺 Health & Wellness" [level=3] [ref=f4e594]
+              - paragraph [ref=f4e595]: Lifestyle management, metabolic wellness, internal wellness, musculoskeletal support and personalized health programs for long-term wellbeing.
+              - generic [ref=f4e596]: Explore →
+          - link "Skin Health & Dermatology 21 treatments 🌸 Skin Health & Dermatology Clinical care for acne, pigmentation, scars, sensitivity and aging concerns — with rejuvenation and barrier repair programs. Explore →" [ref=f4e597] [cursor=pointer]:
+            - /url: /services/category/skin-health-and-dermatology
+            - generic [ref=f4e598]:
+              - img "Skin Health & Dermatology" [ref=f4e599]:
+                - generic [ref=f4e601]: 🌸
+              - generic [ref=f4e602]: 21 treatments
+            - generic [ref=f4e603]:
+              - heading "🌸 Skin Health & Dermatology" [level=3] [ref=f4e604]
+              - paragraph [ref=f4e605]: Clinical care for acne, pigmentation, scars, sensitivity and aging concerns — with rejuvenation and barrier repair programs.
+              - generic [ref=f4e606]: Explore →
+        - link "View All Services →" [ref=f4e607] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f4e191]:
+        - generic [ref=f4e192]:
+          - generic [ref=f4e193]: Aesthetic & Laser
+          - heading "Advanced Aesthetic & Laser Care" [level=2] [ref=f4e608]
+          - paragraph [ref=f4e195]: Modern laser and energy-based technology for skin rejuvenation, pigmentation, hair removal, anti-aging and body contouring — always matched to your skin type.
+          - list [ref=f4e196]:
+            - listitem [ref=f4e609]: ✦ Laser Hair Removal
+            - listitem [ref=f4e610]: ✦ Skin Rejuvenation
+            - listitem [ref=f4e611]: ✦ Pigmentation & Melasma Care
+            - listitem [ref=f4e612]: ✦ Acne & Acne Scar Care
+            - listitem [ref=f4e613]: ✦ Anti-Aging
+            - listitem [ref=f4e614]: ✦ Skin Tightening
+            - listitem [ref=f4e615]: ✦ HIFU & RF
+            - listitem [ref=f4e616]: ✦ Face & Body Contouring
+            - listitem [ref=f4e617]: ✦ Fat Reduction
+            - listitem [ref=f4e618]: ✦ Hair & Scalp Care
+            - listitem [ref=f4e619]: ✦ PRP Hair Therapy
+            - listitem [ref=f4e620]: ✦ Intimate Wellness
+          - link "View Aesthetic Services →" [ref=f4e621] [cursor=pointer]:
+            - /url: /services/category/aesthetic-and-laser
+        - img "Advanced Aesthetic & Laser Care" [ref=f4e622]:
+          - generic [ref=f4e213]: ✨
+      - generic [ref=f4e216]:
+        - generic [ref=f4e217]:
+          - generic [ref=f4e218]: Ayurveda & Panchakarma
+          - heading "Ancient Ayurveda. Personalized Wellness." [level=2] [ref=f4e623]
+          - paragraph [ref=f4e220]: Classical Panchakarma and Ayurvedic programs designed around your Prakriti — to detoxify, rebuild and rejuvenate from the inside out.
+          - list [ref=f4e221]:
+            - listitem [ref=f4e624]: ✦ Ayurvedic Consultation
+            - listitem [ref=f4e625]: ✦ Prakriti Assessment
+            - listitem [ref=f4e626]: ✦ Panchakarma
+            - listitem [ref=f4e627]: ✦ Abhyanga
+            - listitem [ref=f4e628]: ✦ Shirodhara
+            - listitem [ref=f4e629]: ✦ Swedana
+            - listitem [ref=f4e630]: ✦ Nasya
+            - listitem [ref=f4e631]: ✦ Basti
+            - listitem [ref=f4e632]: ✦ Virechana
+            - listitem [ref=f4e633]: ✦ Pizhichil
+            - listitem [ref=f4e634]: ✦ Ayurvedic Detox
+            - listitem [ref=f4e635]: ✦ Rejuvenation Programs
+          - link "Explore Ayurveda →" [ref=f4e636] [cursor=pointer]:
+            - /url: /services/category/ayurveda
+        - img "Ancient Ayurveda. Personalized Wellness." [ref=f4e637]:
+          - generic [ref=f4e238]: 🌿
+      - generic [ref=f4e241]:
+        - generic [ref=f4e242]:
+          - generic [ref=f4e243]: Naturopathy
+          - heading "Healing Through Nature & Healthy Living" [level=2] [ref=f4e638]
+          - paragraph [ref=f4e245]: Drug-free natural therapies combined with practical nutrition, detox and lifestyle correction that you can actually sustain.
+          - list [ref=f4e246]:
+            - listitem [ref=f4e639]: ✦ Naturopathy Consultation
+            - listitem [ref=f4e640]: ✦ Natural Detox
+            - listitem [ref=f4e641]: ✦ Hydrotherapy
+            - listitem [ref=f4e642]: ✦ Sitz Bath Therapy
+            - listitem [ref=f4e643]: ✦ Contrast Water Therapy
+            - listitem [ref=f4e644]: ✦ Mud Therapy
+            - listitem [ref=f4e645]: ✦ Steam Therapy
+            - listitem [ref=f4e646]: ✦ Herbal Therapy
+            - listitem [ref=f4e647]: ✦ Therapeutic Bath
+            - listitem [ref=f4e648]: ✦ Nutrition & Diet Guidance
+            - listitem [ref=f4e649]: ✦ Lifestyle Correction
+            - listitem [ref=f4e650]: ✦ Sleep & Stress Wellness
+          - link "Explore Naturopathy →" [ref=f4e651] [cursor=pointer]:
+            - /url: /services/category/naturopathy-and-natural-therapy
+        - img "Healing Through Nature & Healthy Living" [ref=f4e652]:
+          - generic [ref=f4e263]: 🍃
+      - generic [ref=f4e266]:
+        - generic [ref=f4e267]:
+          - generic [ref=f4e268]: Women's Wellness
+          - heading "Private. Respectful. Personalized." [level=2] [ref=f4e653]
+          - paragraph [ref=f4e270]: A discreet, women-centred wellness program covering hormonal, menstrual, fertility, menopause and intimate wellness care.
+          - list [ref=f4e271]:
+            - listitem [ref=f4e654]: ✦ Women's Wellness
+            - listitem [ref=f4e655]: ✦ PCOS Wellness
+            - listitem [ref=f4e656]: ✦ Hormonal Wellness
+            - listitem [ref=f4e657]: ✦ Menstrual Wellness
+            - listitem [ref=f4e658]: ✦ Fertility Wellness
+            - listitem [ref=f4e659]: ✦ Infertility Support
+            - listitem [ref=f4e660]: ✦ Pre-Pregnancy Wellness
+            - listitem [ref=f4e661]: ✦ Post-Pregnancy Wellness
+            - listitem [ref=f4e662]: ✦ Menopause Wellness
+            - listitem [ref=f4e663]: ✦ Intimate Wellness
+            - listitem [ref=f4e664]: ✦ Vaginal Rejuvenation
+            - listitem [ref=f4e665]: ✦ Pelvic Floor Wellness
+          - link "Women's Wellness →" [ref=f4e666] [cursor=pointer]:
+            - /url: /services/category/womens-and-intimate-wellness
+        - img "Private. Respectful. Personalized." [ref=f4e667]:
+          - generic [ref=f4e288]: 💜
+      - generic [ref=f4e291]:
+        - generic [ref=f4e292]:
+          - generic [ref=f4e293]: Health & Lifestyle
+          - heading "Your Health Deserves a Holistic Approach" [level=2] [ref=f4e668]
+          - paragraph [ref=f4e295]: Long-term metabolic and lifestyle support that works alongside your medical care, not against it.
+          - list [ref=f4e296]:
+            - listitem [ref=f4e669]: ✦ Diabetes Management Support
+            - listitem [ref=f4e670]: ✦ Weight & Obesity Management
+            - listitem [ref=f4e671]: ✦ Thyroid Wellness Support
+            - listitem [ref=f4e672]: ✦ PCOS Wellness
+            - listitem [ref=f4e673]: ✦ Digestive & Gut Wellness
+            - listitem [ref=f4e674]: ✦ Liver Wellness
+            - listitem [ref=f4e675]: ✦ Joint & Muscle Wellness
+            - listitem [ref=f4e676]: ✦ Stress & Sleep Wellness
+            - listitem [ref=f4e677]: ✦ Fertility Wellness
+            - listitem [ref=f4e678]: ✦ Women's Hormonal Wellness
+            - listitem [ref=f4e679]: ✦ Men's Wellness
+            - listitem [ref=f4e680]: ✦ Sexual Health & Wellness
+          - link "Explore Health & Wellness →" [ref=f4e681] [cursor=pointer]:
+            - /url: /services/category/health-and-wellness
+        - img "Your Health Deserves a Holistic Approach" [ref=f4e682]:
+          - generic [ref=f4e313]: 🩺
+      - generic [ref=f4e684]:
+        - generic [ref=f4e685]:
+          - generic [ref=f4e686]: Most Requested
+          - heading "Our Signature Treatments" [level=2] [ref=f4e687]
+          - paragraph [ref=f4e688]: Personalized care for your unique beauty and wellness goals.
+        - generic [ref=f4e689]:
+          - link "✨ Laser Hair Removal Aesthetic & Laser" [ref=f4e690] [cursor=pointer]:
+            - /url: /services/laser-hair-removal-01
+            - generic [ref=f4e691]: ✨
+            - heading "Laser Hair Removal" [level=3] [ref=f4e692]
+            - paragraph [ref=f4e693]: Aesthetic & Laser
+          - link "✨ Melasma Care Aesthetic & Laser" [ref=f4e694] [cursor=pointer]:
+            - /url: /services/melasma-care-01
+            - generic [ref=f4e695]: ✨
+            - heading "Melasma Care" [level=3] [ref=f4e696]
+            - paragraph [ref=f4e697]: Aesthetic & Laser
+          - link "🌸 Acne Skin Health & Dermatology" [ref=f4e698] [cursor=pointer]:
+            - /url: /services/acne-06
+            - generic [ref=f4e699]: 🌸
+            - heading "Acne" [level=3] [ref=f4e700]
+            - paragraph [ref=f4e701]: Skin Health & Dermatology
+          - link "🌿 Abhyanga Ayurveda" [ref=f4e702] [cursor=pointer]:
+            - /url: /services/abhyanga-02
+            - generic [ref=f4e703]: 🌿
+            - heading "Abhyanga" [level=3] [ref=f4e704]
+            - paragraph [ref=f4e705]: Ayurveda
+          - link "🩺 PCOS Wellness Health & Wellness" [ref=f4e706] [cursor=pointer]:
+            - /url: /services/pcos-wellness-05
+            - generic [ref=f4e707]: 🩺
+            - heading "PCOS Wellness" [level=3] [ref=f4e708]
+            - paragraph [ref=f4e709]: Health & Wellness
+          - link "🪷 Acupuncture Therapy Therapy" [ref=f4e710] [cursor=pointer]:
+            - /url: /services/acupuncture-therapy-04
+            - generic [ref=f4e711]: 🪷
+            - heading "Acupuncture Therapy" [level=3] [ref=f4e712]
+            - paragraph [ref=f4e713]: Therapy
+          - link "🪷 Hijama Therapy Therapy" [ref=f4e714] [cursor=pointer]:
+            - /url: /services/hijama-therapy-04
+            - generic [ref=f4e715]: 🪷
+            - heading "Hijama Therapy" [level=3] [ref=f4e716]
+            - paragraph [ref=f4e717]: Therapy
+          - link "🍃 Hydrotherapy Naturopathy & Natural Therapy" [ref=f4e718] [cursor=pointer]:
+            - /url: /services/hydrotherapy-03
+            - generic [ref=f4e719]: 🍃
+            - heading "Hydrotherapy" [level=3] [ref=f4e720]
+            - paragraph [ref=f4e721]: Naturopathy & Natural Therapy
+      - generic [ref=f4e315]:
+        - generic [ref=f4e316]:
+          - generic [ref=f4e317]: Clinic Experience
+          - heading "A Calm Space. A Better You." [level=2] [ref=f4e722]
+          - paragraph [ref=f4e319]: Designed to feel less like a clinic and more like a retreat.
+        - generic [ref=f4e320]:
+          - generic [ref=f4e321] [cursor=pointer]:
+            - img "Reception" [ref=f4e723]:
+              - generic [ref=f4e324]: 🏛
+            - generic [ref=f4e325]: Reception
+          - generic [ref=f4e326] [cursor=pointer]:
+            - img "Consultation Room" [ref=f4e724]:
+              - generic [ref=f4e329]: 🩺
+            - generic [ref=f4e330]: Consultation Room
+          - generic [ref=f4e331] [cursor=pointer]:
+            - img "Laser & Aesthetic Room" [ref=f4e725]:
+              - generic [ref=f4e334]: ✨
+            - generic [ref=f4e335]: Laser & Aesthetic Room
+          - generic [ref=f4e336] [cursor=pointer]:
+            - img "Ayurveda & Panchakarma Room" [ref=f4e726]:
+              - generic [ref=f4e339]: 🌿
+            - generic [ref=f4e340]: Ayurveda & Panchakarma Room
+          - generic [ref=f4e341] [cursor=pointer]:
+            - img "Therapy Room" [ref=f4e727]:
+              - generic [ref=f4e344]: 🪷
+            - generic [ref=f4e345]: Therapy Room
+        - link "View Gallery →" [ref=f4e728] [cursor=pointer]:
+          - /url: /gallery
+      - generic [ref=f4e730]:
+        - generic [ref=f4e731]:
+          - generic [ref=f4e732]: Client Reviews
+          - heading "What Our Clients Say" [level=2] [ref=f4e733]
+          - paragraph [ref=f4e734]: Real Results. Real People.
+        - generic [ref=f4e735]:
+          - generic [ref=f4e736]:
+            - generic [ref=f4e737]: ★★★★★
+            - blockquote [ref=f4e738]: “Skinoveda changed my skin completely! The treatments are amazing and the staff is so professional and kind.”
+            - generic [ref=f4e739]:
+              - img [ref=f4e741]:
+                - generic [ref=f4e743]: T
+              - generic [ref=f4e744]:
+                - strong [ref=f4e745]: Tasnim Rahman
+                - text: Laser Skin Rejuvenation
+          - generic [ref=f4e746]:
+            - generic [ref=f4e747]: ★★★★★
+            - blockquote [ref=f4e748]: “The Panchakarma program helped my sleep and digestion more than anything I have tried before.”
+            - generic [ref=f4e749]:
+              - img [ref=f4e751]:
+                - generic [ref=f4e753]: F
+              - generic [ref=f4e754]:
+                - strong [ref=f4e755]: Farhana Akter
+                - text: Panchakarma
+          - generic [ref=f4e756]:
+            - generic [ref=f4e757]: ★★★★★
+            - blockquote [ref=f4e758]: “I came for melasma care and the difference after four sessions is honestly beyond what I expected.”
+            - generic [ref=f4e759]:
+              - img [ref=f4e761]:
+                - generic [ref=f4e763]: S
+              - generic [ref=f4e764]:
+                - strong [ref=f4e765]: Sumaiya Islam
+                - text: Melasma Care
+      - generic [ref=f4e350]:
+        - generic [ref=f4e351]: Begin Your Wellness Journey
+        - heading "Your Skin Deserves the Best" [level=2] [ref=f4e766]
+        - paragraph [ref=f4e353]: Personalized care for your Skin, Body, Mind & Overall Wellness. Book your consultation today.
+        - generic [ref=f4e354]:
+          - link "Book an Appointment →" [ref=f4e767] [cursor=pointer]:
+            - /url: /book-appointment
+          - link "Call +880 1700-000000" [ref=f4e768] [cursor=pointer]:
+            - /url: tel:+880 1700-000000
+      - generic [ref=f4e358]:
+        - generic [ref=f4e359]:
+          - generic [ref=f4e360]: 🛡
+          - generic [ref=f4e361]:
+            - strong [ref=f4e362]: 100% Authentic
+            - text: Care & Products
+        - generic [ref=f4e363]:
+          - generic [ref=f4e364]: 💳
+          - generic [ref=f4e365]:
+            - strong [ref=f4e366]: Secure Payment
+            - text: "& Checkout"
+        - generic [ref=f4e367]:
+          - generic [ref=f4e368]: ⚡
+          - generic [ref=f4e369]:
+            - strong [ref=f4e370]: Fast Appointments
+            - text: Reliable Scheduling
+        - generic [ref=f4e371]:
+          - generic [ref=f4e372]: 🎧
+          - generic [ref=f4e373]:
+            - strong [ref=f4e374]: Expert Support
+            - text: Always Here
+  - contentinfo [ref=f4e375]:
+    - generic [ref=f4e376]:
+      - generic [ref=f4e377]:
+        - generic [ref=f4e378]:
+          - generic [ref=f4e380]:
+            - strong [ref=f4e381]: Skinoveda
+            - generic [ref=f4e382]: Aesthetic Care
+          - paragraph [ref=f4e383]: Where modern aesthetic science meets ancient healing wisdom.
+          - generic [ref=f4e769]:
+            - link "facebook" [ref=f4e770] [cursor=pointer]:
+              - /url: https://facebook.com/skinoveda
+              - text: f
+            - link "instagram" [ref=f4e771] [cursor=pointer]:
+              - /url: https://instagram.com/skinoveda
+              - text: ◎
+        - generic [ref=f4e384]:
+          - heading "Quick Links" [level=4] [ref=f4e772]
+          - list [ref=f4e386]:
+            - listitem [ref=f4e387]:
+              - link "Home" [ref=f4e773] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e389]:
+              - link "About Us" [ref=f4e774] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e391]:
+              - link "Services" [ref=f4e775] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f4e393]:
+              - link "Our Team" [ref=f4e776] [cursor=pointer]:
+                - /url: /our-team
+            - listitem [ref=f4e395]:
+              - link "Gallery" [ref=f4e777] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f4e397]:
+              - link "Blog" [ref=f4e778] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f4e399]:
+              - link "Contact" [ref=f4e779] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f4e401]:
+          - heading "Our Services" [level=4] [ref=f4e780]
+          - list [ref=f4e781]:
+            - listitem [ref=f4e782]:
+              - link "Aesthetic & Laser" [ref=f4e783] [cursor=pointer]:
+                - /url: /services/category/aesthetic-and-laser
+            - listitem [ref=f4e784]:
+              - link "Ayurveda" [ref=f4e785] [cursor=pointer]:
+                - /url: /services/category/ayurveda
+            - listitem [ref=f4e786]:
+              - link "Naturopathy & Natural Therapy" [ref=f4e787] [cursor=pointer]:
+                - /url: /services/category/naturopathy-and-natural-therapy
+            - listitem [ref=f4e788]:
+              - link "Therapy" [ref=f4e789] [cursor=pointer]:
+                - /url: /services/category/therapy
+            - listitem [ref=f4e790]:
+              - link "Health & Wellness" [ref=f4e791] [cursor=pointer]:
+                - /url: /services/category/health-and-wellness
+            - listitem [ref=f4e792]:
+              - link "Skin Health & Dermatology" [ref=f4e793] [cursor=pointer]:
+                - /url: /services/category/skin-health-and-dermatology
+            - listitem [ref=f4e794]:
+              - link "Women's & Intimate Wellness" [ref=f4e795] [cursor=pointer]:
+                - /url: /services/category/womens-and-intimate-wellness
+        - generic [ref=f4e403]:
+          - heading "Contact Us" [level=4] [ref=f4e796]
+          - list [ref=f4e405]:
+            - listitem [ref=f4e406]: 📍 Dhanmondi, Dhaka, Bangladesh
+            - listitem [ref=f4e797]:
+              - text: 📞
+              - link "+880 1700-000000" [ref=f4e798] [cursor=pointer]:
+                - /url: tel:+880 1700-000000
+            - listitem [ref=f4e799]:
+              - text: ✉
+              - link "info@skinoveda.com" [ref=f4e800] [cursor=pointer]:
+                - /url: mailto:info@skinoveda.com
+            - listitem [ref=f4e801]: "🕐 Saturday - Thursday: 10:00 AM - 8:00 PM | Friday: Closed"
+          - heading "Newsletter" [level=4] [ref=f4e802]
+          - paragraph [ref=f4e408]: Get the latest updates, offers and skincare tips.
+          - generic [ref=f4e409]:
+            - textbox "Your email address" [ref=f4e803]
+            - button "Subscribe" [ref=f4e804] [cursor=pointer]
+      - generic [ref=f4e412]:
+        - generic [ref=f4e413]: © 2026 Skinoveda. All rights reserved.
+        - generic [ref=f4e414]: Laser • Aesthetic • Ayurveda • Naturopathy • Wellness Centre
+  - generic [ref=f4e805]:
+    - link "Chat on WhatsApp" [ref=f4e806] [cursor=pointer]:
+      - /url: https://wa.me/8801700000000
+      - text: ✆
+    - link "Call us" [ref=f4e807] [cursor=pointer]:
+      - /url: tel:+880 1700-000000
+      - text: ☎

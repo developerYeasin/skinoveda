@@ -1,0 +1,357 @@
+/**
+ * Skinoveda service catalog — the full list from the content brief.
+ * Structure: category -> service groups -> services
+ */
+
+module.exports = [
+  {
+    code: '01',
+    icon: '✨',
+    name: 'Aesthetic & Laser',
+    tagline: 'Modern technology for skin, hair and body aesthetics',
+    color: '#7B2D8E',
+    description:
+      'Laser, skin rejuvenation, pigmentation care, hair removal, anti-aging and body contouring — delivered with advanced aesthetic technology and personalized care plans.',
+    groups: [
+      {
+        name: 'Laser',
+        services: [
+          'Laser Hair Removal',
+          'Laser Skin Rejuvenation',
+          'Laser Toning',
+          'Carbon Laser Peel',
+        ],
+      },
+      {
+        name: 'Pigmentation Care',
+        services: [
+          'Melasma Care',
+          'Dark Spot Reduction',
+          'Acne Treatment',
+          'Acne Scar Treatment',
+          'Open Pore Treatment',
+          'Skin Texture Improvement',
+          'Scar Reduction',
+          'Stretch Mark Care',
+        ],
+      },
+      {
+        name: 'Face Aesthetics',
+        services: [
+          'Skin Brightening',
+          'Anti-Aging',
+          'Fine Lines & Wrinkles',
+          'Skin Tightening',
+          'RF Skin Tightening',
+          'HIFU',
+          'Face Contouring',
+          'Jawline Contouring',
+          'Double Chin Reduction',
+        ],
+      },
+      {
+        name: 'Body Aesthetics',
+        services: [
+          'Body Contouring',
+          'Non-Surgical Fat Reduction',
+          'Cellulite Care',
+          'Abdomen Contouring',
+          'Arm & Thigh Contouring',
+          'Body Skin Tightening',
+        ],
+      },
+      {
+        name: 'Hair',
+        services: [
+          'Hair Fall Management',
+          'Hair Growth Support',
+          'PRP Hair Therapy',
+          'Scalp Rejuvenation',
+          'Dandruff & Scalp Care',
+        ],
+      },
+    ],
+  },
+  {
+    code: '02',
+    icon: '🌿',
+    name: 'Ayurveda',
+    tagline: 'Traditional Ayurveda and Panchakarma wellness',
+    color: '#4E7A46',
+    description:
+      'Ayurvedic consultation, Prakriti assessment, Panchakarma, Abhyanga, Shirodhara, detox and rejuvenation programs rooted in ancient healing wisdom.',
+    groups: [
+      {
+        name: 'Ayurvedic Care',
+        services: [
+          'Ayurvedic Consultation',
+          'Prakriti Assessment',
+          'Ayurvedic Nutrition',
+          'Ayurvedic Lifestyle Planning',
+          'Personalized Ayurvedic Wellness Programs',
+        ],
+      },
+      {
+        name: 'Panchakarma',
+        services: [
+          'Abhyanga',
+          'Shirodhara',
+          'Swedana',
+          'Nasya',
+          'Basti',
+          'Virechana',
+          'Pizhichil',
+          'Herbal Steam',
+          'Ayurvedic Detox',
+          'Rejuvenation Programs',
+        ],
+      },
+      {
+        name: 'Ayurvedic Health & Wellness',
+        services: [
+          'Diabetes Wellness',
+          'Weight Management',
+          'Obesity Management Support',
+          'Thyroid Wellness Support',
+          'PCOS Wellness',
+          'Hormonal Wellness',
+          'Digestive Wellness',
+          'Gut Wellness',
+          'Liver Wellness',
+          'Joint & Muscle Wellness',
+          'Stress & Sleep Wellness',
+          "Women's Wellness",
+          "Men's Wellness",
+          'Fertility & Infertility Wellness Support',
+          'Sexual Health & Wellness',
+          'Healthy Aging',
+          'Rejuvenation',
+        ],
+      },
+    ],
+  },
+  {
+    code: '03',
+    icon: '🍃',
+    name: 'Naturopathy & Natural Therapy',
+    tagline: 'Healing through nature and healthy living',
+    color: '#3F7D6A',
+    description:
+      'Natural therapies, hydrotherapy, sitz bath, mud and steam therapy, lifestyle correction, nutrition guidance and complete detox wellness programs.',
+    groups: [
+      {
+        name: 'Naturopathy',
+        services: [
+          'Naturopathy Consultation',
+          'Natural Detox Programs',
+          'Therapeutic Diet Planning',
+          'Nutrition Guidance',
+          'Lifestyle Correction',
+          'Weight Management',
+          'Preventive Wellness',
+        ],
+      },
+      {
+        name: 'Hydro & Natural Therapy',
+        services: [
+          'Hydrotherapy',
+          'Sitz Bath Therapy',
+          'Contrast Water Therapy',
+          'Mud Therapy',
+          'Steam Therapy',
+          'Herbal Therapy',
+          'Therapeutic Bath',
+          'Natural Detox Therapy',
+        ],
+      },
+      {
+        name: 'Lifestyle Wellness',
+        services: [
+          'Healthy Lifestyle Program',
+          'Diabetes Lifestyle Support',
+          'PCOS Lifestyle Support',
+          'Fertility Wellness',
+          "Women's Lifestyle Wellness",
+          "Men's Lifestyle Wellness",
+          'Sexual Health & Wellness',
+          'Digestive Wellness',
+          'Liver Wellness',
+          'Stress Management',
+          'Sleep Wellness',
+          'Skin Rejuvenation',
+          'Natural Skin & Hair Care',
+        ],
+      },
+    ],
+  },
+  {
+    code: '04',
+    icon: '🪷',
+    name: 'Therapy',
+    tagline: 'Hijama, cupping, acupuncture and relaxation therapies',
+    color: '#8A4B9E',
+    description:
+      'Hijama, wet and dry cupping, acupuncture, acupressure, reflexology, therapeutic massage and mind-body relaxation therapies.',
+    groups: [
+      {
+        name: 'Hijama & Cupping',
+        services: ['Hijama Therapy', 'Wet Cupping', 'Dry Cupping', 'Cupping Therapy'],
+      },
+      {
+        name: 'Acupuncture',
+        services: ['Acupuncture Therapy', 'Acupressure', 'Reflexology'],
+      },
+      {
+        name: 'Wellness Therapy',
+        services: [
+          'Therapeutic Massage',
+          'Ayurvedic Massage',
+          'Abhyanga Massage',
+          'Herbal Massage',
+          'Head & Scalp Therapy',
+          'Relaxation Therapy',
+          'Stress Relief Therapy',
+          'Mind & Body Wellness',
+        ],
+      },
+    ],
+  },
+  {
+    code: '05',
+    icon: '🩺',
+    name: 'Health & Wellness',
+    tagline: 'Your health deserves a holistic approach',
+    color: '#2F6690',
+    description:
+      'Lifestyle management, metabolic wellness, internal wellness, musculoskeletal support and personalized health programs for long-term wellbeing.',
+    groups: [
+      {
+        name: 'Metabolic & Lifestyle Wellness',
+        services: [
+          'Diabetes Management Support',
+          'Weight Management',
+          'Obesity Management',
+          'Metabolic Wellness',
+          'Cholesterol & Lifestyle Support',
+          'Blood Pressure Lifestyle Support',
+        ],
+      },
+      {
+        name: "Women's Health",
+        services: [
+          'PCOS Wellness',
+          'Hormonal Wellness',
+          'Menstrual Wellness',
+          'Fertility Wellness',
+          'Infertility Support',
+          'Pre-Pregnancy Wellness',
+          'Post-Pregnancy Wellness',
+          'Menopause Wellness',
+        ],
+      },
+      {
+        name: "Men's Health",
+        services: [
+          "Men's Wellness",
+          'Reproductive Wellness',
+          "Men's Fertility Wellness",
+          'Sexual Health & Wellness',
+        ],
+      },
+      {
+        name: 'Internal Wellness',
+        services: [
+          'Digestive Health',
+          'Gut Wellness',
+          'Gastric Wellness',
+          'Constipation Support',
+          'Liver Wellness',
+          'Detox & Lifestyle Programs',
+        ],
+      },
+      {
+        name: 'Musculoskeletal Wellness',
+        services: [
+          'Joint Wellness',
+          'Back & Neck Wellness',
+          'Muscle Wellness',
+          'Mobility Support',
+          'Posture & Lifestyle Guidance',
+        ],
+      },
+    ],
+  },
+  {
+    code: '06',
+    icon: '🌸',
+    name: 'Skin Health & Dermatology',
+    tagline: 'Healthy skin, restored confidence',
+    color: '#C2649A',
+    description:
+      'Clinical care for acne, pigmentation, scars, sensitivity and aging concerns — with rejuvenation and barrier repair programs.',
+    groups: [
+      {
+        name: 'Skin Concerns',
+        services: [
+          'Acne',
+          'Acne Scars',
+          'Melasma',
+          'Hyperpigmentation',
+          'Dark Spots',
+          'Uneven Skin Tone',
+          'Sensitive Skin',
+          'Dry Skin',
+          'Oily Skin',
+          'Enlarged Pores',
+          'Blackheads & Whiteheads',
+          'Sun Damage',
+          'Premature Aging',
+          'Fine Lines & Wrinkles Care',
+          'Skin Texture Problems',
+          'Scars',
+          'Stretch Marks',
+          'Under-Eye Concerns',
+          'Neck Pigmentation',
+          'Skin Rejuvenation Program',
+          'Skin Hydration & Barrier Care',
+        ],
+      },
+    ],
+  },
+  {
+    code: '07',
+    icon: '💜',
+    name: "Women's & Intimate Wellness",
+    tagline: 'Private. Respectful. Personalized.',
+    color: '#9B3D7A',
+    description:
+      'A discreet, women-centred wellness program covering hormonal, menstrual, fertility, menopause and intimate wellness care.',
+    groups: [
+      {
+        name: "Women's Wellness",
+        services: [
+          "Women's Wellness Consultation",
+          'PCOS Wellness',
+          'Hormonal Wellness',
+          'Menstrual Wellness',
+          'Fertility Wellness',
+          'Infertility Support',
+          'Pre-Pregnancy Wellness',
+          'Post-Pregnancy Wellness',
+          'Menopause Wellness',
+        ],
+      },
+      {
+        name: 'Intimate Wellness',
+        services: [
+          'Intimate Wellness',
+          'Vaginal Rejuvenation',
+          'Pelvic Floor Wellness',
+          'Intimate Skin Pigmentation Care',
+          'Sexual Health & Wellness',
+          'Reproductive Wellness',
+        ],
+      },
+    ],
+  },
+];

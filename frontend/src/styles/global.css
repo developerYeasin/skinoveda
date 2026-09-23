@@ -1,0 +1,249 @@
+/* ===================================================================
+   SKINOVEDA — luxury purple & gold design system
+   =================================================================== */
+
+:root {
+  --purple-950: #26082F;
+  --purple-900: #3A0F47;
+  --purple-800: #4A1259;
+  --purple-700: #5C1A6E;
+  --purple-600: #6F2385;
+  --purple-500: #8A3BA3;
+  --purple-400: #A863BD;
+  --purple-300: #C89BD8;
+  --purple-200: #E5CCEE;
+  --purple-100: #F3E6F8;
+  --purple-50:  #FAF3FD;
+
+  --gold-600: #B08A3E;
+  --gold-500: #C79A4B;
+  --gold-400: #E0BC72;
+  --gold-300: #EFD9A3;
+
+  --green-600: #4E7A46;
+  --ink: #2A1930;
+  --muted: #6E5C76;
+  --line: rgba(122, 45, 142, 0.14);
+  --white: #ffffff;
+
+  --grad-hero: linear-gradient(135deg, #3A0F47 0%, #5C1A6E 45%, #8A3BA3 100%);
+  --grad-gold: linear-gradient(135deg, #E0BC72 0%, #C79A4B 60%, #B08A3E 100%);
+  --grad-soft: linear-gradient(135deg, #FAF3FD 0%, #F3E6F8 100%);
+
+  --shadow-sm: 0 2px 10px rgba(58, 15, 71, 0.06);
+  --shadow: 0 10px 30px rgba(58, 15, 71, 0.10);
+  --shadow-lg: 0 24px 60px rgba(58, 15, 71, 0.18);
+
+  --r-sm: 10px;
+  --r: 16px;
+  --r-lg: 24px;
+  --r-pill: 999px;
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --container: 1340px;
+  --header-h: 84px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; margin: 0 0 .5em; letter-spacing: .01em; }
+h1 { font-size: clamp(2.3rem, 5vw, 4rem); }
+h2 { font-size: clamp(1.9rem, 3.6vw, 2.9rem); }
+h3 { font-size: clamp(1.25rem, 2vw, 1.6rem); }
+p  { margin: 0 0 1rem; }
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+button, input, select, textarea { font: inherit; color: inherit; }
+
+/* ---------- layout ---------- */
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: 20px; }
+.section { padding: clamp(56px, 8vw, 104px) 0; }
+.section--soft { background: var(--grad-soft); }
+.section--dark { background: var(--purple-900); color: #fff; }
+.section--dark h2, .section--dark h3 { color: #fff; }
+
+.grid { display: grid; gap: 24px; }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid-5 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+
+/* ---------- typography helpers ---------- */
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: .76rem; font-weight: 600; letter-spacing: .28em; text-transform: uppercase;
+  color: var(--gold-500); margin-bottom: 14px;
+}
+.eyebrow::before { content: ''; width: 34px; height: 1px; background: var(--gold-500); }
+.section-head { text-align: center; max-width: 720px; margin: 0 auto 52px; }
+.section-head p { color: var(--muted); font-size: 1.05rem; }
+.lead { font-size: 1.12rem; color: var(--muted); }
+.gold-text {
+  background: var(--grad-gold);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 14px 30px; border-radius: var(--r-pill); border: 1px solid transparent;
+  font-weight: 500; font-size: .95rem; letter-spacing: .03em;
+  cursor: pointer; transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+  white-space: nowrap;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-gold { background: var(--grad-gold); color: #3A0F47; box-shadow: 0 8px 22px rgba(199,154,75,.35); }
+.btn-purple { background: var(--purple-800); color: #fff; box-shadow: 0 8px 22px rgba(74,18,89,.28); }
+.btn-purple:hover { background: var(--purple-700); }
+.btn-outline { border-color: currentColor; background: transparent; }
+.btn-outline-light { border-color: rgba(255,255,255,.55); color: #fff; }
+.btn-outline-light:hover { background: rgba(255,255,255,.12); }
+.btn-sm { padding: 9px 20px; font-size: .85rem; }
+.btn-block { width: 100%; }
+.btn:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+
+/* ---------- cards ---------- */
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm); transition: transform .3s ease, box-shadow .3s ease;
+  overflow: hidden;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.card-pad { padding: 28px; }
+
+/* .glass and friends are defined in site.css */
+
+/* ---------- forms ---------- */
+.field { margin-bottom: 18px; }
+.field label { display: block; font-size: .85rem; font-weight: 500; margin-bottom: 7px; color: var(--purple-800); }
+.field input, .field select, .field textarea {
+  width: 100%; padding: 13px 16px; border: 1px solid var(--line);
+  border-radius: var(--r-sm); background: #fff; outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
+  border-color: var(--purple-400); box-shadow: 0 0 0 3px rgba(168,99,189,.16);
+}
+.field textarea { resize: vertical; min-height: 120px; }
+.field .hint { font-size: .78rem; color: var(--muted); margin-top: 6px; }
+
+.alert { padding: 13px 18px; border-radius: var(--r-sm); font-size: .9rem; margin-bottom: 18px; }
+.alert-success { background: #E8F6EC; color: #24623A; border: 1px solid #BEE3C8; }
+.alert-error { background: #FDECEC; color: #97282B; border: 1px solid #F6C6C6; }
+.alert-info { background: var(--purple-50); color: var(--purple-800); border: 1px solid var(--purple-200); }
+
+/* ---------- badges / chips ---------- */
+.badge {
+  display: inline-block; padding: 4px 12px; border-radius: var(--r-pill);
+  font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+}
+.badge-gold { background: var(--purple-100); color: var(--gold-600); }
+.badge-purple { background: var(--purple-100); color: var(--purple-700); }
+.badge-green { background: #E8F6EC; color: #24623A; }
+.badge-amber { background: #FEF3DC; color: #96681A; }
+.badge-red { background: #FDECEC; color: #97282B; }
+.badge-gray { background: #F1EEF3; color: var(--muted); }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 18px; border-radius: var(--r-pill);
+  border: 1px solid var(--line); background: #fff;
+  font-size: .88rem; cursor: pointer; transition: all .2s;
+}
+.chip:hover { border-color: var(--purple-400); color: var(--purple-700); }
+.chip.active { background: var(--purple-800); color: #fff; border-color: var(--purple-800); }
+
+/* ---------- utilities ---------- */
+.text-center { text-align: center; }
+.muted { color: var(--muted); }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-8 { gap: 8px; } .gap-12 { gap: 12px; } .gap-16 { gap: 16px; } .gap-24 { gap: 24px; }
+.mt-8 { margin-top: 8px; } .mt-16 { margin-top: 16px; } .mt-24 { margin-top: 24px; } .mt-40 { margin-top: 40px; }
+.mb-0 { margin-bottom: 0; } .mb-8 { margin-bottom: 8px; } .mb-24 { margin-bottom: 24px; }
+.wrap { flex-wrap: wrap; }
+.hide-mobile { display: initial; }
+
+.skeleton {
+  background: linear-gradient(90deg, #F3E6F8 25%, #FAF3FD 50%, #F3E6F8 75%);
+  background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: var(--r-sm);
+}
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+.fade-up { animation: fadeUp .7s ease both; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+
+.spinner {
+  width: 18px; height: 18px; border: 2px solid rgba(255,255,255,.35);
+  border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- scrollbar ---------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--purple-50); }
+::-webkit-scrollbar-thumb { background: var(--purple-300); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: var(--purple-400); }
+
+@media (max-width: 768px) {
+  .hide-mobile { display: none !important; }
+  .section { padding: 48px 0; }
+  .card-pad { padding: 20px; }
+}
+
+/* ===================================================================
+   Bangla typography — applied when the site is in Bangla (default)
+   =================================================================== */
+:root { --font-bangla: 'Hind Siliguri', 'Noto Sans Bengali', system-ui, sans-serif; }
+
+html[data-lang='bn'] body { font-family: var(--font-bangla); line-height: 1.8; }
+html[data-lang='bn'] h1,
+html[data-lang='bn'] h2,
+html[data-lang='bn'] h3,
+html[data-lang='bn'] h4 { font-family: var(--font-bangla); font-weight: 600; line-height: 1.35; letter-spacing: 0; }
+html[data-lang='bn'] .eyebrow { letter-spacing: .12em; }
+html[data-lang='bn'] .btn { letter-spacing: 0; }
+
+/* The wordmark and pull-quotes keep the serif look in both languages. */
+html[data-lang='bn'] .hero-wordmark h1,
+html[data-lang='bn'] .brand-text strong { font-family: var(--font-bangla); letter-spacing: .01em; }
+html[data-lang='bn'] .expert-quote,
+html[data-lang='bn'] .hero-quote .q,
+html[data-lang='bn'] .testimonial blockquote { font-family: var(--font-bangla); font-style: normal; }
+
+/* ---- language switch ---- */
+.lang-switch {
+  display: inline-flex; align-items: center; padding: 3px; border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, .12);
+  border: 1px solid rgba(255, 255, 255, .22);
+  backdrop-filter: blur(10px);
+}
+.lang-switch button {
+  padding: 5px 13px; border: 0; border-radius: var(--r-pill); cursor: pointer;
+  background: transparent; color: rgba(255, 255, 255, .78);
+  font-size: .76rem; font-weight: 500; letter-spacing: .04em; transition: all .25s;
+}
+.lang-switch button:hover { color: #fff; }
+.lang-switch button.active {
+  background: var(--grad-gold); color: var(--purple-900);
+  box-shadow: 0 3px 10px rgba(199, 154, 75, .38);
+}
+.lang-switch.on-light { background: rgba(122, 45, 142, .08); border-color: rgba(122, 45, 142, .18); }
+.lang-switch.on-light button { color: var(--muted); }
+.lang-switch.on-light button:hover { color: var(--purple-800); }

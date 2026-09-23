@@ -1,0 +1,252 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e7]:
+    - complementary [ref=f2e8]:
+      - link "Skinoveda Admin Panel" [ref=f2e9] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e10]:
+          - strong [ref=f2e11]: Skinoveda
+          - generic [ref=f2e12]: Admin Panel
+      - navigation [ref=f2e13]:
+        - generic [ref=f2e14]:
+          - generic [ref=f2e15]: Overview
+          - link "▤ Dashboard" [ref=f2e16] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f2e17]: ▤
+            - generic [ref=f2e18]: Dashboard
+          - link "📈 Analytics" [ref=f2e19] [cursor=pointer]:
+            - /url: /admin/analytics
+            - generic [ref=f2e20]: 📈
+            - generic [ref=f2e21]: Analytics
+          - link "⚡ Realtime" [ref=f2e22] [cursor=pointer]:
+            - /url: /admin/realtime
+            - generic [ref=f2e23]: ⚡
+            - generic [ref=f2e24]: Realtime
+        - generic [ref=f2e25]:
+          - generic [ref=f2e26]: Bookings
+          - link "📅 Appointments 1" [ref=f2e27] [cursor=pointer]:
+            - /url: /admin/appointments
+            - generic [ref=f2e28]: 📅
+            - generic [ref=f2e29]: Appointments
+            - generic [ref=f2e30]: "1"
+          - link "✉ Messages" [ref=f2e31] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f2e32]: ✉
+            - generic [ref=f2e33]: Messages
+          - link "📧 Subscribers" [ref=f2e34] [cursor=pointer]:
+            - /url: /admin/subscribers
+            - generic [ref=f2e35]: 📧
+            - generic [ref=f2e36]: Subscribers
+        - generic [ref=f2e37]:
+          - generic [ref=f2e38]: Content
+          - link "🗂 Categories" [ref=f2e39] [cursor=pointer]:
+            - /url: /admin/categories
+            - generic [ref=f2e40]: 🗂
+            - generic [ref=f2e41]: Categories
+          - link "✦ Services" [ref=f2e42] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f2e43]: ✦
+            - generic [ref=f2e44]: Services
+          - link "👩‍⚕️ Team" [ref=f2e45] [cursor=pointer]:
+            - /url: /admin/team
+            - generic [ref=f2e46]: 👩‍⚕️
+            - generic [ref=f2e47]: Team
+          - link "🖼 Gallery" [ref=f2e48] [cursor=pointer]:
+            - /url: /admin/gallery
+            - generic [ref=f2e49]: 🖼
+            - generic [ref=f2e50]: Gallery
+          - link "📖 Blog" [ref=f2e51] [cursor=pointer]:
+            - /url: /admin/blogs
+            - generic [ref=f2e52]: 📖
+            - generic [ref=f2e53]: Blog
+          - link "★ Testimonials" [ref=f2e54] [cursor=pointer]:
+            - /url: /admin/testimonials
+            - generic [ref=f2e55]: ★
+            - generic [ref=f2e56]: Testimonials
+        - generic [ref=f2e57]:
+          - generic [ref=f2e58]: Configuration
+          - link "🎯 Pixel & Tracking" [ref=f2e59] [cursor=pointer]:
+            - /url: /admin/tracking
+            - generic [ref=f2e60]: 🎯
+            - generic [ref=f2e61]: Pixel & Tracking
+          - link "⚙ Site Settings" [ref=f2e62] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f2e63]: ⚙
+            - generic [ref=f2e64]: Site Settings
+      - link "View Website ↗" [ref=f2e66] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f2e67]:
+      - banner [ref=f2e68]:
+        - generic [ref=f2e70]:
+          - heading "Dashboard" [level=1] [ref=f2e71]
+          - generic [ref=f2e72]: Everything happening at Skinoveda right now
+        - generic [ref=f2e73]:
+          - generic [ref=f2e74]:
+            - generic [ref=f2e75]: Skinoveda Admin
+            - generic [ref=f2e76]: superadmin
+          - generic [ref=f2e77]: S
+          - button "Logout" [ref=f2e78] [cursor=pointer]
+      - generic [ref=f2e79]:
+        - generic [ref=f2e80]:
+          - generic [ref=f2e81]:
+            - generic [ref=f2e82]: 👥
+            - generic [ref=f2e83]: Visitors Today
+            - generic [ref=f2e84]: "2"
+          - generic [ref=f2e85]:
+            - generic [ref=f2e86]: 📊
+            - generic [ref=f2e87]: Page Views Today
+            - generic [ref=f2e88]: "2"
+          - generic [ref=f2e89]:
+            - generic [ref=f2e90]: ⚡
+            - generic [ref=f2e91]: Active Right Now
+            - generic [ref=f2e92]: "2"
+          - generic [ref=f2e93]:
+            - generic [ref=f2e94]: 📅
+            - generic [ref=f2e95]: Bookings Today
+            - generic [ref=f2e96]: "1"
+        - generic [ref=f2e97]:
+          - generic [ref=f2e98]:
+            - generic [ref=f2e99]: ⏳
+            - generic [ref=f2e100]: Pending Bookings
+            - generic [ref=f2e101]: "1"
+          - generic [ref=f2e102]:
+            - generic [ref=f2e103]: ✓
+            - generic [ref=f2e104]: Confirmed
+            - generic [ref=f2e105]: "0"
+          - generic [ref=f2e106]:
+            - generic [ref=f2e107]: 🎉
+            - generic [ref=f2e108]: Completed
+            - generic [ref=f2e109]: "0"
+          - generic [ref=f2e110]:
+            - generic [ref=f2e111]: ✉
+            - generic [ref=f2e112]: Unread Messages
+            - generic [ref=f2e113]: "0"
+        - generic [ref=f2e114]:
+          - generic [ref=f2e115]:
+            - heading "Appointment Requests — last 30 days" [level=3] [ref=f2e117]
+            - generic [ref=f2e121]:
+              - img [ref=f2e122]:
+                - generic [ref=f2e125]: 23 Sept
+                - generic [ref=f2e130]:
+                  - generic [ref=f2e131]: "0"
+                  - generic [ref=f2e133]: "1"
+                  - generic [ref=f2e135]: "2"
+                  - generic [ref=f2e137]: "3"
+                  - generic [ref=f2e139]: "4"
+              - generic:
+                - generic:
+                  - paragraph: 23 Sept
+                  - list:
+                    - listitem: "Requests : 1"
+          - generic [ref=f2e146]:
+            - heading "Bookings by Speciality" [level=3] [ref=f2e148]
+            - img [ref=f2e153]:
+              - generic [ref=f2e157]:
+                - generic [ref=f2e158]: "0"
+                - generic [ref=f2e160]: "1"
+                - generic [ref=f2e162]: "2"
+                - generic [ref=f2e164]: "3"
+                - generic [ref=f2e166]: "4"
+              - generic [ref=f2e169]:
+                - generic [ref=f2e170]: Aesthetic &Laser
+                - generic [ref=f2e172]: Ayurveda
+                - generic [ref=f2e174]: Naturopathy &Natural Therapy
+                - generic [ref=f2e176]: Therapy
+                - generic [ref=f2e178]: Health &Wellness
+                - generic [ref=f2e180]: Skin Health &Dermatology
+                - generic [ref=f2e182]: Women's &IntimateWellness
+        - generic [ref=f2e188]:
+          - generic [ref=f2e189]:
+            - generic [ref=f2e190]:
+              - heading "Recent Appointment Requests" [level=3] [ref=f2e191]
+              - link "View All" [ref=f2e192] [cursor=pointer]:
+                - /url: /admin/appointments
+            - table [ref=f2e195]:
+              - rowgroup [ref=f2e196]:
+                - row [ref=f2e197]:
+                  - columnheader "Code" [ref=f2e198]
+                  - columnheader "Client" [ref=f2e199]
+                  - columnheader "Treatment" [ref=f2e200]
+                  - columnheader "Date" [ref=f2e201]
+                  - columnheader "Status" [ref=f2e202]
+              - rowgroup [ref=f2e203]:
+                - row [ref=f2e204]:
+                  - cell [ref=f2e205]:
+                    - code [ref=f2e206]: SKV-20260923-T3MDX
+                  - cell [ref=f2e207]:
+                    - strong [ref=f2e208]: Test Client
+                    - text: "01711223344"
+                  - cell "Laser Hair Removal" [ref=f2e209]
+                  - cell "1 Oct" [ref=f2e210]
+                  - cell "pending" [ref=f2e211]
+          - generic [ref=f2e213]:
+            - heading "Most Requested Treatments" [level=3] [ref=f2e215]
+            - generic [ref=f2e216]:
+              - generic [ref=f2e218]:
+                - generic [ref=f2e219]: Laser Hair Removal
+                - strong [ref=f2e220]: "1"
+              - generic [ref=f2e224]:
+                - generic [ref=f2e225]: Laser Skin Rejuvenation
+                - strong [ref=f2e226]: "0"
+              - generic [ref=f2e229]:
+                - generic [ref=f2e230]: Laser Toning
+                - strong [ref=f2e231]: "0"
+              - generic [ref=f2e234]:
+                - generic [ref=f2e235]: Carbon Laser Peel
+                - strong [ref=f2e236]: "0"
+              - generic [ref=f2e239]:
+                - generic [ref=f2e240]: Melasma Care
+                - strong [ref=f2e241]: "0"
+              - generic [ref=f2e244]:
+                - generic [ref=f2e245]: Dark Spot Reduction
+                - strong [ref=f2e246]: "0"
+              - generic [ref=f2e249]:
+                - generic [ref=f2e250]: Acne Treatment
+                - strong [ref=f2e251]: "0"
+              - generic [ref=f2e254]:
+                - generic [ref=f2e255]: Acne Scar Treatment
+                - strong [ref=f2e256]: "0"
+        - generic [ref=f2e258]:
+          - generic [ref=f2e259]:
+            - heading "Content Summary" [level=3] [ref=f2e261]
+            - list [ref=f2e263]:
+              - listitem [ref=f2e264]:
+                - text: Categories
+                - generic [ref=f2e266]: "7"
+              - listitem [ref=f2e267]:
+                - text: Services
+                - generic [ref=f2e269]: "172"
+              - listitem [ref=f2e270]:
+                - text: Team members
+                - generic [ref=f2e272]: "4"
+              - listitem [ref=f2e273]:
+                - text: Blog posts
+                - generic [ref=f2e275]: "4"
+              - listitem [ref=f2e276]:
+                - text: Gallery photos
+                - generic [ref=f2e278]: "0"
+              - listitem [ref=f2e279]:
+                - text: Testimonials
+                - generic [ref=f2e281]: "5"
+              - listitem [ref=f2e282]:
+                - text: Subscribers
+                - generic [ref=f2e284]: "0"
+          - generic [ref=f2e285]:
+            - generic [ref=f2e286]:
+              - heading "Latest Messages" [level=3] [ref=f2e287]
+              - link "All" [ref=f2e288] [cursor=pointer]:
+                - /url: /admin/messages
+            - paragraph [ref=f2e290]: No messages yet
+          - generic [ref=f2e291]:
+            - heading "Recent Admin Activity" [level=3] [ref=f2e293]
+            - generic [ref=f2e294]:
+              - generic [ref=f2e295]:
+                - strong [ref=f2e296]: Skinoveda Admin
+                - text: login
+                - generic [ref=f2e297]: users
+                - generic [ref=f2e298]: 23/09/2026, 04:25:21
+              - generic [ref=f2e299]:
+                - strong [ref=f2e300]: Skinoveda Admin
+                - text: login
+                - generic [ref=f2e301]: users
+                - generic [ref=f2e302]: 23/09/2026, 04:23:13
+  - generic [aria-hidden] [ref=f2e303]: Aesthetic & Laser
