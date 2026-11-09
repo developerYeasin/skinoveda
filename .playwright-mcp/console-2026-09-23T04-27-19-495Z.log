@@ -84,3 +84,261 @@
 [18338099ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
 [18338190ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
 [18338190ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[19878882ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[19878892ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[19878892ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[19896355ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[19896366ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[19896366ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[20316583ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[20316658ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[20316671ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[20316671ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[20316794ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5175/admin/login:0
+[21147459ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at Login (http://localhost:5175/src/pages/admin/Login.jsx?t=1790157870985:24:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at updateFunctionComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14582:28)
+    at mountLazyComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14833:23)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15918:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3699:24)
+    at invokeGuardedCallback (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3733:39)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19765:15)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+[21147461ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at Login (http://localhost:5175/src/pages/admin/Login.jsx?t=1790157870985:24:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at updateFunctionComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14582:28)
+    at mountLazyComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14833:23)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15918:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3699:24)
+    at invokeGuardedCallback (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3733:39)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19765:15)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+[21147460ms] [ERROR] The above error occurred in the <Login> component:
+
+    at Login (http://localhost:5175/src/pages/admin/Login.jsx?t=1790157870985:24:27)
+    at RenderedRoute (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4112:5)
+    at Routes (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4582:5)
+    at Suspense
+    at App
+    at SiteProvider (http://localhost:5175/src/context/SiteContext.jsx?t=1790158786874:22:32)
+    at AuthProvider (http://localhost:5175/src/context/AuthContext.jsx?t=1790158786874:21:32)
+    at LanguageProvider (http://localhost:5175/src/i18n/index.jsx:23:36)
+    at Router (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4525:15)
+    at BrowserRouter (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:5263:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14031
+[21147464ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at Login (http://localhost:5175/src/pages/admin/Login.jsx?t=1790157870985:24:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at updateFunctionComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14582:28)
+    at mountLazyComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14833:23)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15918:22)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19753:22)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+    at workLoopSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19137:13)
+    at renderRootSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19116:15)
+    at recoverFromConcurrentError (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:18736:28)
+[21147515ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at ProtectedRoute (http://localhost:5175/src/components/ProtectedRoute.jsx:22:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at mountIndeterminateComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14926:21)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3699:24)
+    at invokeGuardedCallback (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3733:39)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19765:15)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+    at workLoopSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19137:13)
+[21147516ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at ProtectedRoute (http://localhost:5175/src/components/ProtectedRoute.jsx:22:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at mountIndeterminateComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14926:21)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3699:24)
+    at invokeGuardedCallback (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:3733:39)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19765:15)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+    at workLoopSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19137:13)
+[21147502ms] [ERROR] The above error occurred in the <ProtectedRoute> component:
+
+    at ProtectedRoute (http://localhost:5175/src/components/ProtectedRoute.jsx:20:42)
+    at RenderedRoute (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4112:5)
+    at Routes (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4582:5)
+    at Suspense
+    at App
+    at SiteProvider (http://localhost:5175/src/context/SiteContext.jsx?t=1790158786874:22:32)
+    at AuthProvider (http://localhost:5175/src/context/AuthContext.jsx?t=1790158786874:21:32)
+    at LanguageProvider (http://localhost:5175/src/i18n/index.jsx:23:36)
+    at Router (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4525:15)
+    at BrowserRouter (http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:5263:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14031
+[21147516ms] TypeError: Cannot destructure property 'user' of 'useAuth(...)' as it is null.
+    at ProtectedRoute (http://localhost:5175/src/components/ProtectedRoute.jsx:22:11)
+    at renderWithHooks (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:11548:26)
+    at mountIndeterminateComponent (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:14926:21)
+    at beginWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:15914:22)
+    at beginWork$1 (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19753:22)
+    at performUnitOfWork (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19198:20)
+    at workLoopSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19137:13)
+    at renderRootSync (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:19116:15)
+    at recoverFromConcurrentError (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:18736:28)
+    at performConcurrentWorkOnRoot (http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:18684:30)
+[21147742ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[21147765ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[21147765ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[21239322ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[21239340ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[21239340ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[21302339ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21359631ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21419625ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21479634ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21539643ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21599639ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21659644ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21719658ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21779652ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21839664ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21899672ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[21959667ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22019672ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22079675ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22139682ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22199675ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22259685ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22319695ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22379683ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22439700ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22499690ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22559696ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22619702ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22679703ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22739708ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22799703ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22859719ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22919716ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[22979714ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[23039710ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[23099717ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[23161715ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[23220117ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://skinovedaapi.bizscal.com/api/dashboard/stats:0
+[24773728ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[24773813ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[24773813ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25224976ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[25225074ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25225074ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25271438ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[25271537ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25271537ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25377970ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[25377973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5175/:0
+[25379402ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[25379480ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[25379480ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[26573207ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[26573268ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5175/:0
+[36661690ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[36661809ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[36661809ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[36662498ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/categories:0
+[36662500ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/settings/tracking:0
+[36662500ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/analytics/track:0
+[36662501ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/auth/me:0
+[36662592ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/team?limit=1:0
+[36662605ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[36662610ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[36662612ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[36662614ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[36662615ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[36669672ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/categories:0
+[36669678ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:5000/api/team?limit=1:0
+[36679699ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[36679714ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[36679715ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[36679738ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[36679739ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/auth/me:0
+[36679739ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[40729263ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[40729377ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[40729378ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[40731005ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[40731083ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[40731083ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[40733445ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[40733513ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[40733513ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[42372246ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/analytics/track:0
+[42372247ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/analytics/duration:0
+[42374144ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/catalog:0
+[42374423ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/analytics/track:0
+[42375438ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[42387233ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[42387316ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[42387316ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[42660051ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5175/src/App.jsx?t=1790180299012:0
+[42705335ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5175/src/App.jsx?t=1790180344517:0
+[42751569ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[42751690ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[42751690ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[47767757ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[47767814ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5175/:0
+[75095754ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[75097287ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[75097289ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[75154152ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[75154172ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5175/:0
+[85885305ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[85886682ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[85886682ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[96906458ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[96906476ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5175/:0
+[102498871ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700&display=swap:0
+[102499205ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[102501688ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[102501692ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[102502045ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[102502057ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[102502366ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/team?limit=1:0
+[102502373ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[102502398ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[102502400ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[102502408ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/categories:0
+[102502410ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/tracking:0
+[102502431ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[102502433ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[102502440ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/team?limit=1:0
+[102502442ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[102502442ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[102502442ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[102502443ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/categories:0
+[102502463ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/analytics/track:0
+[162870493ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:559
+[162870637ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:5175/:0
+[170647664ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[170652121ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[170652123ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5175/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[170652715ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/analytics/track:0
+[170652720ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/tracking:0
+[170652744ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[170652746ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[170652747ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[170652759ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[170652765ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[170652767ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/categories:0
+[170652768ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/team?limit=1:0
+[170652790ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/services/featured?limit=8:0
+[170652794ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[170652796ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/testimonials?limit=3:0
+[170652800ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[170652800ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/settings/public:0
+[170652800ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/categories:0
+[170652801ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5000/api/team?limit=1:0

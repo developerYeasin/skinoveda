@@ -1,0 +1,669 @@
+- generic [ref=f71e2]:
+  - banner [ref=f71e7]:
+    - generic [ref=f71e8]:
+      - link "Skinoveda Skinoveda Aesthetic Care" [ref=f71e9] [cursor=pointer]:
+        - /url: /
+        - img "Skinoveda" [ref=f71e10]
+        - generic [ref=f71e11]:
+          - strong [ref=f71e12]: Skinoveda
+          - generic [ref=f71e13]: Aesthetic Care
+      - navigation [ref=f71e14]:
+        - link "Home" [ref=f71e15] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=f71e16] [cursor=pointer]:
+          - /url: /about
+        - link "Services ▾" [ref=f71e18] [cursor=pointer]:
+          - /url: /services
+          - text: Services
+          - generic [ref=f71e19]: ▾
+        - link "Shop" [ref=f71e20] [cursor=pointer]:
+          - /url: /shop
+        - link "Our Team" [ref=f71e21] [cursor=pointer]:
+          - /url: /our-team
+        - link "Gallery" [ref=f71e22] [cursor=pointer]:
+          - /url: /gallery
+        - link "Blog" [ref=f71e23] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f71e24] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f71e25]:
+        - generic [ref=f71e26]:
+          - button "Search" [ref=f71e27] [cursor=pointer]
+          - link "Contact" [ref=f71e31] [cursor=pointer]:
+            - /url: /contact
+          - button "Your Bag" [ref=f71e34] [cursor=pointer]:
+            - generic [ref=f71e39]: "1"
+        - group "Language" [ref=f71e40]:
+          - button "BN" [ref=f71e41] [cursor=pointer]
+          - button "EN" [pressed] [ref=f71e42] [cursor=pointer]
+        - link "Book Appointment" [ref=f71e43] [cursor=pointer]:
+          - /url: /book-appointment
+  - generic [ref=f71e47]:
+    - generic [ref=f71e48]:
+      - strong [ref=f71e50]: Skinoveda
+      - button "Close" [ref=f71e51]: ×
+    - group "Language" [ref=f71e53]:
+      - button "BN" [ref=f71e54] [cursor=pointer]
+      - button "EN" [pressed] [ref=f71e55] [cursor=pointer]
+    - link "Home" [ref=f71e56] [cursor=pointer]:
+      - /url: /
+    - link "About Us" [ref=f71e57] [cursor=pointer]:
+      - /url: /about
+    - link "Services" [ref=f71e58] [cursor=pointer]:
+      - /url: /services
+    - link "Shop" [ref=f71e59] [cursor=pointer]:
+      - /url: /shop
+    - link "Our Team" [ref=f71e60] [cursor=pointer]:
+      - /url: /our-team
+    - link "Gallery" [ref=f71e61] [cursor=pointer]:
+      - /url: /gallery
+    - link "Blog" [ref=f71e62] [cursor=pointer]:
+      - /url: /blog
+    - link "Contact" [ref=f71e63] [cursor=pointer]:
+      - /url: /contact
+    - generic [ref=f71e64]:
+      - paragraph [ref=f71e65]: Our Specialities
+      - link "✨ Aesthetic & Laser" [ref=f71e66] [cursor=pointer]:
+        - /url: /services/category/aesthetic-and-laser
+      - link "🌿 Ayurveda" [ref=f71e67] [cursor=pointer]:
+        - /url: /services/category/ayurveda
+      - link "🍃 Naturopathy & Natural Therapy" [ref=f71e68] [cursor=pointer]:
+        - /url: /services/category/naturopathy-and-natural-therapy
+      - link "🪷 Therapy" [ref=f71e69] [cursor=pointer]:
+        - /url: /services/category/therapy
+      - link "🩺 Health & Wellness" [ref=f71e70] [cursor=pointer]:
+        - /url: /services/category/health-and-wellness
+      - link "🌸 Skin Health & Dermatology" [ref=f71e71] [cursor=pointer]:
+        - /url: /services/category/skin-health-and-dermatology
+      - link "💜 Women's & Intimate Wellness" [ref=f71e72] [cursor=pointer]:
+        - /url: /services/category/womens-and-intimate-wellness
+    - link "Book Appointment →" [ref=f71e73] [cursor=pointer]:
+      - /url: /book-appointment
+  - main [ref=f71e74]:
+    - generic [ref=f71e75]:
+      - generic [ref=f71e77]:
+        - heading "Premium Skincare Shop" [level=1] [ref=f71e78]
+        - paragraph [ref=f71e79]: Discover the best skincare products for your natural glow
+        - generic [ref=f71e80]:
+          - textbox "Search for products…" [ref=f71e81]
+          - button "Search for products…" [ref=f71e82] [cursor=pointer]
+      - generic [ref=f71e88]:
+        - button "All Products" [ref=f71e89] [cursor=pointer]
+        - button "Cleanser" [ref=f71e94] [cursor=pointer]
+        - button "Toner" [ref=f71e99] [cursor=pointer]
+        - button "Serum" [ref=f71e104] [cursor=pointer]
+        - button "Moisturizer" [ref=f71e110] [cursor=pointer]
+        - button "Sunscreen" [ref=f71e114] [cursor=pointer]
+        - button "Mask" [ref=f71e119] [cursor=pointer]
+        - button "Eye Care" [ref=f71e125] [cursor=pointer]
+        - button "Body Care" [ref=f71e129] [cursor=pointer]
+      - generic [ref=f71e138]:
+        - complementary [ref=f71e139]:
+          - generic [ref=f71e140]:
+            - heading "Product Categories" [level=4] [ref=f71e141]
+            - list [ref=f71e143]:
+              - listitem [ref=f71e144]:
+                - button "All Products (22)" [ref=f71e145] [cursor=pointer]:
+                  - text: All Products
+                  - generic [ref=f71e150]: (22)
+              - listitem [ref=f71e151]:
+                - button "Cleanser (3)" [ref=f71e152] [cursor=pointer]:
+                  - text: Cleanser
+                  - generic [ref=f71e157]: (3)
+              - listitem [ref=f71e158]:
+                - button "Toner (2)" [ref=f71e159] [cursor=pointer]:
+                  - text: Toner
+                  - generic [ref=f71e164]: (2)
+              - listitem [ref=f71e165]:
+                - button "Serum (4)" [ref=f71e166] [cursor=pointer]:
+                  - text: Serum
+                  - generic [ref=f71e172]: (4)
+              - listitem [ref=f71e173]:
+                - button "Moisturizer (3)" [ref=f71e174] [cursor=pointer]:
+                  - text: Moisturizer
+                  - generic [ref=f71e178]: (3)
+              - listitem [ref=f71e179]:
+                - button "Sunscreen (2)" [ref=f71e180] [cursor=pointer]:
+                  - text: Sunscreen
+                  - generic [ref=f71e185]: (2)
+              - listitem [ref=f71e186]:
+                - button "Mask (3)" [ref=f71e187] [cursor=pointer]:
+                  - text: Mask
+                  - generic [ref=f71e193]: (3)
+              - listitem [ref=f71e194]:
+                - button "Eye Care (2)" [ref=f71e195] [cursor=pointer]:
+                  - text: Eye Care
+                  - generic [ref=f71e199]: (2)
+              - listitem [ref=f71e200]:
+                - button "Body Care (3)" [ref=f71e201] [cursor=pointer]:
+                  - text: Body Care
+                  - generic [ref=f71e208]: (3)
+          - generic [ref=f71e209]:
+            - heading "Filter" [level=4] [ref=f71e210]
+            - generic [ref=f71e211]:
+              - paragraph [ref=f71e212]: Price Range
+              - generic [ref=f71e213]:
+                - spinbutton "0" [ref=f71e214]
+                - generic [ref=f71e215]: –
+                - spinbutton "3500" [ref=f71e216]
+              - paragraph [ref=f71e217]: Brand
+              - generic [ref=f71e218] [cursor=pointer]:
+                - checkbox "Skinoveda (9)" [ref=f71e219]
+                - text: Skinoveda
+                - generic [ref=f71e220]: (9)
+              - generic [ref=f71e221] [cursor=pointer]:
+                - checkbox "The Ordinary (4)" [ref=f71e222]
+                - text: The Ordinary
+                - generic [ref=f71e223]: (4)
+              - generic [ref=f71e224] [cursor=pointer]:
+                - checkbox "Simple (4)" [ref=f71e225]
+                - text: Simple
+                - generic [ref=f71e226]: (4)
+              - generic [ref=f71e227] [cursor=pointer]:
+                - checkbox "La Roche-Posay (2)" [ref=f71e228]
+                - text: La Roche-Posay
+                - generic [ref=f71e229]: (2)
+              - generic [ref=f71e230] [cursor=pointer]:
+                - checkbox "CeraVe (2)" [ref=f71e231]
+                - text: CeraVe
+                - generic [ref=f71e232]: (2)
+              - generic [ref=f71e233] [cursor=pointer]:
+                - checkbox "Vaseline (1)" [ref=f71e234]
+                - text: Vaseline
+                - generic [ref=f71e235]: (1)
+              - paragraph [ref=f71e236]: Skin Type
+              - generic [ref=f71e237] [cursor=pointer]:
+                - checkbox "All skin types (11)" [ref=f71e238]
+                - text: All skin types
+                - generic [ref=f71e239]: (11)
+              - generic [ref=f71e240] [cursor=pointer]:
+                - checkbox "Sensitive (4)" [ref=f71e241]
+                - text: Sensitive
+                - generic [ref=f71e242]: (4)
+              - generic [ref=f71e243] [cursor=pointer]:
+                - checkbox "Oily (3)" [ref=f71e244]
+                - text: Oily
+                - generic [ref=f71e245]: (3)
+              - generic [ref=f71e246] [cursor=pointer]:
+                - checkbox "Dry (3)" [ref=f71e247]
+                - text: Dry
+                - generic [ref=f71e248]: (3)
+              - generic [ref=f71e249] [cursor=pointer]:
+                - checkbox "Combination (1)" [ref=f71e250]
+                - text: Combination
+                - generic [ref=f71e251]: (1)
+        - generic [ref=f71e252]:
+          - generic [ref=f71e253]:
+            - img [ref=f71e255]:
+              - generic [ref=f71e257]: 🌸
+            - heading "Premium Skincare Shop" [level=2] [ref=f71e258]
+            - paragraph [ref=f71e259]: Discover the best skincare products for your natural glow
+          - generic [ref=f71e260]:
+            - generic [ref=f71e261]: 22 products
+            - generic [ref=f71e262]:
+              - text: Sort by
+              - combobox "Sort by" [ref=f71e263]:
+                - option "Featured" [selected]
+                - option "Newest first"
+                - 'option "Price: low to high"'
+                - 'option "Price: high to low"'
+                - option "Top rated"
+          - generic [ref=f71e264]:
+            - link "Bestseller Hydrating Face Cleanser Wishlist Skinoveda Hydrating Face Cleanser Gentle & Refreshing 4.8 out of 5 4.8 (124) ৳ 1,850 ✓ Added" [ref=f71e265] [cursor=pointer]:
+              - /url: /shop/hydrating-face-cleanser
+              - generic [ref=f71e266]:
+                - generic [ref=f71e267]: Bestseller
+                - img "Hydrating Face Cleanser" [ref=f71e268]
+                - button "Wishlist" [ref=f71e269]
+              - generic [ref=f71e272]:
+                - generic [ref=f71e273]: Skinoveda
+                - heading "Hydrating Face Cleanser" [level=3] [ref=f71e274]
+                - generic [ref=f71e275]: Gentle & Refreshing
+                - generic [ref=f71e276]:
+                  - generic "4.8 out of 5" [ref=f71e277]: ★★★★★
+                  - generic [ref=f71e278]: 4.8 (124)
+                - generic [ref=f71e279]: ৳ 1,850
+                - button "✓ Added" [active] [ref=f71e281]
+            - link "Sale -12% Foaming Gel Cleanser Wishlist CeraVe Foaming Gel Cleanser For Oily Skin 4.6 out of 5 4.6 (88) ৳ 1,450 ৳ 1,650 Add to Bag" [ref=f71e282] [cursor=pointer]:
+              - /url: /shop/foaming-gel-cleanser
+              - generic [ref=f71e283]:
+                - generic [ref=f71e284]: Sale
+                - generic [ref=f71e285]: "-12%"
+                - img "Foaming Gel Cleanser" [ref=f71e286]
+                - button "Wishlist" [ref=f71e287]
+              - generic [ref=f71e290]:
+                - generic [ref=f71e291]: CeraVe
+                - heading "Foaming Gel Cleanser" [level=3] [ref=f71e292]
+                - generic [ref=f71e293]: For Oily Skin
+                - generic [ref=f71e294]:
+                  - generic "4.6 out of 5" [ref=f71e295]: ★★★★★
+                  - generic [ref=f71e296]: 4.6 (88)
+                - generic [ref=f71e297]:
+                  - generic [ref=f71e298]: ৳ 1,450
+                  - generic [ref=f71e299]: ৳ 1,650
+                - button "Add to Bag" [ref=f71e300]
+            - link "Micellar Cleansing Water Wishlist Simple Micellar Cleansing Water Makeup Removal 4.5 out of 5 4.5 (61) ৳ 1,200 Add to Bag" [ref=f71e305] [cursor=pointer]:
+              - /url: /shop/micellar-cleansing-water
+              - generic [ref=f71e306]:
+                - img "Micellar Cleansing Water" [ref=f71e307]
+                - button "Wishlist" [ref=f71e308]
+              - generic [ref=f71e311]:
+                - generic [ref=f71e312]: Simple
+                - heading "Micellar Cleansing Water" [level=3] [ref=f71e313]
+                - generic [ref=f71e314]: Makeup Removal
+                - generic [ref=f71e315]:
+                  - generic "4.5 out of 5" [ref=f71e316]: ★★★★★
+                  - generic [ref=f71e317]: 4.5 (61)
+                - generic [ref=f71e318]: ৳ 1,200
+                - button "Add to Bag" [ref=f71e320]
+            - link "Rose Glow Toner Wishlist Skinoveda Rose Glow Toner Balancing & Soothing 4.7 out of 5 4.7 (73) ৳ 2,200 Add to Bag" [ref=f71e325] [cursor=pointer]:
+              - /url: /shop/rose-glow-toner
+              - generic [ref=f71e326]:
+                - img "Rose Glow Toner" [ref=f71e327]
+                - button "Wishlist" [ref=f71e328]
+              - generic [ref=f71e331]:
+                - generic [ref=f71e332]: Skinoveda
+                - heading "Rose Glow Toner" [level=3] [ref=f71e333]
+                - generic [ref=f71e334]: Balancing & Soothing
+                - generic [ref=f71e335]:
+                  - generic "4.7 out of 5" [ref=f71e336]: ★★★★★
+                  - generic [ref=f71e337]: 4.7 (73)
+                - generic [ref=f71e338]: ৳ 2,200
+                - button "Add to Bag" [ref=f71e340]
+            - link "Niacinamide Toner Wishlist The Ordinary Niacinamide Toner Pore Refining 4.4 out of 5 4.4 (52) ৳ 1,750 Add to Bag" [ref=f71e345] [cursor=pointer]:
+              - /url: /shop/niacinamide-toner
+              - generic [ref=f71e346]:
+                - img "Niacinamide Toner" [ref=f71e347]
+                - button "Wishlist" [ref=f71e348]
+              - generic [ref=f71e351]:
+                - generic [ref=f71e352]: The Ordinary
+                - heading "Niacinamide Toner" [level=3] [ref=f71e353]
+                - generic [ref=f71e354]: Pore Refining
+                - generic [ref=f71e355]:
+                  - generic "4.4 out of 5" [ref=f71e356]: ★★★★☆
+                  - generic [ref=f71e357]: 4.4 (52)
+                - generic [ref=f71e358]: ৳ 1,750
+                - button "Add to Bag" [ref=f71e360]
+            - link "Sale -15% Vitamin C Serum Wishlist The Ordinary Vitamin C Serum Brightening & Glow 4.9 out of 5 4.9 (98) ৳ 2,040 ৳ 2,400 Add to Bag" [ref=f71e365] [cursor=pointer]:
+              - /url: /shop/vitamin-c-serum
+              - generic [ref=f71e366]:
+                - generic [ref=f71e367]: Sale
+                - generic [ref=f71e368]: "-15%"
+                - img "Vitamin C Serum" [ref=f71e369]
+                - button "Wishlist" [ref=f71e370]
+              - generic [ref=f71e373]:
+                - generic [ref=f71e374]: The Ordinary
+                - heading "Vitamin C Serum" [level=3] [ref=f71e375]
+                - generic [ref=f71e376]: Brightening & Glow
+                - generic [ref=f71e377]:
+                  - generic "4.9 out of 5" [ref=f71e378]: ★★★★★
+                  - generic [ref=f71e379]: 4.9 (98)
+                - generic [ref=f71e380]:
+                  - generic [ref=f71e381]: ৳ 2,040
+                  - generic [ref=f71e382]: ৳ 2,400
+                - button "Add to Bag" [ref=f71e383]
+            - link "Bestseller Night Repair Serum Wishlist Skinoveda Night Repair Serum Overnight Renewal 4.8 out of 5 4.8 (142) ৳ 3,500 Add to Bag" [ref=f71e388] [cursor=pointer]:
+              - /url: /shop/night-repair-serum
+              - generic [ref=f71e389]:
+                - generic [ref=f71e390]: Bestseller
+                - img "Night Repair Serum" [ref=f71e391]
+                - button "Wishlist" [ref=f71e392]
+              - generic [ref=f71e395]:
+                - generic [ref=f71e396]: Skinoveda
+                - heading "Night Repair Serum" [level=3] [ref=f71e397]
+                - generic [ref=f71e398]: Overnight Renewal
+                - generic [ref=f71e399]:
+                  - generic "4.8 out of 5" [ref=f71e400]: ★★★★★
+                  - generic [ref=f71e401]: 4.8 (142)
+                - generic [ref=f71e402]: ৳ 3,500
+                - button "Add to Bag" [ref=f71e404]
+            - link "New Hyaluronic Acid Serum Wishlist The Ordinary Hyaluronic Acid Serum Deep Hydration 4.7 out of 5 4.7 (66) ৳ 1,950 Add to Bag" [ref=f71e409] [cursor=pointer]:
+              - /url: /shop/hyaluronic-acid-serum
+              - generic [ref=f71e410]:
+                - generic [ref=f71e411]: New
+                - img "Hyaluronic Acid Serum" [ref=f71e412]
+                - button "Wishlist" [ref=f71e413]
+              - generic [ref=f71e416]:
+                - generic [ref=f71e417]: The Ordinary
+                - heading "Hyaluronic Acid Serum" [level=3] [ref=f71e418]
+                - generic [ref=f71e419]: Deep Hydration
+                - generic [ref=f71e420]:
+                  - generic "4.7 out of 5" [ref=f71e421]: ★★★★★
+                  - generic [ref=f71e422]: 4.7 (66)
+                - generic [ref=f71e423]: ৳ 1,950
+                - button "Add to Bag" [ref=f71e425]
+            - link "Melasma Correcting Serum Wishlist Skinoveda Melasma Correcting Serum Pigmentation Care 4.6 out of 5 4.6 (47) ৳ 3,200 Add to Bag" [ref=f71e430] [cursor=pointer]:
+              - /url: /shop/melasma-correcting-serum
+              - generic [ref=f71e431]:
+                - img "Melasma Correcting Serum" [ref=f71e432]
+                - button "Wishlist" [ref=f71e433]
+              - generic [ref=f71e436]:
+                - generic [ref=f71e437]: Skinoveda
+                - heading "Melasma Correcting Serum" [level=3] [ref=f71e438]
+                - generic [ref=f71e439]: Pigmentation Care
+                - generic [ref=f71e440]:
+                  - generic "4.6 out of 5" [ref=f71e441]: ★★★★★
+                  - generic [ref=f71e442]: 4.6 (47)
+                - generic [ref=f71e443]: ৳ 3,200
+                - button "Add to Bag" [ref=f71e445]
+            - link "Bestseller Moisturizing Face Cream Wishlist CeraVe Moisturizing Face Cream Deep Hydration 4.8 out of 5 4.8 (76) ৳ 2,450 Add to Bag" [ref=f71e450] [cursor=pointer]:
+              - /url: /shop/moisturizing-face-cream
+              - generic [ref=f71e451]:
+                - generic [ref=f71e452]: Bestseller
+                - img "Moisturizing Face Cream" [ref=f71e453]
+                - button "Wishlist" [ref=f71e454]
+              - generic [ref=f71e457]:
+                - generic [ref=f71e458]: CeraVe
+                - heading "Moisturizing Face Cream" [level=3] [ref=f71e459]
+                - generic [ref=f71e460]: Deep Hydration
+                - generic [ref=f71e461]:
+                  - generic "4.8 out of 5" [ref=f71e462]: ★★★★★
+                  - generic [ref=f71e463]: 4.8 (76)
+                - generic [ref=f71e464]: ৳ 2,450
+                - button "Add to Bag" [ref=f71e466]
+            - link "Sale -10% Oil-Free Gel Moisturizer Wishlist Simple Oil-Free Gel Moisturizer Lightweight Finish 4.5 out of 5 4.5 (58) ৳ 1,620 ৳ 1,800 Add to Bag" [ref=f71e471] [cursor=pointer]:
+              - /url: /shop/oil-free-gel-moisturizer
+              - generic [ref=f71e472]:
+                - generic [ref=f71e473]: Sale
+                - generic [ref=f71e474]: "-10%"
+                - img "Oil-Free Gel Moisturizer" [ref=f71e475]
+                - button "Wishlist" [ref=f71e476]
+              - generic [ref=f71e479]:
+                - generic [ref=f71e480]: Simple
+                - heading "Oil-Free Gel Moisturizer" [level=3] [ref=f71e481]
+                - generic [ref=f71e482]: Lightweight Finish
+                - generic [ref=f71e483]:
+                  - generic "4.5 out of 5" [ref=f71e484]: ★★★★★
+                  - generic [ref=f71e485]: 4.5 (58)
+                - generic [ref=f71e486]:
+                  - generic [ref=f71e487]: ৳ 1,620
+                  - generic [ref=f71e488]: ৳ 1,800
+                - button "Add to Bag" [ref=f71e489]
+            - link "Barrier Repair Cream Wishlist La Roche-Posay Barrier Repair Cream For Sensitive Skin 4.7 out of 5 4.7 (64) ৳ 2,900 Add to Bag" [ref=f71e494] [cursor=pointer]:
+              - /url: /shop/barrier-repair-cream
+              - generic [ref=f71e495]:
+                - img "Barrier Repair Cream" [ref=f71e496]
+                - button "Wishlist" [ref=f71e497]
+              - generic [ref=f71e500]:
+                - generic [ref=f71e501]: La Roche-Posay
+                - heading "Barrier Repair Cream" [level=3] [ref=f71e502]
+                - generic [ref=f71e503]: For Sensitive Skin
+                - generic [ref=f71e504]:
+                  - generic "4.7 out of 5" [ref=f71e505]: ★★★★★
+                  - generic [ref=f71e506]: 4.7 (64)
+                - generic [ref=f71e507]: ৳ 2,900
+                - button "Add to Bag" [ref=f71e509]
+            - link "Sale -10% Sunscreen SPF 50+ Wishlist La Roche-Posay Sunscreen SPF 50+ Broad Spectrum 4.7 out of 5 4.7 (112) ৳ 2,520 ৳ 2,800 Add to Bag" [ref=f71e514] [cursor=pointer]:
+              - /url: /shop/sunscreen-spf-50
+              - generic [ref=f71e515]:
+                - generic [ref=f71e516]: Sale
+                - generic [ref=f71e517]: "-10%"
+                - img "Sunscreen SPF 50+" [ref=f71e518]
+                - button "Wishlist" [ref=f71e519]
+              - generic [ref=f71e522]:
+                - generic [ref=f71e523]: La Roche-Posay
+                - heading "Sunscreen SPF 50+" [level=3] [ref=f71e524]
+                - generic [ref=f71e525]: Broad Spectrum
+                - generic [ref=f71e526]:
+                  - generic "4.7 out of 5" [ref=f71e527]: ★★★★★
+                  - generic [ref=f71e528]: 4.7 (112)
+                - generic [ref=f71e529]:
+                  - generic [ref=f71e530]: ৳ 2,520
+                  - generic [ref=f71e531]: ৳ 2,800
+                - button "Add to Bag" [ref=f71e532]
+            - link "New Daily Mineral Sunscreen Wishlist Skinoveda Daily Mineral Sunscreen Physical Filter 4.6 out of 5 4.6 (39) ৳ 2,200 Add to Bag" [ref=f71e537] [cursor=pointer]:
+              - /url: /shop/daily-mineral-sunscreen
+              - generic [ref=f71e538]:
+                - generic [ref=f71e539]: New
+                - img "Daily Mineral Sunscreen" [ref=f71e540]
+                - button "Wishlist" [ref=f71e541]
+              - generic [ref=f71e544]:
+                - generic [ref=f71e545]: Skinoveda
+                - heading "Daily Mineral Sunscreen" [level=3] [ref=f71e546]
+                - generic [ref=f71e547]: Physical Filter
+                - generic [ref=f71e548]:
+                  - generic "4.6 out of 5" [ref=f71e549]: ★★★★★
+                  - generic [ref=f71e550]: 4.6 (39)
+                - generic [ref=f71e551]: ৳ 2,200
+                - button "Add to Bag" [ref=f71e553]
+            - link "Detox Clay Mask Wishlist Skinoveda Detox Clay Mask Deep Cleansing 4.5 out of 5 4.5 (65) ৳ 1,650 Add to Bag" [ref=f71e558] [cursor=pointer]:
+              - /url: /shop/detox-clay-mask
+              - generic [ref=f71e559]:
+                - img "Detox Clay Mask" [ref=f71e560]
+                - button "Wishlist" [ref=f71e561]
+              - generic [ref=f71e564]:
+                - generic [ref=f71e565]: Skinoveda
+                - heading "Detox Clay Mask" [level=3] [ref=f71e566]
+                - generic [ref=f71e567]: Deep Cleansing
+                - generic [ref=f71e568]:
+                  - generic "4.5 out of 5" [ref=f71e569]: ★★★★★
+                  - generic [ref=f71e570]: 4.5 (65)
+                - generic [ref=f71e571]: ৳ 1,650
+                - button "Add to Bag" [ref=f71e573]
+            - link "Hydrating Sheet Mask Wishlist Simple Hydrating Sheet Mask Instant Glow 4.3 out of 5 4.3 (91) ৳ 350 Add to Bag" [ref=f71e578] [cursor=pointer]:
+              - /url: /shop/hydrating-sheet-mask
+              - generic [ref=f71e579]:
+                - img "Hydrating Sheet Mask" [ref=f71e580]
+                - button "Wishlist" [ref=f71e581]
+              - generic [ref=f71e584]:
+                - generic [ref=f71e585]: Simple
+                - heading "Hydrating Sheet Mask" [level=3] [ref=f71e586]
+                - generic [ref=f71e587]: Instant Glow
+                - generic [ref=f71e588]:
+                  - generic "4.3 out of 5" [ref=f71e589]: ★★★★☆
+                  - generic [ref=f71e590]: 4.3 (91)
+                - generic [ref=f71e591]: ৳ 350
+                - button "Add to Bag" [ref=f71e593]
+            - link "Bestseller Ayurvedic Herbal Mask Wishlist Skinoveda Ayurvedic Herbal Mask Natural Brightening 4.8 out of 5 4.8 (83) ৳ 1,350 Add to Bag" [ref=f71e598] [cursor=pointer]:
+              - /url: /shop/ayurvedic-herbal-mask
+              - generic [ref=f71e599]:
+                - generic [ref=f71e600]: Bestseller
+                - img "Ayurvedic Herbal Mask" [ref=f71e601]
+                - button "Wishlist" [ref=f71e602]
+              - generic [ref=f71e605]:
+                - generic [ref=f71e606]: Skinoveda
+                - heading "Ayurvedic Herbal Mask" [level=3] [ref=f71e607]
+                - generic [ref=f71e608]: Natural Brightening
+                - generic [ref=f71e609]:
+                  - generic "4.8 out of 5" [ref=f71e610]: ★★★★★
+                  - generic [ref=f71e611]: 4.8 (83)
+                - generic [ref=f71e612]: ৳ 1,350
+                - button "Add to Bag" [ref=f71e614]
+            - link "Under Eye Cream Wishlist Skinoveda Under Eye Cream Anti-Aging 4.8 out of 5 4.8 (89) ৳ 1,990 Add to Bag" [ref=f71e619] [cursor=pointer]:
+              - /url: /shop/under-eye-cream
+              - generic [ref=f71e620]:
+                - img "Under Eye Cream" [ref=f71e621]
+                - button "Wishlist" [ref=f71e622]
+              - generic [ref=f71e625]:
+                - generic [ref=f71e626]: Skinoveda
+                - heading "Under Eye Cream" [level=3] [ref=f71e627]
+                - generic [ref=f71e628]: Anti-Aging
+                - generic [ref=f71e629]:
+                  - generic "4.8 out of 5" [ref=f71e630]: ★★★★★
+                  - generic [ref=f71e631]: 4.8 (89)
+                - generic [ref=f71e632]: ৳ 1,990
+                - button "Add to Bag" [ref=f71e634]
+            - link "New Caffeine Eye Solution Wishlist The Ordinary Caffeine Eye Solution De-puffing 4.4 out of 5 4.4 (54) ৳ 1,450 Add to Bag" [ref=f71e639] [cursor=pointer]:
+              - /url: /shop/caffeine-eye-solution
+              - generic [ref=f71e640]:
+                - generic [ref=f71e641]: New
+                - img "Caffeine Eye Solution" [ref=f71e642]
+                - button "Wishlist" [ref=f71e643]
+              - generic [ref=f71e646]:
+                - generic [ref=f71e647]: The Ordinary
+                - heading "Caffeine Eye Solution" [level=3] [ref=f71e648]
+                - generic [ref=f71e649]: De-puffing
+                - generic [ref=f71e650]:
+                  - generic "4.4 out of 5" [ref=f71e651]: ★★★★☆
+                  - generic [ref=f71e652]: 4.4 (54)
+                - generic [ref=f71e653]: ৳ 1,450
+                - button "Add to Bag" [ref=f71e655]
+            - link "Sale -10% Nourishing Body Lotion Wishlist Vaseline Nourishing Body Lotion All-Day Softness 4.6 out of 5 4.6 (103) ৳ 1,530 ৳ 1,700 Add to Bag" [ref=f71e660] [cursor=pointer]:
+              - /url: /shop/nourishing-body-lotion
+              - generic [ref=f71e661]:
+                - generic [ref=f71e662]: Sale
+                - generic [ref=f71e663]: "-10%"
+                - img "Nourishing Body Lotion" [ref=f71e664]
+                - button "Wishlist" [ref=f71e665]
+              - generic [ref=f71e668]:
+                - generic [ref=f71e669]: Vaseline
+                - heading "Nourishing Body Lotion" [level=3] [ref=f71e670]
+                - generic [ref=f71e671]: All-Day Softness
+                - generic [ref=f71e672]:
+                  - generic "4.6 out of 5" [ref=f71e673]: ★★★★★
+                  - generic [ref=f71e674]: 4.6 (103)
+                - generic [ref=f71e675]:
+                  - generic [ref=f71e676]: ৳ 1,530
+                  - generic [ref=f71e677]: ৳ 1,700
+                - button "Add to Bag" [ref=f71e678]
+            - link "Bestseller Herbal Body Oil Wishlist Skinoveda Herbal Body Oil Ayurvedic Blend 4.9 out of 5 4.9 (71) ৳ 2,100 Add to Bag" [ref=f71e683] [cursor=pointer]:
+              - /url: /shop/herbal-body-oil
+              - generic [ref=f71e684]:
+                - generic [ref=f71e685]: Bestseller
+                - img "Herbal Body Oil" [ref=f71e686]
+                - button "Wishlist" [ref=f71e687]
+              - generic [ref=f71e690]:
+                - generic [ref=f71e691]: Skinoveda
+                - heading "Herbal Body Oil" [level=3] [ref=f71e692]
+                - generic [ref=f71e693]: Ayurvedic Blend
+                - generic [ref=f71e694]:
+                  - generic "4.9 out of 5" [ref=f71e695]: ★★★★★
+                  - generic [ref=f71e696]: 4.9 (71)
+                - generic [ref=f71e697]: ৳ 2,100
+                - button "Add to Bag" [ref=f71e699]
+            - link "Gentle Body Wash Wishlist Simple Gentle Body Wash Soap-Free Formula 4.3 out of 5 4.3 (47) ৳ 980 Add to Bag" [ref=f71e704] [cursor=pointer]:
+              - /url: /shop/gentle-body-wash
+              - generic [ref=f71e705]:
+                - img "Gentle Body Wash" [ref=f71e706]
+                - button "Wishlist" [ref=f71e707]
+              - generic [ref=f71e710]:
+                - generic [ref=f71e711]: Simple
+                - heading "Gentle Body Wash" [level=3] [ref=f71e712]
+                - generic [ref=f71e713]: Soap-Free Formula
+                - generic [ref=f71e714]:
+                  - generic "4.3 out of 5" [ref=f71e715]: ★★★★☆
+                  - generic [ref=f71e716]: 4.3 (47)
+                - generic [ref=f71e717]: ৳ 980
+                - button "Add to Bag" [ref=f71e719]
+  - contentinfo [ref=f71e724]:
+    - generic [ref=f71e725]:
+      - generic [ref=f71e726]:
+        - generic [ref=f71e727]:
+          - generic [ref=f71e729]:
+            - strong [ref=f71e730]: Skinoveda
+            - generic [ref=f71e731]: Aesthetic Care
+          - paragraph [ref=f71e732]: Where modern aesthetic science meets ancient healing wisdom.
+          - generic [ref=f71e733]:
+            - link "facebook" [ref=f71e734] [cursor=pointer]:
+              - /url: https://facebook.com/skinoveda
+              - text: f
+            - link "instagram" [ref=f71e735] [cursor=pointer]:
+              - /url: https://instagram.com/skinoveda
+              - text: ◎
+        - generic [ref=f71e736]:
+          - heading "Quick Links" [level=4] [ref=f71e737]
+          - list [ref=f71e738]:
+            - listitem [ref=f71e739]:
+              - link "Home" [ref=f71e740] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f71e741]:
+              - link "About Us" [ref=f71e742] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f71e743]:
+              - link "Services" [ref=f71e744] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f71e745]:
+              - link "Our Team" [ref=f71e746] [cursor=pointer]:
+                - /url: /our-team
+            - listitem [ref=f71e747]:
+              - link "Gallery" [ref=f71e748] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f71e749]:
+              - link "Blog" [ref=f71e750] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f71e751]:
+              - link "Contact" [ref=f71e752] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f71e753]:
+          - heading "Our Services" [level=4] [ref=f71e754]
+          - list [ref=f71e755]:
+            - listitem [ref=f71e756]:
+              - link "Aesthetic & Laser" [ref=f71e757] [cursor=pointer]:
+                - /url: /services/category/aesthetic-and-laser
+            - listitem [ref=f71e758]:
+              - link "Ayurveda" [ref=f71e759] [cursor=pointer]:
+                - /url: /services/category/ayurveda
+            - listitem [ref=f71e760]:
+              - link "Naturopathy & Natural Therapy" [ref=f71e761] [cursor=pointer]:
+                - /url: /services/category/naturopathy-and-natural-therapy
+            - listitem [ref=f71e762]:
+              - link "Therapy" [ref=f71e763] [cursor=pointer]:
+                - /url: /services/category/therapy
+            - listitem [ref=f71e764]:
+              - link "Health & Wellness" [ref=f71e765] [cursor=pointer]:
+                - /url: /services/category/health-and-wellness
+            - listitem [ref=f71e766]:
+              - link "Skin Health & Dermatology" [ref=f71e767] [cursor=pointer]:
+                - /url: /services/category/skin-health-and-dermatology
+            - listitem [ref=f71e768]:
+              - link "Women's & Intimate Wellness" [ref=f71e769] [cursor=pointer]:
+                - /url: /services/category/womens-and-intimate-wellness
+        - generic [ref=f71e770]:
+          - heading "Contact Us" [level=4] [ref=f71e771]
+          - list [ref=f71e772]:
+            - listitem [ref=f71e773]:
+              - generic [ref=f71e774]: 📍
+              - generic [ref=f71e775]: Dhanmondi, Dhaka, Bangladesh
+            - listitem [ref=f71e776]:
+              - generic [ref=f71e777]: 📞
+              - link "+880 1700-000000" [ref=f71e778] [cursor=pointer]:
+                - /url: tel:+880 1700-000000
+            - listitem [ref=f71e779]:
+              - generic [ref=f71e780]: ✉
+              - link "info@skinoveda.com" [ref=f71e781] [cursor=pointer]:
+                - /url: mailto:info@skinoveda.com
+            - listitem [ref=f71e782]:
+              - generic [ref=f71e783]: 🕐
+              - generic [ref=f71e784]:
+                - generic [ref=f71e785]: "Saturday - Thursday: 10:00 AM - 8:00 PM"
+                - generic [ref=f71e786]: "Friday: Closed"
+          - heading "Newsletter" [level=4] [ref=f71e787]
+          - paragraph [ref=f71e788]: Get the latest updates, offers and skincare tips.
+          - generic [ref=f71e789]:
+            - textbox "Your email address" [ref=f71e790]
+            - button "Subscribe" [ref=f71e791] [cursor=pointer]
+      - generic [ref=f71e792]:
+        - generic [ref=f71e793]: © 2026 Skinoveda. All rights reserved.
+        - generic [ref=f71e794]: Laser • Aesthetic • Ayurveda • Naturopathy • Wellness Centre
+  - generic [ref=f71e795]:
+    - link "Chat on WhatsApp" [ref=f71e796] [cursor=pointer]:
+      - /url: https://wa.me/8801700000000
+      - text: ✆
+    - link "Call us" [ref=f71e797] [cursor=pointer]:
+      - /url: tel:+880 1700-000000
+      - text: ☎
+  - dialog "Your Bag" [ref=f71e799]:
+    - banner [ref=f71e800]:
+      - heading "Your Bag (1)" [level=3] [ref=f71e801]
+      - button "Close" [ref=f71e802] [cursor=pointer]: ×
+    - generic [ref=f71e804]:
+      - link [ref=f71e805] [cursor=pointer]:
+        - /url: /shop/hydrating-face-cleanser
+      - generic [ref=f71e806]:
+        - heading "Hydrating Face Cleanser" [level=4] [ref=f71e807]
+        - generic [ref=f71e808]: ৳ 1,850
+        - generic [ref=f71e809]:
+          - button "Decrease" [ref=f71e810] [cursor=pointer]: −
+          - generic [ref=f71e811]: "1"
+          - button "Increase" [ref=f71e812] [cursor=pointer]: +
+      - generic [ref=f71e813]:
+        - generic [ref=f71e814]: ৳ 1,850
+        - button "Remove" [ref=f71e815] [cursor=pointer]
+    - contentinfo [ref=f71e816]:
+      - generic [ref=f71e817]:
+        - generic [ref=f71e818]: Subtotal
+        - generic [ref=f71e819]: ৳ 1,850
+      - paragraph [ref=f71e820]: Inside Dhaka BDT 70, outside BDT 130. Free over BDT 3000.
+      - link "Checkout →" [ref=f71e821] [cursor=pointer]:
+        - /url: /checkout
+      - button "Continue Shopping" [ref=f71e822] [cursor=pointer]

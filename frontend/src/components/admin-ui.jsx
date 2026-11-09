@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { uploadApi } from '../api/endpoints';
 import { assetUrl } from '../api/client';
+import { Icon } from './Icons';
 
 export function Stat({ label, value, icon, delta, suffix }) {
   const dir = delta > 0 ? 'up' : delta < 0 ? 'down' : '';
@@ -162,4 +163,40 @@ export function useToast() {
     show: (message, type = 'success') => setToast({ message, type }),
     clear: () => setToast({ message: '', type: 'success' }),
   };
+}
+
+/**
+ * Password field with a show/hide toggle.
+ *
+ * Takes the same props as a normal input, so it drops straight into a <Field>.
+ */
+export function PasswordInput({ value, onChange, placeholder, autoComplete, required, autoFocus, name, id }) {
+  const [shown, setShown] = useState(false);
+
+  return (
+    <div className="pw-field">
+      <input
+        type={shown ? 'text' : 'password'}
+        value={value}
+        onChange={onChange}
+        placeholder={placeholder}
+        autoComplete={autoComplete}
+        required={required}
+        autoFocus={autoFocus}
+        name={name}
+        id={id}
+      />
+      <button
+        type="button"
+        className="pw-toggle"
+        onClick={() => setShown((v) => !v)}
+        aria-label={shown ? 'Hide password' : 'Show password'}
+        aria-pressed={shown}
+        title={shown ? 'Hide password' : 'Show password'}
+        tabIndex={-1}
+      >
+        <Icon name={shown ? 'eyeOff' : 'eye'} size={18} />
+      </button>
+    </div>
+  );
 }

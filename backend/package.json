@@ -12,7 +12,8 @@
     "migrate:bn": "node src/db/migrate-bn.js",
     "seed:bn": "node src/db/seed-bn.js",
     "seed:media": "node src/db/seed-media.js",
-    "setup": "npm run seed && npm run migrate:bn && npm run seed:bn && npm run seed:media"
+    "setup": "npm run seed && npm run migrate:bn && npm run seed:bn && npm run seed:media && npm run seed:shop",
+    "seed:shop": "node src/db/seed-shop.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

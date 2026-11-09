@@ -46,6 +46,7 @@ app.use('/api/analytics', require('./routes/analytics'));
 app.use('/api/settings', require('./routes/settings'));
 app.use('/api/dashboard', require('./routes/dashboard'));
 app.use('/api/media', require('./routes/media'));
+app.use('/api/shop', require('./routes/shop'));
 app.use('/api/team', misc.team);
 app.use('/api/gallery', misc.gallery);
 app.use('/api/testimonials', misc.testimonials);

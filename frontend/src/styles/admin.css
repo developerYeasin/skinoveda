@@ -44,7 +44,7 @@
 }
 
 /* ---- stat cards ---- */
-.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 16px; }
 .stat {
   background: #fff; border: 1px solid var(--line); border-radius: var(--r);
   padding: 20px; box-shadow: var(--shadow-sm);
@@ -159,7 +159,7 @@ table.data .actions { display: flex; gap: 6px; }
 .tabs button.active { color: var(--purple-700); border-bottom-color: var(--purple-700); font-weight: 500; }
 
 .admin-grid-2 { display: grid; grid-template-columns: 1.6fr 1fr; gap: 20px; }
-.admin-grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.admin-grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 20px; }
 
 .mobile-toggle { display: none; background: none; border: 0; font-size: 1.5rem; cursor: pointer; }
 
@@ -174,4 +174,24 @@ table.data .actions { display: flex; gap: 6px; }
   .mobile-toggle { display: block; }
   .admin-body { padding: 18px; }
   .admin-top { padding: 14px 18px; }
+}
+
+/* ---- password field with a show/hide toggle ---- */
+.pw-field { position: relative; }
+.pw-field input {
+  width: 100%;
+  /* room for the eye button so long passwords never slide under it */
+  padding-right: 46px;
+}
+.pw-toggle {
+  position: absolute; top: 50%; right: 6px; transform: translateY(-50%);
+  width: 34px; height: 34px; border: 0; border-radius: 8px;
+  background: transparent; color: var(--muted);
+  display: grid; place-items: center; cursor: pointer;
+  transition: color .2s, background .2s;
+}
+.pw-toggle:hover { color: var(--purple-700); background: var(--purple-50); }
+.pw-toggle:active { transform: translateY(-50%) scale(.92); }
+.pw-toggle:focus-visible {
+  outline: 2px solid var(--purple-400); outline-offset: 1px; color: var(--purple-700);
 }

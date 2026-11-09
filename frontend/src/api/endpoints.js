@@ -103,3 +103,23 @@ export const uploadApi = {
     return api.post('/upload', fd, { headers: { 'Content-Type': 'multipart/form-data' } }).then((r) => r.data);
   },
 };
+
+export const shopApi = {
+  filters: () => api.get('/shop/filters').then((r) => r.data),
+  products: (params) => api.get('/shop/products', { params }).then((r) => r.data),
+  product: (slug) => api.get(`/shop/products/${slug}`).then((r) => r.data),
+  placeOrder: (d) => api.post('/shop/orders', d).then((r) => r.data),
+  trackOrder: (code) => api.get(`/shop/orders/track/${code}`).then((r) => r.data),
+
+  /* admin */
+  adminProducts: () => api.get('/shop/admin/products').then((r) => r.data),
+  createProduct: (d) => api.post('/shop/products', d).then((r) => r.data),
+  updateProduct: (id, d) => api.put(`/shop/products/${id}`, d).then((r) => r.data),
+  removeProduct: (id) => api.delete(`/shop/products/${id}`).then((r) => r.data),
+  adminCategories: () => api.get('/shop/admin/categories').then((r) => r.data),
+  adminBrands: () => api.get('/shop/admin/brands').then((r) => r.data),
+  orders: (params) => api.get('/shop/admin/orders', { params }).then((r) => r.data),
+  order: (id) => api.get(`/shop/admin/orders/${id}`).then((r) => r.data),
+  updateOrder: (id, d) => api.put(`/shop/admin/orders/${id}`, d).then((r) => r.data),
+  removeOrder: (id) => api.delete(`/shop/admin/orders/${id}`).then((r) => r.data),
+};

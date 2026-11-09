@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NavLink, Outlet, useLocation, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { dashboardApi } from '../api/endpoints';
+import { dashboardApi, shopApi } from '../api/endpoints';
 
 const NAV = [
   ['Overview', [
@@ -13,6 +13,10 @@ const NAV = [
     ['/admin/appointments', '📅', 'Appointments', 'pending'],
     ['/admin/messages', '✉', 'Messages', 'unread'],
     ['/admin/subscribers', '📧', 'Subscribers'],
+  ]],
+  ['Shop', [
+    ['/admin/products', '🧴', 'Products'],
+    ['/admin/orders', '📦', 'Orders', 'orders'],
   ]],
   ['Content', [
     ['/admin/categories', '🗂', 'Categories'],
@@ -36,6 +40,8 @@ const TITLES = {
   '/admin/appointments': ['Appointments', 'Manage booking requests and confirmations'],
   '/admin/messages': ['Messages', 'Enquiries from the contact form'],
   '/admin/subscribers': ['Subscribers', 'Newsletter mailing list'],
+  '/admin/products': ['Products', 'Skincare shop catalogue'],
+  '/admin/orders': ['Orders', 'Customer orders and fulfilment'],
   '/admin/categories': ['Categories', 'The seven service specialities'],
   '/admin/services': ['Services', 'Full treatment catalogue'],
   '/admin/team': ['Team', 'Doctors and specialists'],
@@ -51,14 +57,23 @@ export default function AdminLayout() {
   const { user, logout } = useAuth();
   const { pathname } = useLocation();
   const [open, setOpen] = useState(false);
-  const [badges, setBadges] = useState({ pending: 0, unread: 0 });
+  const [badges, setBadges] = useState({ pending: 0, unread: 0, orders: 0 });
 
   useEffect(() => setOpen(false), [pathname]);
 
   useEffect(() => {
-    const load = () => dashboardApi.stats()
-      .then((s) => setBadges({ pending: s.appointments?.pending || 0, unread: s.counts?.unread_messages || 0 }))
-      .catch(() => {});
+    const load = () => {
+      dashboardApi.stats()
+        .then((s) => setBadges((b) => ({
+          ...b,
+          pending: s.appointments?.pending || 0,
+          unread: s.counts?.unread_messages || 0,
+        })))
+        .catch(() => {});
+      shopApi.orders({ status: 'pending', limit: 1 })
+        .then((r) => setBadges((b) => ({ ...b, orders: r.total || 0 })))
+        .catch(() => {});
+    };
     load();
     const t = setInterval(load, 60000);
     return () => clearInterval(t);

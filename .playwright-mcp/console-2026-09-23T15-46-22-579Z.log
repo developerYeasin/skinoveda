@@ -1,0 +1,31 @@
+[    7373ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[    8778ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? fetchpriority fetchPriority @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:1892
+[   21114ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:968
+[   35564ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[   35811ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? fetchpriority fetchPriority @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:1892
+[   45571ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[   45722ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? fetchpriority fetchPriority @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:1892
+[ 7024568ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:968
+[34353017ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[34355311ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? fetchpriority fetchPriority @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:1892
+[34411067ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:968
+[45142845ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[45143843ms] [ERROR] Invalid DOM property `%s`. Did you mean `%s`? fetchpriority fetchPriority @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:1892
+[56163252ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:968
+[61756847ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=70d9e973:14337
+[61761106ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/categories:0
+[61761336ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/wishlist:0
+[61762278ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[61762284ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/pages?slug=%2F:0
+[61762287ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[61762289ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/pages?slug=%2F:0
+[61763309ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[61776390ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/template-configurations:0
+[61776400ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8085/api/v1/template-configurations:0
+[61943847ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[61943848ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/template-configurations:0
+[61943850ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/pages?slug=%2F:0
+[61951054ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8085/api/v1/template-configurations:0
+[61961060ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[61992375ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0
+[62003391ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8085/api/v1/store/store_configuration:0

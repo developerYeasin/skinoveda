@@ -5,11 +5,13 @@ import { useLang } from '../i18n';
 import { trackEvent } from '../api/tracking';
 import LanguageSwitch from './LanguageSwitch';
 import { Icon } from './Icons';
+import { useCart } from '../context/CartContext';
 
 const NAV = [
   ['/', 'nav.home'],
   ['/about', 'nav.about'],
   ['/services', 'nav.services', true],
+  ['/shop', 'shop.nav'],
   ['/our-team', 'nav.team'],
   ['/gallery', 'nav.gallery'],
   ['/blog', 'nav.blog'],
@@ -19,6 +21,7 @@ const NAV = [
 export default function Header() {
   const { categories } = useSite();
   const { t, pickField } = useLang();
+  const { count, setOpen } = useCart();
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
@@ -84,6 +87,13 @@ export default function Header() {
               <Link to="/contact" aria-label={t('nav.contact')} title={t('nav.contact')}>
                 <Icon name="phone" size={19} />
               </Link>
+              <button
+                className="cart-btn" onClick={() => setOpen(true)}
+                aria-label={t('cart.title')} title={t('cart.title')}
+              >
+                <Icon name="gift" size={19} />
+                {count > 0 && <span className="cart-count">{count}</span>}
+              </button>
             </div>
 
             <LanguageSwitch />

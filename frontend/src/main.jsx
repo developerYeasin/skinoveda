@@ -5,8 +5,10 @@ import App from './App';
 import { SiteProvider } from './context/SiteContext';
 import { AuthProvider } from './context/AuthContext';
 import { LanguageProvider } from './i18n';
+import { CartProvider } from './context/CartContext';
 import './styles/global.css';
 import './styles/site.css';
+import './styles/shop.css';
 import './styles/admin.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,7 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <LanguageProvider>
         <AuthProvider>
           <SiteProvider>
-            <App />
+            <CartProvider>
+              <App />
+            </CartProvider>
           </SiteProvider>
         </AuthProvider>
       </LanguageProvider>

@@ -94,36 +94,83 @@
   isolation: isolate;
 }
 
-/* the photo plate bleeds off the right edge of the viewport */
-.hero-bleed {
-  position: absolute; inset: 0 0 0 auto; width: 62%; z-index: 0;
-  clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%);
-}
-.hero-bleed .photo-art,
-.hero-bleed img {
-  width: 100%; height: 100%; object-fit: cover;
-  /* the photo is already colour-graded to the brand palette, so only a
-     small lift is needed here */
-  filter: saturate(1.12) contrast(1.06) brightness(1.04);
-}
 /*
- * Purple spotlight: the subject stays lit in the centre while everything
- * around it falls away into the brand purple — the lighting the reference uses.
+ * The photo band bleeds off the right edge of the viewport.
+ *
+ * The reference hero is two photographs side by side: the model in the middle
+ * and the clinic interior behind her on the right. Each sits in its own plate
+ * and is feathered with a mask so the join between them is invisible.
  */
-.hero-bleed::before {
-  content: ''; position: absolute; inset: 0; z-index: 1;
-  background:
-    radial-gradient(ellipse 52% 62% at 46% 46%,
-      transparent 0%, rgba(74,18,89,.10) 46%, rgba(74,18,89,.55) 74%, rgba(42,8,52,.86) 100%),
-    linear-gradient(200deg, rgba(111,35,133,.42) 0%, transparent 38%),
-    linear-gradient(0deg, rgba(42,8,52,.7) 0%, transparent 38%);
+.hero-bleed {
+  position: absolute; inset: 0 0 0 auto; width: 64%; z-index: 0;
+  clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%);
 }
-/* fade the plate into the purple so there is no hard seam */
-.hero-bleed::after {
+.hero-plate { position: absolute; inset: 0; overflow: hidden; }
+.hero-plate .photo-art,
+.hero-plate img {
+  width: 100%; height: 100%; object-fit: cover;
+  /* the photos are already graded to the brand palette */
+  filter: saturate(1.1) contrast(1.05) brightness(1.02);
+}
+
+/* clinic interior: the right third, its left edge faded out */
+.hero-plate--clinic {
+  left: 46%;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 26%, #000 100%);
+          mask-image: linear-gradient(90deg, transparent 0%, #000 26%, #000 100%);
+}
+.hero-plate--clinic img { object-position: 50% 45%; }
+
+/* model: the middle, its right edge faded so the clinic shows through */
+.hero-plate--model {
+  right: 34%;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 62%, transparent 100%);
+          mask-image: linear-gradient(90deg, #000 0%, #000 62%, transparent 100%);
+}
+.hero-plate--model img { object-position: 52% 32%; }
+
+/*
+ * Cover artwork mode.
+ *
+ * The supplied hero art is a single wide banner (roughly 2.5:1) that already
+ * holds the model, the clinic and the script quote. It spans the full hero, and
+ * the copy sits over the empty purple area on its left.
+ */
+.hero--cover .hero-bleed {
+  inset: 0; width: 100%; clip-path: none;
+}
+.hero-plate--cover { position: absolute; inset: 0; }
+.hero-plate--cover img {
+  width: 100%; height: 100%; object-fit: cover;
+  /* the tall hero crops the banner's sides; favour the left so the model
+     clears the copy column */
+  object-position: 15% center;
+  filter: none;
+}
+/* only darken the left, so the artwork stays untouched where it matters */
+.hero--cover .hero-bleed::before { content: none; }
+.hero--cover .hero-bleed::after {
   content: ''; position: absolute; inset: 0; z-index: 2;
   background:
-    linear-gradient(90deg, #43104F 0%, rgba(67,16,79,.94) 9%, rgba(67,16,79,.5) 20%, rgba(67,16,79,.12) 34%, transparent 48%),
-    linear-gradient(0deg, rgba(42,8,52,.6) 0%, transparent 34%);
+    linear-gradient(90deg, rgba(28,5,36,.9) 0%, rgba(38,8,47,.72) 22%, rgba(42,8,52,.3) 38%, transparent 52%),
+    linear-gradient(0deg, rgba(34,7,43,.55) 0%, transparent 34%);
+}
+
+/* purple spotlight: the subject stays lit, everything around falls to brand purple */
+.hero-bleed::before {
+  content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background:
+    radial-gradient(ellipse 40% 60% at 34% 44%,
+      transparent 0%, rgba(74,18,89,.08) 48%, rgba(74,18,89,.42) 76%, rgba(42,8,52,.72) 100%),
+    linear-gradient(200deg, rgba(111,35,133,.38) 0%, transparent 40%),
+    linear-gradient(0deg, rgba(42,8,52,.62) 0%, transparent 36%);
+}
+/* fade the whole band into the purple panel on the left */
+.hero-bleed::after {
+  content: ''; position: absolute; inset: 0; z-index: 3;
+  background:
+    linear-gradient(90deg, #43104F 0%, rgba(67,16,79,.94) 8%, rgba(67,16,79,.5) 18%, rgba(67,16,79,.12) 31%, transparent 44%),
+    linear-gradient(0deg, rgba(42,8,52,.55) 0%, transparent 32%);
 }
 
 /* soft light wash over the whole hero */
@@ -189,6 +236,7 @@
 
 /* ---------------- quick access strip (glass cards over hero) ---------------- */
 .quick-strip { position: relative; z-index: 6; margin-top: -86px; }
+/* the cover artwork is shown whole, so the cards sit just below it */
 .quick-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
 .quick-card {
   position: relative; padding: 22px 18px; border-radius: var(--r);
@@ -334,6 +382,9 @@
 
 /* ---------------- split feature ---------------- */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+/* a wider main column, e.g. a form beside a summary panel.
+   Kept as a class, not an inline style, so the mobile rules can override it. */
+.split--form { grid-template-columns: 1.35fr .65fr; align-items: start; }
 .split.reverse .split-visual { order: -1; }
 .split-visual {
   border-radius: var(--r-lg); overflow: hidden; aspect-ratio: 4/3;
@@ -384,14 +435,34 @@
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr 1.3fr; gap: 40px; padding-bottom: 46px; }
 .site-footer h4 { color: #fff; font-family: var(--font-body); font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 20px; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 11px; }
+/* icon column, then the value — so multi-line values stay aligned */
+.site-footer ul li { display: grid; grid-template-columns: 20px 1fr; gap: 8px; align-items: start; }
+.site-footer ul li > .f-ico { line-height: 1.5; }
 .site-footer a:hover { color: var(--gold-400); }
 .site-footer .brand-text span { color: rgba(255,255,255,.5); }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding: 20px 0; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: .8rem; }
+@media (max-width: 900px) {
+  /* the three floating buttons stack ~164px tall at 16px from the bottom,
+     so the last footer line has to clear them completely */
+  .footer-bottom { padding-bottom: 210px; text-align: center; justify-content: center; }
+  .footer-bottom span { width: 100%; }
+}
 .socials { display: flex; gap: 10px; margin-top: 18px; }
 .socials a { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); transition: all .25s; }
 .socials a:hover { background: var(--grad-gold); color: var(--purple-900); }
 .newsletter { display: flex; gap: 8px; margin-top: 14px; }
-.newsletter input { flex: 1; padding: 12px 16px; border-radius: var(--r-pill); border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.07); color: #fff; outline: none; }
+.newsletter input {
+  flex: 1 1 auto; min-width: 0;
+  padding: 12px 16px; border-radius: var(--r-pill);
+  border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.07);
+  color: #fff; outline: none;
+}
+.newsletter .btn { flex: 0 0 auto; }
+@media (max-width: 420px) {
+  /* stack rather than crush the two controls together */
+  .newsletter { flex-direction: column; }
+  .newsletter .btn { width: 100%; }
+}
 .newsletter input::placeholder { color: rgba(255,255,255,.45); }
 
 /* ---------------- page banner ---------------- */
@@ -414,7 +485,7 @@
 .group-block { margin-bottom: 28px; }
 .group-block h4 { font-family: var(--font-body); font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--purple-600); margin-bottom: 14px; display: flex; align-items: center; gap: 12px; }
 .group-block h4::after { content: ''; flex: 1; height: 1px; background: var(--line); }
-.treat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.treat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr)); gap: 10px; }
 .treat-pill { display: flex; align-items: center; gap: 10px; padding: 11px 16px; border: 1px solid var(--line); border-radius: var(--r-sm); background: #fff; font-size: .89rem; transition: all .22s; }
 .treat-pill:hover { border-color: var(--purple-400); background: var(--purple-50); transform: translateX(4px); }
 .treat-pill::before { content: '›'; color: var(--gold-500); font-size: 1.2rem; line-height: 1; }
@@ -425,7 +496,7 @@
 .cat-nav a:hover, .cat-nav a.active { background: var(--purple-800); color: #fff; border-color: var(--purple-800); }
 
 /* ---------------- gallery ---------------- */
-.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); gap: 16px; }
 .gallery-item { aspect-ratio: 4/3; border-radius: var(--r); overflow: hidden; cursor: pointer; position: relative; }
 .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
 .gallery-item:hover img { transform: scale(1.07); }
@@ -446,10 +517,18 @@
 
 /* ---------------- floating actions ---------------- */
 .float-actions { position: fixed; right: 20px; bottom: 24px; z-index: 90; display: grid; gap: 12px; }
+/* keep clear of the footer content the buttons float over */
+@media (max-width: 900px) {
+  .float-actions { right: 14px; bottom: 16px; gap: 10px; }
+  .float-btn { width: 48px; height: 48px; font-size: 1.25rem; }
+}
 .float-btn { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-size: 1.4rem; box-shadow: var(--shadow-lg); transition: transform .25s; border: 0; cursor: pointer; }
 .float-btn:hover { transform: scale(1.08); }
 .float-btn.wa { background: #25D366; }
 .float-btn.call { background: var(--purple-700); }
+.float-btn.top { background: var(--grad-gold); color: #3A0F47; animation: float-btn-in .25s ease-out; }
+@keyframes float-btn-in { from { opacity: 0; transform: translateY(10px); } }
+@media (prefers-reduced-motion: reduce) { .float-btn.top { animation: none; } }
 
 /* ---------------- responsive ---------------- */
 @media (max-width: 1240px) {
@@ -457,9 +536,22 @@
   .proof-row { grid-template-columns: 1fr 1fr; }
   .collection-banner { grid-column: 1 / -1; }
 }
+@media (max-width: 1320px) {
+  .hero-bleed { width: 60%; }
+  .hero-plate--clinic { left: 52%; }
+  .hero-plate--model { right: 28%; }
+}
 @media (max-width: 1200px) {
-  .hero-bleed { width: 56%; }
+  .hero--cover .hero-bleed::after {
+    background:
+      linear-gradient(90deg, rgba(28,5,36,.94) 0%, rgba(38,8,47,.8) 30%, rgba(42,8,52,.4) 52%, transparent 68%),
+      linear-gradient(0deg, rgba(34,7,43,.6) 0%, transparent 36%);
+  }
+  .hero-bleed { width: 58%; }
   .hero-quote { display: none; }
+  /* not enough room for two plates — show the model only */
+  .hero-plate--clinic { display: none; }
+  .hero-plate--model { right: 0; -webkit-mask-image: none; mask-image: none; }
 }
 @media (max-width: 1100px) {
   .expert-layout { grid-template-columns: 1fr; gap: 34px; }
@@ -469,13 +561,22 @@
   /* the photo becomes a full-width backdrop behind the copy */
   .hero { min-height: auto; padding: calc(var(--header-h) + 34px) 0 110px; text-align: center; }
   .hero-bleed { width: 100%; clip-path: none; opacity: .55; }
+  .hero-plate--model { right: 0; -webkit-mask-image: none; mask-image: none; }
+  .hero-plate--clinic { display: none; }
+  /* on phones the banner is far too wide to read — keep the model centred
+     and let the copy sit over a darkened version of it */
+  .hero--cover .hero-bleed { opacity: 1; }
+  .hero--cover .hero-plate--cover img { object-position: 46% center; }
+  .hero--cover .hero-bleed::after {
+    background: linear-gradient(0deg, rgba(28,5,36,.93) 22%, rgba(38,8,47,.7) 58%, rgba(42,8,52,.6) 100%);
+  }
   .hero-bleed::after {
     background: linear-gradient(0deg, rgba(42,8,52,.92) 10%, rgba(67,16,79,.7) 55%, rgba(42,8,52,.8) 100%);
   }
   .hero-copy { max-width: none; }
   .hero-cta, .speciality-tags { justify-content: center; }
   .hero p.desc, .speciality-tags { margin-inline: auto; }
-  .split { grid-template-columns: 1fr; gap: 32px; }
+  .split, .split--form { grid-template-columns: 1fr; gap: 32px; }
   .split.reverse .split-visual { order: 0; }
   .footer-grid { grid-template-columns: repeat(2, 1fr); }
   .expert-card { grid-template-columns: 1fr; }
@@ -486,6 +587,25 @@
 @media (max-width: 860px) {
   .main-nav, .header-actions .btn, .header-icons { display: none; }
   .burger { display: block; }
+
+  /* the brand must be allowed to shrink or it slides under the controls */
+  .header-inner { gap: 10px; }
+  .brand { min-width: 0; flex: 1 1 auto; gap: 9px; }
+  .brand img { width: 36px; height: 36px; flex-shrink: 0; }
+  .brand-text { min-width: 0; }
+  .brand-text strong {
+    font-size: 1.32rem;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .brand-text span { font-size: .5rem; letter-spacing: .24em; }
+  .header-actions { flex-shrink: 0; gap: 10px; }
+  .lang-switch button { padding: 4px 9px; font-size: .7rem; }
+}
+
+@media (max-width: 420px) {
+  /* tightest phones: the tagline under the wordmark is the first thing to go */
+  .brand-text span { display: none; }
+  .brand-text strong { font-size: 1.2rem; }
 }
 @media (max-width: 700px) {
   /* the blossom motifs are decorative — keep them small and out of the way on phones */

@@ -73,7 +73,7 @@ export default function BookAppointment() {
         <Blossom className="ambient-blossom br" size={220} opacity={0.14} />
 
         <div className="container">
-          <div className="split" style={{ gridTemplateColumns: '1.35fr .65fr' }}>
+          <div className="split split--form">
             <div className="glass glass-sheen glass-form" style={{ padding: 'clamp(22px, 3vw, 36px)' }}>
               {status.done ? (
                 <div className="text-center" style={{ padding: '30px 10px' }}>

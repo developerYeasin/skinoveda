@@ -78,10 +78,12 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .section--dark h2, .section--dark h3 { color: #fff; }
 
 .grid { display: grid; gap: 24px; }
-.grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
-.grid-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.grid-4 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.grid-5 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+/* min() stops auto-fit forcing a column wider than the screen, which is what
+   pushes forms off the right edge on small phones */
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.grid-5 { grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); }
 
 /* ---------- typography helpers ---------- */
 .eyebrow {

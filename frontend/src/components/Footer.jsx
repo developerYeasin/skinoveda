@@ -72,12 +72,32 @@ export default function Footer() {
           <div>
             <h4>{t('footer.contactUs')}</h4>
             <ul>
-              <li>📍 {settings.contact_address}</li>
+              <li><span className="f-ico">📍</span><span>{settings.contact_address}</span></li>
               {settings.contact_phone && (
-                <li>📞 <a href={`tel:${settings.contact_phone}`} onClick={() => trackEvent('call_click', { label: 'footer' })}>{settings.contact_phone}</a></li>
+                <li>
+                  <span className="f-ico">📞</span>
+                  <a href={`tel:${settings.contact_phone}`} onClick={() => trackEvent('call_click', { label: 'footer' })}>
+                    {settings.contact_phone}
+                  </a>
+                </li>
               )}
-              {settings.contact_email && <li>✉ <a href={`mailto:${settings.contact_email}`}>{settings.contact_email}</a></li>}
-              {settings.opening_hours && <li>🕐 {settings.opening_hours}</li>}
+              {settings.contact_email && (
+                <li>
+                  <span className="f-ico">✉</span>
+                  <a href={`mailto:${settings.contact_email}`}>{settings.contact_email}</a>
+                </li>
+              )}
+              {settings.opening_hours && (
+                <li>
+                  <span className="f-ico">🕐</span>
+                  <span>
+                    {/* stored as one string separated by | — one line each reads better */}
+                    {settings.opening_hours.split('|').map((part, i) => (
+                      <span key={i} style={{ display: 'block' }}>{part.trim()}</span>
+                    ))}
+                  </span>
+                </li>
+              )}
             </ul>
 
             <h4 style={{ marginTop: 26 }}>{t('footer.newsletter')}</h4>

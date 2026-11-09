@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { settingApi, authApi } from '../../api/endpoints';
 import { useAuth } from '../../context/AuthContext';
-import { Panel, Field, Toast, useToast } from '../../components/admin-ui';
+import { Panel, Field, Toast, useToast, PasswordInput } from '../../components/admin-ui';
 
 const GROUPS = {
   general: {
@@ -147,10 +147,18 @@ export default function Settings() {
 
           <Panel title="Change Password" action={<button className="btn btn-purple btn-sm" onClick={changePassword} disabled={busy}>Update</button>}>
             <Field label="Current password">
-              <input type="password" value={pwd.currentPassword} onChange={(e) => setPwd((p) => ({ ...p, currentPassword: e.target.value }))} />
+              <PasswordInput
+                value={pwd.currentPassword}
+                onChange={(e) => setPwd((p) => ({ ...p, currentPassword: e.target.value }))}
+                autoComplete="current-password"
+              />
             </Field>
             <Field label="New password" hint="At least 6 characters.">
-              <input type="password" value={pwd.newPassword} onChange={(e) => setPwd((p) => ({ ...p, newPassword: e.target.value }))} />
+              <PasswordInput
+                value={pwd.newPassword}
+                onChange={(e) => setPwd((p) => ({ ...p, newPassword: e.target.value }))}
+                autoComplete="new-password"
+              />
             </Field>
           </Panel>
         </div>

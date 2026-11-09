@@ -17,6 +17,9 @@ const Blog = lazy(() => import('./pages/Blog'));
 const BlogDetail = lazy(() => import('./pages/BlogDetail'));
 const Contact = lazy(() => import('./pages/Contact'));
 const BookAppointment = lazy(() => import('./pages/BookAppointment'));
+const Shop = lazy(() => import('./pages/Shop'));
+const ProductDetail = lazy(() => import('./pages/ProductDetail'));
+const Checkout = lazy(() => import('./pages/Checkout'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 /* admin */
@@ -36,6 +39,8 @@ const AdminMessages = lazy(() => import('./pages/admin/Messages'));
 const AdminSubscribers = lazy(() => import('./pages/admin/Subscribers'));
 const AdminTracking = lazy(() => import('./pages/admin/Tracking'));
 const AdminSettings = lazy(() => import('./pages/admin/Settings'));
+const AdminProducts = lazy(() => import('./pages/admin/Products'));
+const AdminOrders = lazy(() => import('./pages/admin/Orders'));
 
 function Loader() {
   return (
@@ -78,6 +83,9 @@ export default function App() {
             <Route path="/blog/:slug" element={<BlogDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/book-appointment" element={<BookAppointment />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/:slug" element={<ProductDetail />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="*" element={<NotFound />} />
           </Route>
 
@@ -98,6 +106,8 @@ export default function App() {
             <Route path="messages" element={<AdminMessages />} />
             <Route path="subscribers" element={<AdminSubscribers />} />
             <Route path="tracking" element={<AdminTracking />} />
+            <Route path="products" element={<AdminProducts />} />
+            <Route path="orders" element={<AdminOrders />} />
             <Route path="settings" element={<AdminSettings />} />
           </Route>
         </Routes>

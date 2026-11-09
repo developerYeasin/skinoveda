@@ -1,0 +1,238 @@
+- generic [ref=f71e2]:
+  - banner [ref=f71e7]:
+    - generic [ref=f71e8]:
+      - link "Skinoveda Skinoveda Aesthetic Care" [ref=f71e9] [cursor=pointer]:
+        - /url: /
+        - img "Skinoveda" [ref=f71e10]
+        - generic [ref=f71e11]:
+          - strong [ref=f71e12]: Skinoveda
+          - generic [ref=f71e13]: Aesthetic Care
+      - navigation [ref=f71e14]:
+        - link "Home" [ref=f71e15] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=f71e16] [cursor=pointer]:
+          - /url: /about
+        - link "Services ▾" [ref=f71e18] [cursor=pointer]:
+          - /url: /services
+          - text: Services
+          - generic [ref=f71e19]: ▾
+        - link "Shop" [ref=f71e20] [cursor=pointer]:
+          - /url: /shop
+        - link "Our Team" [ref=f71e21] [cursor=pointer]:
+          - /url: /our-team
+        - link "Gallery" [ref=f71e22] [cursor=pointer]:
+          - /url: /gallery
+        - link "Blog" [ref=f71e23] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=f71e24] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f71e25]:
+        - generic [ref=f71e26]:
+          - button "Search" [ref=f71e27] [cursor=pointer]
+          - link "Contact" [ref=f71e31] [cursor=pointer]:
+            - /url: /contact
+          - button "Your Bag" [ref=f71e34] [cursor=pointer]:
+            - generic [ref=f71e39]: "1"
+        - group "Language" [ref=f71e40]:
+          - button "BN" [ref=f71e41] [cursor=pointer]
+          - button "EN" [pressed] [ref=f71e42] [cursor=pointer]
+        - link "Book Appointment" [ref=f71e43] [cursor=pointer]:
+          - /url: /book-appointment
+  - generic [ref=f71e47]:
+    - generic [ref=f71e48]:
+      - strong [ref=f71e50]: Skinoveda
+      - button "Close" [ref=f71e51]: ×
+    - group "Language" [ref=f71e53]:
+      - button "BN" [ref=f71e54] [cursor=pointer]
+      - button "EN" [pressed] [ref=f71e55] [cursor=pointer]
+    - link "Home" [ref=f71e56] [cursor=pointer]:
+      - /url: /
+    - link "About Us" [ref=f71e57] [cursor=pointer]:
+      - /url: /about
+    - link "Services" [ref=f71e58] [cursor=pointer]:
+      - /url: /services
+    - link "Shop" [ref=f71e59] [cursor=pointer]:
+      - /url: /shop
+    - link "Our Team" [ref=f71e60] [cursor=pointer]:
+      - /url: /our-team
+    - link "Gallery" [ref=f71e61] [cursor=pointer]:
+      - /url: /gallery
+    - link "Blog" [ref=f71e62] [cursor=pointer]:
+      - /url: /blog
+    - link "Contact" [ref=f71e63] [cursor=pointer]:
+      - /url: /contact
+    - generic [ref=f71e64]:
+      - paragraph [ref=f71e65]: Our Specialities
+      - link "✨ Aesthetic & Laser" [ref=f71e66] [cursor=pointer]:
+        - /url: /services/category/aesthetic-and-laser
+      - link "🌿 Ayurveda" [ref=f71e67] [cursor=pointer]:
+        - /url: /services/category/ayurveda
+      - link "🍃 Naturopathy & Natural Therapy" [ref=f71e68] [cursor=pointer]:
+        - /url: /services/category/naturopathy-and-natural-therapy
+      - link "🪷 Therapy" [ref=f71e69] [cursor=pointer]:
+        - /url: /services/category/therapy
+      - link "🩺 Health & Wellness" [ref=f71e70] [cursor=pointer]:
+        - /url: /services/category/health-and-wellness
+      - link "🌸 Skin Health & Dermatology" [ref=f71e71] [cursor=pointer]:
+        - /url: /services/category/skin-health-and-dermatology
+      - link "💜 Women's & Intimate Wellness" [ref=f71e72] [cursor=pointer]:
+        - /url: /services/category/womens-and-intimate-wellness
+    - link "Book Appointment →" [ref=f71e73] [cursor=pointer]:
+      - /url: /book-appointment
+  - main [ref=f71e74]:
+    - generic [ref=f71e823]:
+      - generic [ref=f71e825]:
+        - heading "Checkout" [level=1] [ref=f71e826]
+        - paragraph [ref=f71e827]: Give us your address and we will deliver.
+        - generic [ref=f71e828]:
+          - link "Home" [ref=f71e829] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f71e830]: / Checkout
+      - generic [ref=f71e833]:
+        - generic [ref=f71e834]:
+          - heading "Delivery Details" [level=2] [ref=f71e835]
+          - generic [ref=f71e836]:
+            - generic [ref=f71e837]:
+              - generic [ref=f71e838]: Full Name *
+              - textbox [ref=f71e839]
+            - generic [ref=f71e840]:
+              - generic [ref=f71e841]: Phone Number *
+              - textbox "01XXXXXXXXX" [ref=f71e842]
+            - generic [ref=f71e843]:
+              - generic [ref=f71e844]: Email
+              - textbox [ref=f71e845]
+            - generic [ref=f71e846]:
+              - generic [ref=f71e847]: District / City
+              - textbox "Dhaka" [ref=f71e848]
+          - generic [ref=f71e849]:
+            - generic [ref=f71e850]: Full Address *
+            - textbox [ref=f71e851]
+          - generic [ref=f71e852]:
+            - generic [ref=f71e853]: Delivery note
+            - textbox [ref=f71e854]
+          - heading "Payment Method" [level=3] [ref=f71e855]
+          - generic [ref=f71e856]:
+            - generic [ref=f71e857] [cursor=pointer]:
+              - radio "Cash on Delivery" [checked] [ref=f71e858]
+              - text: Cash on Delivery
+            - generic [ref=f71e859] [cursor=pointer]:
+              - radio "bKash" [ref=f71e860]
+              - text: bKash
+            - generic [ref=f71e861] [cursor=pointer]:
+              - radio "Nagad" [ref=f71e862]
+              - text: Nagad
+        - complementary [ref=f71e863]:
+          - heading "Order Summary" [level=3] [ref=f71e864]
+          - generic [ref=f71e865]:
+            - generic [ref=f71e867]:
+              - text: Hydrating Face Cleanser
+              - generic [ref=f71e868]: × 1
+            - strong [ref=f71e869]: ৳ 1,850
+          - generic [ref=f71e870]:
+            - generic [ref=f71e871]: Subtotal
+            - generic [ref=f71e872]: ৳ 1,850
+          - generic [ref=f71e873]:
+            - generic [ref=f71e874]: Delivery
+            - generic [ref=f71e875]: ৳ 130
+          - generic [ref=f71e876]:
+            - generic [ref=f71e877]: Total
+            - generic [ref=f71e878]: ৳ 1,980
+          - button "Place Order →" [ref=f71e879] [cursor=pointer]
+          - paragraph [ref=f71e880]: Inside Dhaka BDT 70, outside BDT 130. Free over BDT 3000.
+  - contentinfo [ref=f71e724]:
+    - generic [ref=f71e725]:
+      - generic [ref=f71e726]:
+        - generic [ref=f71e727]:
+          - generic [ref=f71e729]:
+            - strong [ref=f71e730]: Skinoveda
+            - generic [ref=f71e731]: Aesthetic Care
+          - paragraph [ref=f71e732]: Where modern aesthetic science meets ancient healing wisdom.
+          - generic [ref=f71e733]:
+            - link "facebook" [ref=f71e734] [cursor=pointer]:
+              - /url: https://facebook.com/skinoveda
+              - text: f
+            - link "instagram" [ref=f71e735] [cursor=pointer]:
+              - /url: https://instagram.com/skinoveda
+              - text: ◎
+        - generic [ref=f71e736]:
+          - heading "Quick Links" [level=4] [ref=f71e737]
+          - list [ref=f71e738]:
+            - listitem [ref=f71e739]:
+              - link "Home" [ref=f71e740] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f71e741]:
+              - link "About Us" [ref=f71e742] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f71e743]:
+              - link "Services" [ref=f71e744] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f71e745]:
+              - link "Our Team" [ref=f71e746] [cursor=pointer]:
+                - /url: /our-team
+            - listitem [ref=f71e747]:
+              - link "Gallery" [ref=f71e748] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f71e749]:
+              - link "Blog" [ref=f71e750] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f71e751]:
+              - link "Contact" [ref=f71e752] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f71e753]:
+          - heading "Our Services" [level=4] [ref=f71e754]
+          - list [ref=f71e755]:
+            - listitem [ref=f71e756]:
+              - link "Aesthetic & Laser" [ref=f71e757] [cursor=pointer]:
+                - /url: /services/category/aesthetic-and-laser
+            - listitem [ref=f71e758]:
+              - link "Ayurveda" [ref=f71e759] [cursor=pointer]:
+                - /url: /services/category/ayurveda
+            - listitem [ref=f71e760]:
+              - link "Naturopathy & Natural Therapy" [ref=f71e761] [cursor=pointer]:
+                - /url: /services/category/naturopathy-and-natural-therapy
+            - listitem [ref=f71e762]:
+              - link "Therapy" [ref=f71e763] [cursor=pointer]:
+                - /url: /services/category/therapy
+            - listitem [ref=f71e764]:
+              - link "Health & Wellness" [ref=f71e765] [cursor=pointer]:
+                - /url: /services/category/health-and-wellness
+            - listitem [ref=f71e766]:
+              - link "Skin Health & Dermatology" [ref=f71e767] [cursor=pointer]:
+                - /url: /services/category/skin-health-and-dermatology
+            - listitem [ref=f71e768]:
+              - link "Women's & Intimate Wellness" [ref=f71e769] [cursor=pointer]:
+                - /url: /services/category/womens-and-intimate-wellness
+        - generic [ref=f71e770]:
+          - heading "Contact Us" [level=4] [ref=f71e771]
+          - list [ref=f71e772]:
+            - listitem [ref=f71e773]:
+              - generic [ref=f71e774]: 📍
+              - generic [ref=f71e775]: Dhanmondi, Dhaka, Bangladesh
+            - listitem [ref=f71e776]:
+              - generic [ref=f71e777]: 📞
+              - link "+880 1700-000000" [ref=f71e778] [cursor=pointer]:
+                - /url: tel:+880 1700-000000
+            - listitem [ref=f71e779]:
+              - generic [ref=f71e780]: ✉
+              - link "info@skinoveda.com" [ref=f71e781] [cursor=pointer]:
+                - /url: mailto:info@skinoveda.com
+            - listitem [ref=f71e782]:
+              - generic [ref=f71e783]: 🕐
+              - generic [ref=f71e784]:
+                - generic [ref=f71e785]: "Saturday - Thursday: 10:00 AM - 8:00 PM"
+                - generic [ref=f71e786]: "Friday: Closed"
+          - heading "Newsletter" [level=4] [ref=f71e787]
+          - paragraph [ref=f71e788]: Get the latest updates, offers and skincare tips.
+          - generic [ref=f71e789]:
+            - textbox "Your email address" [ref=f71e790]
+            - button "Subscribe" [ref=f71e791] [cursor=pointer]
+      - generic [ref=f71e792]:
+        - generic [ref=f71e793]: © 2026 Skinoveda. All rights reserved.
+        - generic [ref=f71e794]: Laser • Aesthetic • Ayurveda • Naturopathy • Wellness Centre
+  - generic [ref=f71e795]:
+    - link "Chat on WhatsApp" [ref=f71e796] [cursor=pointer]:
+      - /url: https://wa.me/8801700000000
+      - text: ✆
+    - link "Call us" [ref=f71e797] [cursor=pointer]:
+      - /url: tel:+880 1700-000000
+      - text: ☎

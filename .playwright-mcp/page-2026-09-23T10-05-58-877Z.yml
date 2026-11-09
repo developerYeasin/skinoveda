@@ -1,0 +1,17 @@
+- generic [ref=f46e8]:
+  - generic [ref=f46e9]:
+    - heading "Skinoveda Admin" [level=2] [ref=f46e10]
+    - paragraph [ref=f46e11]: Sign in to manage your wellness centre
+  - generic [ref=f46e12]:
+    - generic [ref=f46e13]:
+      - generic [ref=f46e14]: Email
+      - textbox "admin@skinoveda.com" [ref=f46e15]
+    - generic [ref=f46e16]:
+      - generic [ref=f46e17]: Password
+      - generic [ref=f46e18]:
+        - textbox "••••••••" [ref=f46e19]: Admin@123
+        - button "Hide password" [active] [pressed] [ref=f46e20] [cursor=pointer]
+    - button "Sign In" [ref=f46e26] [cursor=pointer]
+  - paragraph [ref=f46e27]:
+    - link "← Back to website" [ref=f46e28] [cursor=pointer]:
+      - /url: /

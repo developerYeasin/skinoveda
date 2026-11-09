@@ -183,6 +183,22 @@ export const IconUser = (p) => (
   </Svg>
 );
 
+export const IconEye = (p) => (
+  <Svg {...p}>
+    <path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z" />
+    <circle cx="12" cy="12" r="3.1" />
+  </Svg>
+);
+
+export const IconEyeOff = (p) => (
+  <Svg {...p}>
+    <path d="M9.9 5.1A9.6 9.6 0 0 1 12 4.9c6 0 9.5 6.2 9.5 6.2a17 17 0 0 1-2.7 3.5" />
+    <path d="M6.4 6.5A16.8 16.8 0 0 0 2.5 11.1S6 17.3 12 17.3a9.3 9.3 0 0 0 3.8-.8" />
+    <path d="M10 9.2a3.1 3.1 0 0 0 4.2 4.3" />
+    <path d="M3.5 2.7 20.5 19.7" />
+  </Svg>
+);
+
 export const IconArrow = (p) => (
   <Svg {...p}>
     <path d="M4.5 12h15M13.5 6l6 6-6 6" />
@@ -212,6 +228,8 @@ export const ICONS = {
   calendar: IconCalendar,
   user: IconUser,
   arrow: IconArrow,
+  eye: IconEye,
+  eyeOff: IconEyeOff,
 };
 
 export function Icon({ name, size = 24, ...rest }) {

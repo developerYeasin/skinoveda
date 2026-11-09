@@ -137,9 +137,15 @@ export default function Home() {
     <div className="site-canvas">
       {/* ============ HERO (full-bleed) ============ */}
       <section className="hero">
-        {/* photo plate bleeding off the right edge */}
+        {/*
+          The cover art ships with the frontend, so it is a plain <img> rather
+          than <Photo>, which would resolve the path against the backend's
+          asset host.
+        */}
         <div className="hero-bleed">
-          <Photo src={settings.hero_image} icon="🌸" alt={t('hero.brand')} tone="purple" />
+          <div className="hero-plate hero-plate--model">
+            <img src="/images/hero-cover.webp" alt={t('hero.brand')} width="1997" height="787" fetchpriority="high" />
+          </div>
         </div>
 
         <Blossom style={{ top: -30, left: -60, zIndex: 2 }} size={280} opacity={0.55} />
@@ -181,7 +187,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* script quote pinned to the far right, as in the reference */}
         <div className="hero-quote">
           <p className="q">{t('hero.quote')}</p>
           <span className="heart">♡</span>

@@ -1,0 +1,389 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "Skinoveda স্কিনোভেদা অ্যাসথেটিক কেয়ার" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+        - img "Skinoveda" [ref=f7e6]
+        - generic [ref=f7e7]:
+          - strong [ref=f7e8]: স্কিনোভেদা
+          - generic [ref=f7e9]: অ্যাসথেটিক কেয়ার
+      - navigation [ref=f7e10]:
+        - link "হোম" [ref=f7e11] [cursor=pointer]:
+          - /url: /
+        - link "আমাদের সম্পর্কে" [ref=f7e12] [cursor=pointer]:
+          - /url: /about
+        - link "সেবাসমূহ ▾" [ref=f7e14] [cursor=pointer]:
+          - /url: /services
+          - text: সেবাসমূহ
+          - generic [ref=f7e15]: ▾
+        - link "শপ" [ref=f7e16] [cursor=pointer]:
+          - /url: /shop
+        - link "আমাদের টিম" [ref=f7e17] [cursor=pointer]:
+          - /url: /our-team
+        - link "গ্যালারি" [ref=f7e18] [cursor=pointer]:
+          - /url: /gallery
+        - link "ব্লগ" [ref=f7e19] [cursor=pointer]:
+          - /url: /blog
+        - link "যোগাযোগ" [ref=f7e20] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f7e21]:
+        - generic [ref=f7e22]:
+          - button "Search" [ref=f7e23] [cursor=pointer]
+          - link "যোগাযোগ" [ref=f7e27] [cursor=pointer]:
+            - /url: /contact
+          - button "আপনার ব্যাগ" [ref=f7e30] [cursor=pointer]
+        - group "Language" [ref=f7e35]:
+          - button "BN" [pressed] [ref=f7e36] [cursor=pointer]
+          - button "EN" [ref=f7e37] [cursor=pointer]
+        - link "অ্যাপয়েন্টমেন্ট নিন" [ref=f7e38] [cursor=pointer]:
+          - /url: /book-appointment
+  - generic [ref=f7e42]:
+    - generic [ref=f7e43]:
+      - strong [ref=f7e45]: স্কিনোভেদা
+      - button "Close" [ref=f7e46]: ×
+    - group "Language" [ref=f7e48]:
+      - button "BN" [pressed] [ref=f7e49] [cursor=pointer]
+      - button "EN" [ref=f7e50] [cursor=pointer]
+    - link "হোম" [ref=f7e51] [cursor=pointer]:
+      - /url: /
+    - link "আমাদের সম্পর্কে" [ref=f7e52] [cursor=pointer]:
+      - /url: /about
+    - link "সেবাসমূহ" [ref=f7e53] [cursor=pointer]:
+      - /url: /services
+    - link "শপ" [ref=f7e54] [cursor=pointer]:
+      - /url: /shop
+    - link "আমাদের টিম" [ref=f7e55] [cursor=pointer]:
+      - /url: /our-team
+    - link "গ্যালারি" [ref=f7e56] [cursor=pointer]:
+      - /url: /gallery
+    - link "ব্লগ" [ref=f7e57] [cursor=pointer]:
+      - /url: /blog
+    - link "যোগাযোগ" [ref=f7e58] [cursor=pointer]:
+      - /url: /contact
+    - paragraph [ref=f7e60]: আমাদের বিশেষত্ব
+    - link "অ্যাপয়েন্টমেন্ট নিন →" [ref=f7e61] [cursor=pointer]:
+      - /url: /book-appointment
+  - main [ref=f7e62]:
+    - generic [ref=f7e63]:
+      - generic [ref=f7e64]:
+        - img "স্কিনোভেদা" [ref=f7e67]
+        - generic [ref=f7e69]:
+          - generic [ref=f7e70]: প্রাকৃতিক সৌন্দর্য · আধুনিক বিজ্ঞান · সামগ্রিক সুস্থতা
+          - generic [ref=f7e71]:
+            - heading "স্কিনোভেদা" [level=1] [ref=f7e77]
+            - generic [ref=f7e78]: অ্যাসথেটিক কেয়ার
+          - paragraph [ref=f7e79]: যেখানে সৌন্দর্য আর সুস্থতার মিলন
+          - paragraph [ref=f7e80]: আধুনিক অ্যাসথেটিক চিকিৎসা, আয়ুর্বেদ, পঞ্চকর্ম, প্রাকৃতিক চিকিৎসা ও সামগ্রিক সুস্থতা — সবকিছু এক ছাদের নিচে।
+          - generic [ref=f7e81]:
+            - link "আমাদের সেবা দেখুন →" [ref=f7e82] [cursor=pointer]:
+              - /url: /services
+            - link "কনসালটেশন বুক করুন" [ref=f7e83] [cursor=pointer]:
+              - /url: /book-appointment
+        - generic [ref=f7e87]:
+          - paragraph [ref=f7e88]: “সুস্থ ত্বক, সুখী আপনি”
+          - generic [ref=f7e89]: ♡
+      - generic [ref=f7e92]:
+        - link "অ্যাসথেটিক ও লেজার উজ্জ্বলতা ও পুনরুজ্জীবন →" [ref=f7e93] [cursor=pointer]:
+          - /url: /services/category/aesthetic-and-laser
+          - strong [ref=f7e99]: অ্যাসথেটিক ও লেজার
+          - text: উজ্জ্বলতা ও পুনরুজ্জীবন
+          - generic [ref=f7e100]: →
+        - link "আয়ুর্বেদ ও পঞ্চকর্ম প্রাকৃতিক আরোগ্য →" [ref=f7e101] [cursor=pointer]:
+          - /url: /services/category/ayurveda
+          - strong [ref=f7e108]: আয়ুর্বেদ ও পঞ্চকর্ম
+          - text: প্রাকৃতিক আরোগ্য
+          - generic [ref=f7e109]: →
+        - link "প্রাকৃতিক চিকিৎসা নিরাময় ও ডিটক্স →" [ref=f7e110] [cursor=pointer]:
+          - /url: /services/category/naturopathy-and-natural-therapy
+          - strong [ref=f7e115]: প্রাকৃতিক চিকিৎসা
+          - text: নিরাময় ও ডিটক্স
+          - generic [ref=f7e116]: →
+        - link "কনসালটেশন বিশেষজ্ঞ পরামর্শ →" [ref=f7e117] [cursor=pointer]:
+          - /url: /book-appointment
+          - strong [ref=f7e123]: কনসালটেশন
+          - text: বিশেষজ্ঞ পরামর্শ
+          - generic [ref=f7e124]: →
+        - link "স্কিন অ্যানালাইসিস ত্বক চিনে নিন →" [ref=f7e125] [cursor=pointer]:
+          - /url: /contact
+          - strong [ref=f7e131]: স্কিন অ্যানালাইসিস
+          - text: ত্বক চিনে নিন
+          - generic [ref=f7e132]: →
+        - link "প্রিমিয়াম প্যাকেজ সাশ্রয় ও যত্ন →" [ref=f7e133] [cursor=pointer]:
+          - /url: /services
+          - strong [ref=f7e139]: প্রিমিয়াম প্যাকেজ
+          - text: সাশ্রয় ও যত্ন
+          - generic [ref=f7e140]: →
+      - generic [ref=f7e145]:
+        - generic [ref=f7e151]:
+          - heading "সিগনেচার ট্রিটমেন্ট" [level=2] [ref=f7e152]
+          - paragraph [ref=f7e153]: আপনার নিজস্ব সৌন্দর্যের জন্য ব্যক্তিগত যত্ন
+        - link "সব দেখুন" [ref=f7e154] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f7e157]:
+        - generic [ref=f7e158]:
+          - heading "প্রিমিয়াম ওয়েলনেস কালেকশন" [level=2] [ref=f7e159]
+          - paragraph [ref=f7e160]: বিশুদ্ধ · প্রাকৃতিক · কার্যকর
+          - link "এখনই দেখুন →" [ref=f7e161] [cursor=pointer]:
+            - /url: /services
+          - generic [ref=f7e162]:
+            - generic [ref=f7e163]: শতভাগ অরিজিনাল
+            - generic [ref=f7e167]: ডার্মাটোলজিস্ট পরীক্ষিত
+            - generic [ref=f7e171]: মান নিশ্চিত
+        - generic [ref=f7e174]:
+          - heading "আগে ও পরে" [level=3] [ref=f7e175]
+          - paragraph [ref=f7e176]: সত্যিকারের ফলাফল। সত্যিকারের মানুষ।
+          - link "গ্যালারি দেখুন →" [ref=f7e177] [cursor=pointer]:
+            - /url: /gallery
+          - generic [ref=f7e178]:
+            - generic [ref=f7e179]:
+              - img "আগে" [ref=f7e180]:
+                - generic [ref=f7e182]: 🙂
+              - generic [ref=f7e183]: আগে
+            - generic [ref=f7e184]:
+              - img "পরে" [ref=f7e185]:
+                - generic [ref=f7e187]: 🙂
+              - generic [ref=f7e188]: পরে
+            - generic [ref=f7e189]:
+              - img "আগে" [ref=f7e190]:
+                - generic [ref=f7e192]: 🙂
+              - generic [ref=f7e193]: আগে
+            - generic [ref=f7e194]:
+              - img "পরে" [ref=f7e195]:
+                - generic [ref=f7e197]: 🙂
+              - generic [ref=f7e198]: পরে
+        - generic [ref=f7e199]:
+          - heading "আমাদের ক্লায়েন্টরা যা বলেন" [level=3] [ref=f7e200]
+          - paragraph [ref=f7e201]: —
+      - generic [ref=f7e203]:
+        - generic [ref=f7e204]:
+          - generic [ref=f7e205]: কেন স্কিনোভেদা
+          - heading "শুধু চিকিৎসা নয় — একটি পূর্ণাঙ্গ সুস্থতার অভিজ্ঞতা" [level=2] [ref=f7e206]
+          - paragraph [ref=f7e207]: প্রতিটি পরিকল্পনা শুরু হয় একান্ত কনসালটেশন দিয়ে, যাতে আপনার ত্বক, শরীর ও জীবনযাত্রা অনুযায়ী যত্ন তৈরি হয়।
+        - generic [ref=f7e208]:
+          - generic [ref=f7e209]:
+            - heading "প্রাকৃতিক পদ্ধতি" [level=3] [ref=f7e214]
+            - paragraph [ref=f7e215]: বিজ্ঞানভিত্তিক যত্ন, প্রকৃতির শক্তিতে।
+          - generic [ref=f7e216]:
+            - heading "আধুনিক অ্যাসথেটিক কেয়ার" [level=3] [ref=f7e221]
+            - paragraph [ref=f7e222]: ত্বক, চুল ও শরীরের জন্য আধুনিক প্রযুক্তি।
+          - generic [ref=f7e223]:
+            - heading "আয়ুর্বেদিক প্রজ্ঞা" [level=3] [ref=f7e230]
+            - paragraph [ref=f7e231]: ঐতিহ্যবাহী আয়ুর্বেদ ও পঞ্চকর্ম।
+          - generic [ref=f7e232]:
+            - heading "ব্যক্তিগত যত্ন" [level=3] [ref=f7e236]
+            - paragraph [ref=f7e237]: আলাদা কনসালটেশন ও ব্যক্তিগত কেয়ার প্ল্যান।
+          - generic [ref=f7e238]:
+            - heading "সামগ্রিক সুস্থতা" [level=3] [ref=f7e243]
+            - paragraph [ref=f7e244]: ত্বক, শরীর, মন ও জীবনযাত্রার যত্ন।
+      - generic [ref=f7e246]:
+        - generic [ref=f7e247]:
+          - generic [ref=f7e248]: আমাদের সিগনেচার সেবা
+          - heading "এক ছাদের নিচে সম্পূর্ণ যত্ন" [level=2] [ref=f7e249]
+          - paragraph [ref=f7e250]: ত্বক, শরীর, মন ও দীর্ঘমেয়াদি সুস্থতা নিয়ে সাতটি বিশেষায়িত বিভাগ।
+        - link "সব সেবা দেখুন →" [ref=f7e252] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f7e255]:
+        - generic [ref=f7e256]:
+          - generic [ref=f7e257]: অ্যাসথেটিক ও লেজার
+          - heading "আধুনিক অ্যাসথেটিক ও লেজার কেয়ার" [level=2] [ref=f7e258]
+          - paragraph [ref=f7e259]: ত্বকের পুনরুজ্জীবন, পিগমেন্টেশন, লোম অপসারণ, বয়সের ছাপ ও বডি কনট্যুরিং — আধুনিক লেজার প্রযুক্তিতে, আপনার ত্বকের ধরন অনুযায়ী।
+          - list [ref=f7e260]:
+            - listitem [ref=f7e261]: ✦ লেজার হেয়ার রিমুভাল
+            - listitem [ref=f7e262]: ✦ স্কিন রিজুভিনেশন
+            - listitem [ref=f7e263]: ✦ পিগমেন্টেশন ও মেলাজমা কেয়ার
+            - listitem [ref=f7e264]: ✦ ব্রণ ও ব্রণের দাগ
+            - listitem [ref=f7e265]: ✦ বয়সের ছাপ প্রতিরোধ
+            - listitem [ref=f7e266]: ✦ স্কিন টাইটেনিং
+            - listitem [ref=f7e267]: ✦ হাইফু ও আরএফ
+            - listitem [ref=f7e268]: ✦ ফেস ও বডি কনট্যুরিং
+            - listitem [ref=f7e269]: ✦ মেদ হ্রাস
+            - listitem [ref=f7e270]: ✦ চুল ও স্ক্যাল্প কেয়ার
+            - listitem [ref=f7e271]: ✦ পিআরপি হেয়ার থেরাপি
+            - listitem [ref=f7e272]: ✦ ইনটিমেট ওয়েলনেস
+          - link "অ্যাসথেটিক সেবা দেখুন →" [ref=f7e273] [cursor=pointer]:
+            - /url: /services/category/aesthetic-and-laser
+        - img "আধুনিক অ্যাসথেটিক ও লেজার কেয়ার" [ref=f7e275]:
+          - generic [ref=f7e277]: ✨
+      - generic [ref=f7e280]:
+        - generic [ref=f7e281]:
+          - generic [ref=f7e282]: আয়ুর্বেদ ও পঞ্চকর্ম
+          - heading "প্রাচীন আয়ুর্বেদ। ব্যক্তিগত সুস্থতা।" [level=2] [ref=f7e283]
+          - paragraph [ref=f7e284]: আপনার প্রকৃতি অনুযায়ী সাজানো শাস্ত্রীয় পঞ্চকর্ম ও আয়ুর্বেদিক প্রোগ্রাম — ভেতর থেকে ডিটক্স, পুনর্গঠন ও পুনরুজ্জীবনের জন্য।
+          - list [ref=f7e285]:
+            - listitem [ref=f7e286]: ✦ আয়ুর্বেদিক কনসালটেশন
+            - listitem [ref=f7e287]: ✦ প্রকৃতি নির্ণয়
+            - listitem [ref=f7e288]: ✦ পঞ্চকর্ম
+            - listitem [ref=f7e289]: ✦ অভ্যঙ্গ
+            - listitem [ref=f7e290]: ✦ শিরোধারা
+            - listitem [ref=f7e291]: ✦ স্বেদন
+            - listitem [ref=f7e292]: ✦ নস্য
+            - listitem [ref=f7e293]: ✦ বস্তি
+            - listitem [ref=f7e294]: ✦ বিরেচন
+            - listitem [ref=f7e295]: ✦ পিঝিচিল
+            - listitem [ref=f7e296]: ✦ আয়ুর্বেদিক ডিটক্স
+            - listitem [ref=f7e297]: ✦ পুনরুজ্জীবন প্রোগ্রাম
+          - link "আয়ুর্বেদ দেখুন →" [ref=f7e298] [cursor=pointer]:
+            - /url: /services/category/ayurveda
+        - img "প্রাচীন আয়ুর্বেদ। ব্যক্তিগত সুস্থতা।" [ref=f7e300]:
+          - generic [ref=f7e302]: 🌿
+      - generic [ref=f7e305]:
+        - generic [ref=f7e306]:
+          - generic [ref=f7e307]: প্রাকৃতিক চিকিৎসা
+          - heading "প্রকৃতি ও সুস্থ জীবনযাত্রায় আরোগ্য" [level=2] [ref=f7e308]
+          - paragraph [ref=f7e309]: ওষুধবিহীন প্রাকৃতিক থেরাপির সঙ্গে বাস্তবসম্মত পুষ্টি, ডিটক্স ও জীবনযাত্রার পরিবর্তন — যা আপনি সত্যিই মেনে চলতে পারবেন।
+          - list [ref=f7e310]:
+            - listitem [ref=f7e311]: ✦ ন্যাচারোপ্যাথি কনসালটেশন
+            - listitem [ref=f7e312]: ✦ প্রাকৃতিক ডিটক্স
+            - listitem [ref=f7e313]: ✦ হাইড্রোথেরাপি
+            - listitem [ref=f7e314]: ✦ সিটজ বাথ থেরাপি
+            - listitem [ref=f7e315]: ✦ কনট্রাস্ট ওয়াটার থেরাপি
+            - listitem [ref=f7e316]: ✦ মাড থেরাপি
+            - listitem [ref=f7e317]: ✦ স্টিম থেরাপি
+            - listitem [ref=f7e318]: ✦ হারবাল থেরাপি
+            - listitem [ref=f7e319]: ✦ থেরাপিউটিক বাথ
+            - listitem [ref=f7e320]: ✦ পুষ্টি ও খাদ্য পরামর্শ
+            - listitem [ref=f7e321]: ✦ জীবনযাত্রার সংশোধন
+            - listitem [ref=f7e322]: ✦ ঘুম ও স্ট্রেস ওয়েলনেস
+          - link "প্রাকৃতিক চিকিৎসা দেখুন →" [ref=f7e323] [cursor=pointer]:
+            - /url: /services/category/naturopathy-and-natural-therapy
+        - img "প্রকৃতি ও সুস্থ জীবনযাত্রায় আরোগ্য" [ref=f7e325]:
+          - generic [ref=f7e327]: 🍃
+      - generic [ref=f7e330]:
+        - generic [ref=f7e331]:
+          - generic [ref=f7e332]: নারী সুস্থতা
+          - heading "ব্যক্তিগত। সম্মানজনক। আপনার মতো করে।" [level=2] [ref=f7e333]
+          - paragraph [ref=f7e334]: হরমোন, মাসিক, প্রজনন, মেনোপজ ও ইনটিমেট ওয়েলনেস নিয়ে সম্পূর্ণ গোপনীয় ও নারী-কেন্দ্রিক সেবা।
+          - list [ref=f7e335]:
+            - listitem [ref=f7e336]: ✦ নারী সুস্থতা
+            - listitem [ref=f7e337]: ✦ পিসিওএস ওয়েলনেস
+            - listitem [ref=f7e338]: ✦ হরমোন ভারসাম্য
+            - listitem [ref=f7e339]: ✦ মাসিক সংক্রান্ত সেবা
+            - listitem [ref=f7e340]: ✦ প্রজনন সক্ষমতা
+            - listitem [ref=f7e341]: ✦ বন্ধ্যাত্ব সহায়তা
+            - listitem [ref=f7e342]: ✦ গর্ভধারণ-পূর্ব যত্ন
+            - listitem [ref=f7e343]: ✦ প্রসব-পরবর্তী যত্ন
+            - listitem [ref=f7e344]: ✦ মেনোপজ ওয়েলনেস
+            - listitem [ref=f7e345]: ✦ ইনটিমেট ওয়েলনেস
+            - listitem [ref=f7e346]: ✦ ভ্যাজাইনাল রিজুভিনেশন
+            - listitem [ref=f7e347]: ✦ পেলভিক ফ্লোর ওয়েলনেস
+          - link "নারী সুস্থতা →" [ref=f7e348] [cursor=pointer]:
+            - /url: /services/category/womens-and-intimate-wellness
+        - img "ব্যক্তিগত। সম্মানজনক। আপনার মতো করে।" [ref=f7e350]:
+          - generic [ref=f7e352]: 💜
+      - generic [ref=f7e355]:
+        - generic [ref=f7e356]:
+          - generic [ref=f7e357]: স্বাস্থ্য ও জীবনযাত্রা
+          - heading "আপনার স্বাস্থ্যের জন্য চাই সামগ্রিক যত্ন" [level=2] [ref=f7e358]
+          - paragraph [ref=f7e359]: আপনার চিকিৎসার পাশাপাশি চলে এমন দীর্ঘমেয়াদি মেটাবলিক ও লাইফস্টাইল সাপোর্ট।
+          - list [ref=f7e360]:
+            - listitem [ref=f7e361]: ✦ ডায়াবেটিস ব্যবস্থাপনা
+            - listitem [ref=f7e362]: ✦ ওজন ও স্থূলতা নিয়ন্ত্রণ
+            - listitem [ref=f7e363]: ✦ থাইরয়েড ওয়েলনেস
+            - listitem [ref=f7e364]: ✦ পিসিওএস ওয়েলনেস
+            - listitem [ref=f7e365]: ✦ হজম ও গাট ওয়েলনেস
+            - listitem [ref=f7e366]: ✦ লিভার ওয়েলনেস
+            - listitem [ref=f7e367]: ✦ জয়েন্ট ও পেশি ওয়েলনেস
+            - listitem [ref=f7e368]: ✦ স্ট্রেস ও ঘুম
+            - listitem [ref=f7e369]: ✦ প্রজনন সক্ষমতা
+            - listitem [ref=f7e370]: ✦ নারীর হরমোন ওয়েলনেস
+            - listitem [ref=f7e371]: ✦ পুরুষ সুস্থতা
+            - listitem [ref=f7e372]: ✦ যৌন স্বাস্থ্য ও সুস্থতা
+          - link "স্বাস্থ্য ও সুস্থতা দেখুন →" [ref=f7e373] [cursor=pointer]:
+            - /url: /services/category/health-and-wellness
+        - img "আপনার স্বাস্থ্যের জন্য চাই সামগ্রিক যত্ন" [ref=f7e375]:
+          - generic [ref=f7e377]: 🩺
+      - generic [ref=f7e379]:
+        - generic [ref=f7e380]:
+          - generic [ref=f7e381]: ক্লিনিক অভিজ্ঞতা
+          - heading "শান্ত পরিবেশ। সুস্থ আপনি।" [level=2] [ref=f7e382]
+          - paragraph [ref=f7e383]: ক্লিনিক নয়, যেন একটি প্রশান্তির আশ্রয়।
+        - generic [ref=f7e384]:
+          - generic [ref=f7e385] [cursor=pointer]:
+            - img "রিসেপশন" [ref=f7e386]:
+              - generic [ref=f7e388]: 🏛
+            - generic [ref=f7e389]: রিসেপশন
+          - generic [ref=f7e390] [cursor=pointer]:
+            - img "কনসালটেশন রুম" [ref=f7e391]:
+              - generic [ref=f7e393]: 🩺
+            - generic [ref=f7e394]: কনসালটেশন রুম
+          - generic [ref=f7e395] [cursor=pointer]:
+            - img "লেজার ও অ্যাসথেটিক রুম" [ref=f7e396]:
+              - generic [ref=f7e398]: ✨
+            - generic [ref=f7e399]: লেজার ও অ্যাসথেটিক রুম
+          - generic [ref=f7e400] [cursor=pointer]:
+            - img "আয়ুর্বেদ ও পঞ্চকর্ম রুম" [ref=f7e401]:
+              - generic [ref=f7e403]: 🌿
+            - generic [ref=f7e404]: আয়ুর্বেদ ও পঞ্চকর্ম রুম
+          - generic [ref=f7e405] [cursor=pointer]:
+            - img "থেরাপি রুম" [ref=f7e406]:
+              - generic [ref=f7e408]: 🪷
+            - generic [ref=f7e409]: থেরাপি রুম
+        - link "গ্যালারি দেখুন →" [ref=f7e411] [cursor=pointer]:
+          - /url: /gallery
+      - generic [ref=f7e414]:
+        - generic [ref=f7e415]: আপনার সুস্থতার যাত্রা শুরু হোক
+        - heading "আপনার ত্বক সেরাটাই প্রাপ্য" [level=2] [ref=f7e416]
+        - paragraph [ref=f7e417]: ত্বক, শরীর, মন ও সামগ্রিক সুস্থতার জন্য ব্যক্তিগত যত্ন। আজই কনসালটেশন বুক করুন।
+        - link "অ্যাপয়েন্টমেন্ট নিন →" [ref=f7e419] [cursor=pointer]:
+          - /url: /book-appointment
+      - generic [ref=f7e422]:
+        - generic [ref=f7e428]:
+          - strong [ref=f7e429]: শতভাগ অরিজিনাল
+          - text: সেবা ও পণ্য
+        - generic [ref=f7e435]:
+          - strong [ref=f7e436]: নিরাপদ পেমেন্ট
+          - text: ও চেকআউট
+        - generic [ref=f7e442]:
+          - strong [ref=f7e443]: দ্রুত অ্যাপয়েন্টমেন্ট
+          - text: নির্ভরযোগ্য সময়সূচি
+        - generic [ref=f7e450]:
+          - strong [ref=f7e451]: বিশেষজ্ঞ সহায়তা
+          - text: সবসময় পাশে
+  - contentinfo [ref=f7e452]:
+    - generic [ref=f7e453]:
+      - generic [ref=f7e454]:
+        - generic [ref=f7e455]:
+          - generic [ref=f7e457]:
+            - strong [ref=f7e458]: স্কিনোভেদা
+            - generic [ref=f7e459]: অ্যাসথেটিক কেয়ার
+          - paragraph [ref=f7e460]: যেখানে আধুনিক অ্যাসথেটিক বিজ্ঞান আর প্রাচীন আরোগ্যের প্রজ্ঞা একসাথে।
+        - generic [ref=f7e461]:
+          - heading "দ্রুত লিংক" [level=4] [ref=f7e462]
+          - list [ref=f7e463]:
+            - listitem [ref=f7e464]:
+              - link "হোম" [ref=f7e465] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f7e466]:
+              - link "আমাদের সম্পর্কে" [ref=f7e467] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f7e468]:
+              - link "সেবাসমূহ" [ref=f7e469] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f7e470]:
+              - link "আমাদের টিম" [ref=f7e471] [cursor=pointer]:
+                - /url: /our-team
+            - listitem [ref=f7e472]:
+              - link "গ্যালারি" [ref=f7e473] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f7e474]:
+              - link "ব্লগ" [ref=f7e475] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f7e476]:
+              - link "যোগাযোগ" [ref=f7e477] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f7e478]:
+          - heading "আমাদের সেবা" [level=4] [ref=f7e479]
+          - list
+        - generic [ref=f7e480]:
+          - heading "যোগাযোগ করুন" [level=4] [ref=f7e481]
+          - list [ref=f7e482]:
+            - listitem [ref=f7e483]:
+              - generic [ref=f7e484]: 📍
+          - heading "নিউজলেটার" [level=4] [ref=f7e485]
+          - paragraph [ref=f7e486]: সর্বশেষ আপডেট, অফার ও স্কিনকেয়ার টিপস পেতে সাবস্ক্রাইব করুন।
+          - generic [ref=f7e487]:
+            - textbox "আপনার ইমেইল" [ref=f7e488]
+            - button "সাবস্ক্রাইব" [ref=f7e489] [cursor=pointer]
+      - generic [ref=f7e490]:
+        - generic [ref=f7e491]: © 2026 স্কিনোভেদা. সর্বস্বত্ব সংরক্ষিত।
+        - generic [ref=f7e492]: লেজার • অ্যাসথেটিক • আয়ুর্বেদ • প্রাকৃতিক চিকিৎসা • ওয়েলনেস সেন্টার

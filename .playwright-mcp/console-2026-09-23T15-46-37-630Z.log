@@ -1,0 +1,129 @@
+[64342166ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5174/node_modules/.vite/deps/react-dom-DoAJ_auL.js?v=9e811e12:17236
+[64342248ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64342248ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:35
+[64342249ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64342249ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:35
+[64342270ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx:146
+[64342272ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx:146
+[64342490ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5174/login:0
+[64380959ms] [LOG] [StoreConfigurationProvider] Starting config fetch... @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx:126
+[64381404ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64381404ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:35
+[64381404ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64381404ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:35
+[64381467ms] [LOG] [StoreConfigurationProvider] Config fetched successfully: {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx:133
+[64381469ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64381469ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64381469ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64381469ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64381481ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381481ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381581ms] [WARNING] react-i18next:: useTranslation: You will need to pass in an i18next instance by using initReactI18next {code: NO_I18NEXT_INSTANCE} @ http://localhost:5174/node_modules/.vite/deps/react-i18next.js?v=9e811e12:2081
+[64381677ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381677ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381698ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381698ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381837ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64381838ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383211ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383211ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383250ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383250ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383706ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383706ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383741ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383741ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383826ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64383827ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64387497ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64387497ms] [LOG] storeConfig?.logo_url >>  {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/blocks/SystemHeader.jsx:264
+[64411522ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64411522ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64411522ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64411522ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64414418ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64414418ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64414418ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64414419ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64415819ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64415820ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64415820ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64415820ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64417385ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64417385ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64417385ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64417385ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64417997ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64417997ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64417997ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64417997ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64420364ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64420364ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[64420364ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:30
+[64420364ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx:44
+[67874670ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67874671ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:35
+[67874671ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67874671ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:35
+[67874697ms] [LOG] [StoreConfigurationProvider] Starting config fetch... @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246271505:126
+[67874699ms] [LOG] [StoreConfigurationProvider] Starting config fetch... @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246271505:126
+[67874880ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67874880ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:35
+[67874880ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67874880ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:35
+[67875307ms] [LOG] [StoreConfigurationProvider] Config fetched successfully: {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246271505:133
+[67875312ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67875312ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:44
+[67875312ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67875313ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:44
+[67875451ms] [LOG] [StoreConfigurationProvider] Config fetched successfully: {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246271505:133
+[67875452ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67875452ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:44
+[67875453ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:30
+[67875453ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246271505:44
+[67878718ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67878719ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[67878719ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67878720ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[67878753ms] [LOG] [StoreConfigurationProvider] Starting config fetch... @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:126
+[67878754ms] [LOG] [StoreConfigurationProvider] Starting config fetch... @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:126
+[67878884ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67878885ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[67878885ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67878885ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[67879116ms] [LOG] [StoreConfigurationProvider] Config fetched successfully: {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:133
+[67879117ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67879118ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:44
+[67879118ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67879118ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:44
+[67879339ms] [LOG] [StoreConfigurationProvider] Config fetched successfully: {id: 69, store_id: 71, theme_id: 17, hostname: bizscalsstore.bizscal.com, store_name: Bizscal Shop} @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:133
+[67879340ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67879340ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:44
+[67879340ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: Object, availableThemes: Array(12)} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[67879340ms] [LOG] [ThemeSettingsContext] selectedThemeSettings computed: {id: 48, store_id: 71, theme_id: 17, typography: Object, button_style: Object} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:44
+[90185057ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8085/api/v1/owner/store-configuration:0
+[90198615ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8085/api/v1/owner/auth/me:0
+[90198620ms] [ERROR] API Interceptor: session confirmed invalid. Logging out user. @ http://localhost:5174/src/editor/utils/api.js:65
+[90198621ms] [ERROR] AuthContext logout function not yet initialized for API interceptor. @ http://localhost:5174/src/editor/utils/api.js:40
+[90201921ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8085/api/v1/owner/store-configuration:0
+[90201927ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8085/api/v1/owner/auth/me:0
+[90201928ms] [ERROR] API Interceptor: session confirmed invalid. Logging out user. @ http://localhost:5174/src/editor/utils/api.js:65
+[90201928ms] [ERROR] AuthContext logout function not yet initialized for API interceptor. @ http://localhost:5174/src/editor/utils/api.js:40
+[90204978ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8085/api/v1/owner/store-configuration:0
+[99480335ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5174/node_modules/.vite/deps/react-dom-DoAJ_auL.js?v=9e811e12:17236
+[99480421ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[99480422ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[99480422ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[99480423ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[99480585ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:146
+[99480587ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:146
+[99480719ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5174/login:0
+[122112323ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5174/@vite/client:968
+[129891730ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5174/node_modules/.vite/deps/react-dom-DoAJ_auL.js?v=9e811e12:17236
+[129891997ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[129892004ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[129892005ms] [LOG] [ThemeSettingsContext] Computing selectedThemeSettings: {storeConfig: null, availableThemes: undefined} @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:30
+[129892005ms] [LOG] [ThemeSettingsContext] storeConfig or theme_settings is null @ http://localhost:5174/src/editor/contexts/ThemeSettingsContext.jsx?t=1790246275757:35
+[129892125ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:146
+[129892128ms] [LOG] [StoreConfigurationProvider] Not authenticated, skipping config fetch @ http://localhost:5174/src/editor/contexts/StoreConfigurationContext.jsx?t=1790246275757:146
+[129892174ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5174/login:0

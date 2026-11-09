@@ -1,0 +1,95 @@
+[     893ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[    1145ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[    1145ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[    1249ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[    1251ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[    1251ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[    1251ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[    1251ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[    1251ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[    1252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[    1252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/tracking:0
+[    1252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[    1252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[    1277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[    1277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[    1277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[    1277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[    1278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[    1476ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/analytics/track:0
+[  223216ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[  223270ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  223270ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  223298ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  223300ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  223300ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  223300ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  223300ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/tracking:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  223301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  223592ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/analytics/track:0
+[  552941ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[  553018ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  553018ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  553048ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  553049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  553049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  553054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  553054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  553054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  553054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  553054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/tracking:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  553055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  553338ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/analytics/track:0
+[  638505ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  638505ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  638505ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  638505ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  638506ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  639461ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  639461ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  639461ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  639462ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  639462ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  936354ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[  936413ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  936413ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[  936443ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  936444ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  936444ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  936449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  936449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  936449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/tracking:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/services/featured?limit=8:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/testimonials?limit=3:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/team?limit=1:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=clinic&limit=5:0
+[  936450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/gallery?album=before_after&limit=4:0
+[  936451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/settings/public:0
+[  936451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/categories:0
+[  936730ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5000/api/analytics/track:0
+[ 1193195ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[ 1193251ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[ 1193251ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[ 1718468ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[ 1718636ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[ 1718636ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[ 1719392ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/chunk-PJEEZAML.js?v=640c2485:21550
+[ 1719500ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
+[ 1719500ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5199/node_modules/.vite/deps/react-router-dom.js?v=640c2485:4416
